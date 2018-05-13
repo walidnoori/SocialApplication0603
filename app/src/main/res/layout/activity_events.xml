@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:scrollbars="none"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="social.application.events.EventsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/joti_one"
+                android:text="Events"
+
+                android:textColor="#FFE57373"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="8dp"
+                android:background="@drawable/search_box_design"
+                android:hint="Search"
+                android:drawableLeft="@drawable/ic_search_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+        <!-- Your and Trending events -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="38dp"
+                android:text="Your events"
+                android:textColor="#2d2d2d"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_01"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group3" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_02"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/bq" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_03"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group5" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_04"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group8" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="38dp"
+                android:text="Trending"
+                android:textColor="#2d2d2d"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_05"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group7" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_06"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group9" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_07"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group4" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_08"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group10" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <!-- Other posts -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="60dp"
+                android:text="Recommended "
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/colorfull" />
+
+                        <TextView
+                            android:id="@+id/your_events_09_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#colorfestival" />
+
+                        <TextView
+                            android:id="@+id/your_events_09_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_09_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_09_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="12th June" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/scareevent" />
+
+                        <TextView
+                            android:id="@+id/your_events_10_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#nationalholiday #festival" />
+
+                        <TextView
+                            android:id="@+id/your_events_10_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_10_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_10_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="8th June" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/bar" />
+
+                        <TextView
+                            android:id="@+id/your_events_11_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#bar #hangout" />
+
+                        <TextView
+                            android:id="@+id/your_events_11_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_11_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_11_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Thursday 6pm" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/basketball" />
+
+                        <TextView
+                            android:id="@+id/your_events_12_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#basketball #play" />
+
+                        <TextView
+                            android:id="@+id/your_events_12_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_12_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_12_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Tomorrow" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/officelife" />
+
+                        <TextView
+                            android:id="@+id/your_events_19_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#office #work" />
+
+                        <TextView
+                            android:id="@+id/your_events_19_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_19_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_19_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Everyday" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/marketing" />
+
+                        <TextView
+                            android:id="@+id/your_events_20_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#market #business" />
+
+                        <TextView
+                            android:id="@+id/your_events_20_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_20_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_20_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Friday 7pm" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/your_events_13_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#car #show" />
+
+                        <TextView
+                            android:id="@+id/your_events_13_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_13_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_13_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="1th May" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/wedding" />
+
+                        <TextView
+                            android:id="@+id/your_events_14_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#weding #love" />
+
+                        <TextView
+                            android:id="@+id/your_events_14_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_14_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_14_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="21th July" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cake" />
+
+                        <TextView
+                            android:id="@+id/your_events_15_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#birthday #cake" />
+
+                        <TextView
+                            android:id="@+id/your_events_15_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_15_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_15_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Saturday 12pm" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/flower" />
+
+                        <TextView
+                            android:id="@+id/your_events_16_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#flower #wedding" />
+
+                        <TextView
+                            android:id="@+id/your_events_16_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_16_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_16_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="21th July" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/arrowevent" />
+
+                        <TextView
+                            android:id="@+id/your_events_17_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#nationalfestival" />
+
+                        <TextView
+                            android:id="@+id/your_events_17_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_17_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_17_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Monday" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_margin="1dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/hello" />
+
+                        <TextView
+                            android:id="@+id/your_events_18_title"
+                            style="@style/RecommendedEventsTitleTextStyle"
+                            android:text="#datenight" />
+
+                        <TextView
+                            android:id="@+id/your_events_18_location"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_alignParentBottom="true"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="1dp"
+                            android:text="Victoria Rd 5." />
+
+                        <TextView
+                            android:id="@+id/your_events_18_time"
+                            style="@style/RecommendedEventsDescriptionTextStyle"
+                            android:layout_above="@id/your_events_18_location"
+                            android:paddingBottom="1dp"
+                            android:paddingTop="2dp"
+                            android:text="Friday 9pm" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>

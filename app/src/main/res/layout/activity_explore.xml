@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent"
+    tools:context="social.application.explore.ExploreActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/joti_one"
+            android:text="Xplore"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+
+    <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/explore_grid_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:columnWidth="90dp"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:verticalSpacing="10dp"-->
+        <!--android:horizontalSpacing="10dp"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:gravity="center"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="Search"
+            android:padding="5dp"
+            android:background="@drawable/search_box_design"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            />
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="" />
+
+            <Button
+                android:layout_height="30dp"
+                android:text="Recomended"
+                android:background="@drawable/xplore_recommanded_background_design"
+                style="@style/ExploreCategoryButtonStyle"/>
+
+            <Button
+                android:layout_height="30dp"
+                android:text="Sport"
+                android:background="@drawable/xplore_recommanded_background_design"
+                style="@style/ExploreCategoryButtonStyle"/>
+
+            <Button
+                android:layout_height="30dp"
+                android:text="Art"
+                android:background="@drawable/xplore_recommanded_background_design"
+                style="@style/ExploreCategoryButtonStyle"/>
+
+            <Button
+                android:text="Tech"
+                android:background="@drawable/xplore_recommanded_background_design"
+                style="@style/ExploreCategoryButtonStyle"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_weight="1">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:columnCount="2">
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/success3"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/coffee2"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/girl9"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/img8"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/ride"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/love2"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/man4"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/img9"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/man3"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/train"
+                android:layout_margin="1dp"/>
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/girl"
+                android:layout_margin="1dp" />
+
+            <ImageButton
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:src="@drawable/colorful2"
+                android:layout_margin="1dp"/>
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

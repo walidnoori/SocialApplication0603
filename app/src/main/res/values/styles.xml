@@ -1,0 +1,173 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainActionsTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--  <style name="PersonalActivitiesResizableButtonStyle">
+          <item name="android:layout_width">120dp</item>
+          <item name="android:layout_height">30dp</item>
+          <item name="android:layout_weight">1</item>
+          <item name="android:layout_margin">4dp</item>
+      </style>
+  -->
+    <style name="MainActionsResizableButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="ExploreCategoryButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="YourEventsRelativeLayoutStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="EventsTitleTextStyle">
+        <item name="android:textColor">#ffffff</item>
+        <!--<item name="android:background">#33000000</item>-->
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EventsDescriptionTextStyle">
+        <item name="android:textColor">#ffffff</item>
+        <!--<item name="android:background">#33000000</item>-->
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="RecommendedEventsTitleTextStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#33000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RecommendedEventsDescriptionTextStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#33000000</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="YourStoriesImageButtonStyle">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="notificationContainerStyle">
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat.Tooltip" tools:ignore="PrivateResource" />
+
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" tools:ignore="PrivateResource" />
+
+    <style name="Base.Theme.AppCompat.CompactMenu" tools:ignore="PrivateResource" />
+
+    <style name="NotificationsTextLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="NotificationsImageStyle">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="NotificationsDescriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+
+    <style name="NotificationsDateStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">bottom|right</item>
+    </style>
+
+    <style name="Theme">theme</style>
+
+    <style name="ThemeOverlay">themoverlay</style>
+
+    <style name="Base.TextAppearance">base</style>
+
+    <style name="Base">base</style>
+
+    <style name="Base.TextAppearance.AppCompat.Widget">DropDownItem</style>
+
+    <style name="Base.Theme">Theme</style>
+
+    <style name="Theme.AppTheme">AppTheme</style>
+
+
+</resources>

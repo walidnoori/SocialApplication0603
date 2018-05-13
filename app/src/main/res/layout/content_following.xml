@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll1" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll2" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/cof1" />
+               />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll3" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll4"
+               />
+
+
+            <ImageView
+                android:layout_width="360dp"
+                android:src="@drawable/foll5"
+                android:layout_height="230dp" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll6" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll7"
+                />
+
+
+            <ImageView
+                android:layout_width="360dp"
+                android:src="@drawable/foll8"
+                android:layout_height="230dp" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll9" />
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="230dp"
+                android:src="@drawable/foll10"
+                />
+
+
+            <ImageView
+                android:layout_width="360dp"
+                android:src="@drawable/foll11"
+                android:layout_height="230dp" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
+
+
+</ScrollView>

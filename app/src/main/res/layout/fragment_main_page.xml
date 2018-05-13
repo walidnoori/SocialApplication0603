@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context="social.application.mainpage.MainPageFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#E7847C"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dm_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:padding="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_message_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/joti_one"
+                android:text="HipeMe"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/profile_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:padding="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_person_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:id="@+id/personal_actions_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:text="Would you...?"
+                android:layout_marginRight="60dp"
+                />
+
+            <ImageButton
+                android:id="@+id/main_page_notifications_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="6dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_notifications_black_24dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp">
+
+
+            <ImageButton
+                android:id="@+id/events_btn"
+                android:background="@drawable/ellipse1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_event_black_24dp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/live_story_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_live_tv_black_24dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ellipse3"
+                />
+
+            <ImageButton
+                android:id="@+id/explore_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_explore_black_24dp"
+                android:background="@drawable/ellipse3"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/follows_btn"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src= "@drawable/ic_people_black_24dp"
+                android:background="@drawable/ellipse1"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

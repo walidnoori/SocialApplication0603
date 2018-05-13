@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="social.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".events.EventsActivity"
+            android:label="@string/title_activity_events"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".explore.ExploreActivity"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".following.FollowingActivity"
+            android:label="@string/title_activity_following"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Story.story"
+            android:label="@string/title_activity_live_story"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".personalactivities.PersonalLiveStoryActivity"
+            android:label="@string/title_activity_personal_live_story"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".personalactivities.PersonalEventActivity"
+            android:label="@string/title_activity_personal_event"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!--
+            <activity android:name=".profile.ProfileFragment"
+            android:label="ProfileFragment"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        -->
+
+        <activity
+            android:name=".personalactivities.PersonalTextActivity"
+            android:label="@string/title_activity_personal_text"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".personalactivities.PersonalPhotoVideoActivity"
+            android:label="@string/title_activity_personal_photo_video"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".login.Login" />
+        <activity android:name=".signup.SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ImagesActivity"></activity>
+    </application>
+
+</manifest>

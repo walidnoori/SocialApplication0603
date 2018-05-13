@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F2F2F2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/navigate_from_profile_to_main_btn"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+                android:background="@android:color/transparent"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"
+                android:text="Willian henry"
+                android:layout_marginStart="60dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/willianhenry" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yesterday 12:30pm"
+            android:textColor="#B0B0B0"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="right">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="7dp"
+                android:text="Hello! How are you doing Willian?"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:background="@drawable/ms1"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/walidnoori"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="45dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="left">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/willianhenry"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="40dp"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:text="I am fine, what about you?"
+                android:textAllCaps="false"
+                android:textColor="#B0B0B0"
+                android:background="@drawable/ms2"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today 4:30pm"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" android:textColor="#B0B0B0"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="left">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/willianhenry"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="40dp"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="30dp"
+                android:text="   Hey ..."
+                android:textAllCaps="false"
+                android:textColor="#B0B0B0"
+                android:background="@drawable/ms3"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="right">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="7dp"
+                android:text="Are you coming for study tonight?"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:background="@drawable/ms1"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/walidnoori"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="45dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#fff"
+            android:layout_marginTop="40dp">
+
+
+
+            <ImageButton
+                android:id="@+id/attach_button"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:padding="6dp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_attachment_black_24dp"
+                android:background="@android:color/transparent"
+                tools:ignore="ContentDescription" />
+
+
+            <AutoCompleteTextView
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:hint="   write a message"
+                android:background="#F2F2F2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <ImageButton
+                android:id="@+id/send_button"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:padding="6dp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginStart="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_send_black_24dp"
+                android:background="@android:color/transparent"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

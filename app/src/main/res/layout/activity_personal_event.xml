@@ -1,0 +1,277 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="social.application.personalactivities.PersonalEventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/joti_one"
+                android:text="Create Event"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_date_range_black_24dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="showDatePickerDialog" />
+
+                <TextView android:id="@+id/personal_event_date_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="Date"
+                    android:paddingLeft="6dp"
+                    android:gravity="center_vertical|left"
+                    android:onClick="showDatePickerDialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_access_time_black_24dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="showTimePickerDialog" />
+
+                <TextView android:id="@+id/personal_event_time_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="Time"
+                    android:paddingLeft="6dp"
+                    android:gravity="center_vertical|left"
+                    android:onClick="showTimePickerDialog" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:onClick="showPlacePicker"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Location: "
+                android:textSize="18sp"
+                android:paddingLeft="6dp"
+                android:gravity="center_vertical|left"
+                android:onClick="showPlacePicker"/>
+
+            <TextView
+                android:id="@+id/personal_event_place_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="Add location"
+                android:gravity="center_vertical|left"
+                android:onClick="showPlacePicker"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_title_black_24dp"/>
+
+        <!--    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="Title:"
+                android:paddingLeft="6dp"
+                android:gravity="center_vertical|left"/> -->
+
+            <EditText
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:gravity="center_vertical|left"
+                android:layout_height="40dp"
+                android:hint="Title:"
+                android:padding="7dp"
+                android:background="@drawable/personal_activity_buttons_design"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_description_black_24dp"/>
+
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="Description:"
+                android:paddingLeft="6dp"
+                android:gravity="center_vertical|left"/>-->
+
+            <EditText
+                android:inputType="textMultiLine"
+                android:textSize="18sp"
+                android:background="@drawable/personal_activity_buttons_design"
+                android:gravity="center_vertical|left"
+                android:layout_height="40dp"
+                android:hint="Description"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_add_circle_black_24dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="6dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical|left"
+                android:text="Tags:"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="#"
+                android:padding="10dp"
+                android:background="@drawable/personal_activity_buttons_design"
+                android:layout_marginRight="12dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_people_black_24dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="6dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical|left"
+                android:text="Tag your friends:"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/personal_activity_buttons_design"
+                android:hint="#"
+                android:padding="10dp"
+                android:layout_marginRight="12dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Create"
+            android:textColor="#fff"
+            android:background="@drawable/xplore_recommanded_background_design"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:onClick="navigateToEvents"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SocialApplication</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+    <string name="title_activity_following">FollowingActivity</string>
+    <string name="title_activity_live_story">LiveStoryActivity</string>
+    <string name="title_activity_personal_live_story">PersonalLiveStoryActivity</string>
+    <string name="title_activity_personal_event">PersonalEventActivity</string>
+    <string name="title_activity_personal_text">PersonalTextActivity</string>
+    <string name="title_activity_personal_photo_video">PersonalPhotoVideoActivity</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">sign up</string>
+    <string name="_96">96</string>
+    <string name="_5k">5k</string>
+    <string name="_1_5k">1.5k</string>
+    <string name="follow">follow</string>
+    <string name="todo">todo</string>
+</resources>
