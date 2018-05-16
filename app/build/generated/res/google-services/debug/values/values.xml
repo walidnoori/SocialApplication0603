@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">175740982941-losmsa4ivmk4b5tlooa1l58rhjifqast.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://socialapplication-fd64b.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">175740982941</string>
+    <string name="google_api_key" translatable="false">AIzaSyBGMmjgr0E9Qbksg2dJ4_h6gkh8r0rbr54</string>
+    <string name="google_app_id" translatable="false">1:175740982941:android:39fead4199f0ed91</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGMmjgr0E9Qbksg2dJ4_h6gkh8r0rbr54</string>
+    <string name="google_storage_bucket" translatable="false">socialapplication-fd64b.appspot.com</string>
+    <string name="project_id" translatable="false">socialapplication-fd64b</string>
+</resources>
