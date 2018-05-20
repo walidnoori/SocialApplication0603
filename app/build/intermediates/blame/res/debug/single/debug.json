@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
-        "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
@@ -20,12 +20,12 @@
         "source": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\src\\main\\res\\drawable\\signup_button_design_n2.xml"
     },
     {
-        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
-        "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
+        "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_place_autocomplete_item_powered_by_google.xml.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.1.aar\\d6256bb66e97c0ca02a5addf88c118b0\\res\\drawable-hdpi-v4\\powered_by_google_light.png"
     },
     {
-        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_test.xml.flat",
-        "source": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\src\\main\\res\\layout\\content_test.xml"
-    },
-    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_test.xml.flat",
+        "source": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\src\\main\\res\\layout\\content_test.xml"
     },
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -136,12 +136,12 @@
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\f6803b38b976708f2aa37c976290d168\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

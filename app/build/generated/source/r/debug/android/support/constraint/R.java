@@ -73,9 +73,9 @@ public final class R {
         public static final int dimensions = 0x7f0a005b;
         public static final int direct = 0x7f0a005c;
         public static final int end = 0x7f0a0067;
-        public static final int gone = 0x7f0a0086;
-        public static final int invisible = 0x7f0a009a;
-        public static final int left = 0x7f0a009f;
+        public static final int gone = 0x7f0a0085;
+        public static final int invisible = 0x7f0a0099;
+        public static final int left = 0x7f0a009e;
         public static final int none = 0x7f0a00ba;
         public static final int packed = 0x7f0a00bf;
         public static final int parent = 0x7f0a00c2;

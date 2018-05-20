@@ -84,7 +84,6 @@
                 android:src="@drawable/ic_notifications_black_24dp"
                 />
 
-
         </LinearLayout>
 
 
@@ -96,15 +95,60 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp">
 
-
             <ImageButton
-                android:id="@+id/events_btn"
-                android:background="@drawable/ellipse1"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:src="@drawable/ic_event_black_24dp"
+                android:id="@+id/live_story_btn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_live_tv_black_24dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="5dp"
+                android:background="@drawable/ellipse3"
                 />
+
+            <HorizontalScrollView
+                android:id="@+id/main_page_events_container"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_05"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group7" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/YourEventsRelativeLayoutStyle"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp">
+
+                        <ImageView
+                            android:id="@+id/event_img_06"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/group9" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
 
         </LinearLayout>
 
@@ -114,17 +158,6 @@
             android:orientation="horizontal"
             android:layout_gravity="center">
 
-
-            <ImageButton
-                android:id="@+id/live_story_btn"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:src="@drawable/ic_live_tv_black_24dp"
-                android:layout_marginRight="40dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/ellipse3"
-                />
-
             <ImageButton
                 android:id="@+id/explore_btn"
                 android:layout_width="130dp"
@@ -133,17 +166,6 @@
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/ic_explore_black_24dp"
                 android:background="@drawable/ellipse3"/>
-
-
-
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="horizontal">
-
 
             <ImageButton
                 android:id="@+id/follows_btn"
@@ -157,7 +179,6 @@
 
 
         </LinearLayout>
-
 
 
     </LinearLayout>

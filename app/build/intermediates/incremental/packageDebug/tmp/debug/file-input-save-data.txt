@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun May 20 14:46:57 CEST 2018
+#Sun May 20 15:44:45 CEST 2018
 2.base=D\:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 0.path=crashlytics-build.properties
 2.baseType=DIRECTORY

@@ -45,7 +45,7 @@ public class MainPageFragment extends Fragment {
         dmBtn = (ImageButton) rootView.findViewById(R.id.dm_btn);
         profileBtn = (ImageButton) rootView.findViewById(R.id.profile_btn);
         liveBtn = (ImageButton) rootView.findViewById(R.id.live_story_btn);
-        eventsBtn = (ImageButton) rootView.findViewById(R.id.events_btn);
+//        eventsBtn = (ImageButton) rootView.findViewById(R.id.events_btn);
         exploreBtn = (ImageButton) rootView.findViewById(R.id.explore_btn);
         followingBtn = (ImageButton) rootView.findViewById(R.id.follows_btn);
         personalActivitiesBtn = (TextView) rootView.findViewById(R.id.personal_actions_btn);
@@ -74,12 +74,12 @@ public class MainPageFragment extends Fragment {
             }
         });
 
-        eventsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startSpecificActivity(new EventsActivity());
-            }
-        });
+//        eventsBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startSpecificActivity(new EventsActivity());
+//            }
+//        });
 
         exploreBtn.setOnClickListener(new View.OnClickListener() {
             @Override
