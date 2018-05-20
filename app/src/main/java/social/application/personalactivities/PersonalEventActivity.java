@@ -14,6 +14,7 @@ import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 import android.view.View;
 import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -22,6 +23,7 @@ import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -29,21 +31,42 @@ import java.util.Date;
 
 import social.application.R;
 import social.application.events.EventsActivity;
+import social.application.services.events.Event;
+import social.application.services.events.EventSupportService;
 
 
 public class PersonalEventActivity extends AppCompatActivity {
 
-    public static TextView dateText;
-    public static  TextView timeText;
-    public static  TextView placeText;
-    public static int PLACE_PICKER_REQUEST = 1;
+    private static TextView dateText;
+
+    private static TextView timeText;
+
+    private static TextView placeText;
+
+    private static EditText titleEditText;
+
+    private static EditText descriptionEditText;
+
+    private static Event editedEvent;
+
+    private static int PLACE_PICKER_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_event);
 
+        init();
+    }
+
+    public void init(){
         initViews();
+        initEditedEvent();
+    }
+
+    public void initEditedEvent(){
+        editedEvent = new Event();
+        editedEvent.setDate(new Date());
     }
 
     public void initViews(){
@@ -56,6 +79,9 @@ public class PersonalEventActivity extends AppCompatActivity {
 
         dateText.setText(sdfDate.format(new Date()));
         timeText.setText(sdfTime.format(new Date()));
+
+        titleEditText = (EditText) findViewById(R.id.personal_event_title);
+        descriptionEditText = (EditText) findViewById(R.id.personal_event_title);
     }
 
     public void showTimePickerDialog(View v) {
@@ -85,13 +111,13 @@ public class PersonalEventActivity extends AppCompatActivity {
 
         public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
             Calendar c = Calendar.getInstance();
-            c.setTime(new Date());
+            c.setTime(editedEvent.getDate());
             c.set(Calendar.HOUR_OF_DAY, hourOfDay);
             c.set(Calendar.MINUTE, minute);
 
             SimpleDateFormat sdfTime = new SimpleDateFormat("hh:mm a");
             timeText.setText(sdfTime.format(c.getTime()).toString());
-
+            editedEvent.setDate(c.getTime());
         }
     }
 
@@ -112,10 +138,11 @@ public class PersonalEventActivity extends AppCompatActivity {
 
         public void onDateSet(DatePicker view, int year, int month, int day) {
             Calendar c = Calendar.getInstance();
-            c.setTime(new Date());
+            c.setTime(editedEvent.getDate());
             c.set(year, month, day);
             SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy.MM.dd.");
             dateText.setText(sdfDate.format(c.getTime()).toString());
+            editedEvent.setDate(c.getTime());
         }
     }
 
@@ -143,8 +170,18 @@ public class PersonalEventActivity extends AppCompatActivity {
     }
 
     public void navigateToEvents(View v){
+        Event event = new Event();
+        event.setId(generateEventId());
+        event.setTitle(titleEditText.getText().toString());
+        event.setDescription(descriptionEditText.getText().toString());
+        event.setLocation(placeText.getText().toString());
+        EventSupportService.addEvent(event);
+
         Intent intent = new Intent(getApplicationContext(), EventsActivity.class);
         startActivity(intent);
     }
 
+    public String generateEventId(){
+        return FirebaseAuth.getInstance().getCurrentUser().getUid() + "event" + new Date().getTime();
+    }
 }
