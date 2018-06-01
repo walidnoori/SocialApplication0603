@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun May 20 15:44:43 CEST 2018
+#Sun May 27 23:25:47 CEST 2018
 0.baseType=DIRECTORY
 0.base=D\:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\assets\\debug
 0.path=crashlytics-build.properties

@@ -2262,7 +2262,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -4005,171 +4005,177 @@ public final class R {
     public static final int common_google_signin_btn_text_light_focused=0x7f08007b;
     public static final int common_google_signin_btn_text_light_normal=0x7f08007c;
     public static final int common_google_signin_btn_text_light_normal_background=0x7f08007d;
-    public static final int dance=0x7f08007e;
-    public static final int design_bottom_navigation_item_background=0x7f08007f;
-    public static final int design_fab_background=0x7f080080;
-    public static final int design_ic_visibility=0x7f080081;
-    public static final int design_ic_visibility_off=0x7f080082;
-    public static final int design_password_eye=0x7f080083;
-    public static final int design_snackbar_background=0x7f080084;
-    public static final int dm_gradient_colors=0x7f080085;
-    public static final int drawing=0x7f080086;
-    public static final int ellipse1=0x7f080087;
-    public static final int ellipse2=0x7f080088;
-    public static final int ellipse3=0x7f080089;
-    public static final int event_label_text=0x7f08008a;
-    public static final int event_rounded_background=0x7f08008b;
-    public static final int event_rounded_img=0x7f08008c;
-    public static final int explore_category_round_button=0x7f08008d;
-    public static final int fifthperson=0x7f08008e;
-    public static final int firstperson=0x7f08008f;
-    public static final int flower=0x7f080090;
-    public static final int foll1=0x7f080091;
-    public static final int foll10=0x7f080092;
-    public static final int foll11=0x7f080093;
-    public static final int foll2=0x7f080094;
-    public static final int foll3=0x7f080095;
-    public static final int foll4=0x7f080096;
-    public static final int foll5=0x7f080097;
-    public static final int foll6=0x7f080098;
-    public static final int foll7=0x7f080099;
-    public static final int foll8=0x7f08009a;
-    public static final int foll9=0x7f08009b;
-    public static final int fourthperson=0x7f08009c;
-    public static final int fui_done_check_mark=0x7f08009d;
-    public static final int fui_ic_facebook_white_22dp=0x7f08009e;
-    public static final int fui_ic_googleg_color_24dp=0x7f08009f;
-    public static final int fui_ic_mail_white_24dp=0x7f0800a0;
-    public static final int fui_ic_phone_white_24dp=0x7f0800a1;
-    public static final int fui_ic_twitter_bird_white_24dp=0x7f0800a2;
-    public static final int fui_idp_button_background_email=0x7f0800a3;
-    public static final int fui_idp_button_background_facebook=0x7f0800a4;
-    public static final int fui_idp_button_background_google=0x7f0800a5;
-    public static final int fui_idp_button_background_phone=0x7f0800a6;
-    public static final int fui_idp_button_background_twitter=0x7f0800a7;
-    public static final int gaming=0x7f0800a8;
-    public static final int girl=0x7f0800a9;
-    public static final int girl6=0x7f0800aa;
-    public static final int girl9=0x7f0800ab;
-    public static final int google_sign_in_button=0x7f0800ac;
-    public static final int googleg_disabled_color_18=0x7f0800ad;
-    public static final int googleg_standard_color_18=0x7f0800ae;
-    public static final int gradient_1=0x7f0800af;
-    public static final int gradient_2=0x7f0800b0;
-    public static final int gradient_3=0x7f0800b1;
-    public static final int gradient_list=0x7f0800b2;
-    public static final int group1=0x7f0800b3;
-    public static final int group10=0x7f0800b4;
-    public static final int group11=0x7f0800b5;
-    public static final int group12=0x7f0800b6;
-    public static final int group3=0x7f0800b7;
-    public static final int group4=0x7f0800b8;
-    public static final int group5=0x7f0800b9;
-    public static final int group6=0x7f0800ba;
-    public static final int group7=0x7f0800bb;
-    public static final int group8=0x7f0800bc;
-    public static final int group9=0x7f0800bd;
-    public static final int happness=0x7f0800be;
-    public static final int hello=0x7f0800bf;
-    public static final int ic_access_time_black_24dp=0x7f0800c0;
-    public static final int ic_add_circle_black_24dp=0x7f0800c1;
-    public static final int ic_add_circle_outline_black_24dp=0x7f0800c2;
-    public static final int ic_attachment_black_24dp=0x7f0800c3;
-    public static final int ic_date_range_black_24dp=0x7f0800c4;
-    public static final int ic_description_black_24dp=0x7f0800c5;
-    public static final int ic_event_black_24dp=0x7f0800c6;
-    public static final int ic_explore_black_24dp=0x7f0800c7;
-    public static final int ic_keyboard_arrow_left_black_24dp=0x7f0800c8;
-    public static final int ic_keyboard_arrow_right_black_24dp=0x7f0800c9;
-    public static final int ic_launcher_background=0x7f0800ca;
-    public static final int ic_launcher_foreground=0x7f0800cb;
-    public static final int ic_live_tv_black_24dp=0x7f0800cc;
-    public static final int ic_location_on_black_24dp=0x7f0800cd;
-    public static final int ic_message_black_24dp=0x7f0800ce;
-    public static final int ic_notifications_black_24dp=0x7f0800cf;
-    public static final int ic_people_black_24dp=0x7f0800d0;
-    public static final int ic_person_black_24dp=0x7f0800d1;
-    public static final int ic_search_black_24dp=0x7f0800d2;
-    public static final int ic_send_black_24dp=0x7f0800d3;
-    public static final int ic_title_black_24dp=0x7f0800d4;
-    public static final int img12=0x7f0800d5;
-    public static final int img8=0x7f0800d6;
-    public static final int img9=0x7f0800d7;
-    public static final int love2=0x7f0800d8;
-    public static final int love4=0x7f0800d9;
-    public static final int main_activity_background_color=0x7f0800da;
-    public static final int makeup=0x7f0800db;
-    public static final int man=0x7f0800dc;
-    public static final int man1=0x7f0800dd;
-    public static final int man2=0x7f0800de;
-    public static final int man3=0x7f0800df;
-    public static final int man4=0x7f0800e0;
-    public static final int man5=0x7f0800e1;
-    public static final int man6=0x7f0800e2;
-    public static final int marketing=0x7f0800e3;
-    public static final int ms1=0x7f0800e4;
-    public static final int ms2=0x7f0800e5;
-    public static final int ms3=0x7f0800e6;
-    public static final int music=0x7f0800e7;
-    public static final int navigation_empty_icon=0x7f0800e8;
-    public static final int newyear=0x7f0800e9;
-    public static final int notification_action_background=0x7f0800ea;
-    public static final int notification_bg=0x7f0800eb;
-    public static final int notification_bg_low=0x7f0800ec;
-    public static final int notification_bg_low_normal=0x7f0800ed;
-    public static final int notification_bg_low_pressed=0x7f0800ee;
-    public static final int notification_bg_normal=0x7f0800ef;
-    public static final int notification_bg_normal_pressed=0x7f0800f0;
-    public static final int notification_icon_background=0x7f0800f1;
-    public static final int notification_template_icon_bg=0x7f0800f2;
-    public static final int notification_template_icon_low_bg=0x7f0800f3;
-    public static final int notification_tile_bg=0x7f0800f4;
-    public static final int notify_panel_notification_icon_bg=0x7f0800f5;
-    public static final int officelife=0x7f0800f6;
-    public static final int path1=0x7f0800f7;
-    public static final int path2=0x7f0800f8;
-    public static final int personal_activity_buttons_design=0x7f0800f9;
-    public static final int photo_video_background_design=0x7f0800fa;
-    public static final int pink=0x7f0800fb;
-    public static final int places_ic_clear=0x7f0800fc;
-    public static final int places_ic_search=0x7f0800fd;
-    public static final int powered_by_google_dark=0x7f0800fe;
-    public static final int powered_by_google_light=0x7f0800ff;
-    public static final int profile_follow_button=0x7f080100;
-    public static final int profile_follow_following_posts_button=0x7f080101;
-    public static final int profile_followers=0x7f080102;
-    public static final int profman=0x7f080103;
-    public static final int ride=0x7f080104;
-    public static final int round_button=0x7f080105;
-    public static final int scareevent=0x7f080106;
-    public static final int search_box_design=0x7f080107;
-    public static final int secondperson=0x7f080108;
-    public static final int shoping=0x7f080109;
-    public static final int signup4=0x7f08010a;
-    public static final int signup_button_design1=0x7f08010b;
-    public static final int signup_button_design2=0x7f08010c;
-    public static final int signup_button_design_n2=0x7f08010d;
-    public static final int signup_buttons_design=0x7f08010e;
-    public static final int story10=0x7f08010f;
-    public static final int story5=0x7f080110;
-    public static final int story6=0x7f080111;
-    public static final int story7=0x7f080112;
-    public static final int story8=0x7f080113;
-    public static final int story9=0x7f080114;
-    public static final int success=0x7f080115;
-    public static final int success3=0x7f080116;
-    public static final int text=0x7f080117;
-    public static final int thirdperson=0x7f080118;
-    public static final int tooltip_frame_dark=0x7f080119;
-    public static final int tooltip_frame_light=0x7f08011a;
-    public static final int train=0x7f08011b;
-    public static final int travel=0x7f08011c;
-    public static final int walidnoori=0x7f08011d;
-    public static final int wedding=0x7f08011e;
-    public static final int willianhenry=0x7f08011f;
-    public static final int work=0x7f080120;
-    public static final int xplore_recommanded_background_design=0x7f080121;
-    public static final int xplore_sport_background_design=0x7f080122;
+    public static final int concert_small=0x7f08007e;
+    public static final int dance=0x7f08007f;
+    public static final int design_bottom_navigation_item_background=0x7f080080;
+    public static final int design_fab_background=0x7f080081;
+    public static final int design_ic_visibility=0x7f080082;
+    public static final int design_ic_visibility_off=0x7f080083;
+    public static final int design_password_eye=0x7f080084;
+    public static final int design_snackbar_background=0x7f080085;
+    public static final int dm_gradient_colors=0x7f080086;
+    public static final int drawing=0x7f080087;
+    public static final int ellipse1=0x7f080088;
+    public static final int ellipse2=0x7f080089;
+    public static final int ellipse3=0x7f08008a;
+    public static final int event=0x7f08008b;
+    public static final int event_label_text=0x7f08008c;
+    public static final int event_rounded_background=0x7f08008d;
+    public static final int event_rounded_img=0x7f08008e;
+    public static final int explore_category_round_button=0x7f08008f;
+    public static final int fifthperson=0x7f080090;
+    public static final int firstperson=0x7f080091;
+    public static final int flower=0x7f080092;
+    public static final int foll1=0x7f080093;
+    public static final int foll10=0x7f080094;
+    public static final int foll11=0x7f080095;
+    public static final int foll2=0x7f080096;
+    public static final int foll3=0x7f080097;
+    public static final int foll4=0x7f080098;
+    public static final int foll5=0x7f080099;
+    public static final int foll6=0x7f08009a;
+    public static final int foll7=0x7f08009b;
+    public static final int foll8=0x7f08009c;
+    public static final int foll9=0x7f08009d;
+    public static final int fourthperson=0x7f08009e;
+    public static final int fui_done_check_mark=0x7f08009f;
+    public static final int fui_ic_facebook_white_22dp=0x7f0800a0;
+    public static final int fui_ic_googleg_color_24dp=0x7f0800a1;
+    public static final int fui_ic_mail_white_24dp=0x7f0800a2;
+    public static final int fui_ic_phone_white_24dp=0x7f0800a3;
+    public static final int fui_ic_twitter_bird_white_24dp=0x7f0800a4;
+    public static final int fui_idp_button_background_email=0x7f0800a5;
+    public static final int fui_idp_button_background_facebook=0x7f0800a6;
+    public static final int fui_idp_button_background_google=0x7f0800a7;
+    public static final int fui_idp_button_background_phone=0x7f0800a8;
+    public static final int fui_idp_button_background_twitter=0x7f0800a9;
+    public static final int gaming=0x7f0800aa;
+    public static final int girl=0x7f0800ab;
+    public static final int girl6=0x7f0800ac;
+    public static final int girl9=0x7f0800ad;
+    public static final int google_sign_in_button=0x7f0800ae;
+    public static final int googleg_disabled_color_18=0x7f0800af;
+    public static final int googleg_standard_color_18=0x7f0800b0;
+    public static final int gradient_1=0x7f0800b1;
+    public static final int gradient_2=0x7f0800b2;
+    public static final int gradient_3=0x7f0800b3;
+    public static final int gradient_list=0x7f0800b4;
+    public static final int group1=0x7f0800b5;
+    public static final int group10=0x7f0800b6;
+    public static final int group11=0x7f0800b7;
+    public static final int group12=0x7f0800b8;
+    public static final int group3=0x7f0800b9;
+    public static final int group4=0x7f0800ba;
+    public static final int group5=0x7f0800bb;
+    public static final int group6=0x7f0800bc;
+    public static final int group7=0x7f0800bd;
+    public static final int group8=0x7f0800be;
+    public static final int group9=0x7f0800bf;
+    public static final int happness=0x7f0800c0;
+    public static final int hello=0x7f0800c1;
+    public static final int ic_access_time_black_24dp=0x7f0800c2;
+    public static final int ic_add_circle_black_24dp=0x7f0800c3;
+    public static final int ic_add_circle_outline_black_24dp=0x7f0800c4;
+    public static final int ic_attachment_black_24dp=0x7f0800c5;
+    public static final int ic_date_range_black_24dp=0x7f0800c6;
+    public static final int ic_delete_black_24dp=0x7f0800c7;
+    public static final int ic_description_black_24dp=0x7f0800c8;
+    public static final int ic_edit_black_24dp=0x7f0800c9;
+    public static final int ic_event_black_24dp=0x7f0800ca;
+    public static final int ic_explore_black_24dp=0x7f0800cb;
+    public static final int ic_image_black_24dp=0x7f0800cc;
+    public static final int ic_info_outline_black_24dp=0x7f0800cd;
+    public static final int ic_keyboard_arrow_left_black_24dp=0x7f0800ce;
+    public static final int ic_keyboard_arrow_right_black_24dp=0x7f0800cf;
+    public static final int ic_launcher_background=0x7f0800d0;
+    public static final int ic_launcher_foreground=0x7f0800d1;
+    public static final int ic_live_tv_black_24dp=0x7f0800d2;
+    public static final int ic_location_on_black_24dp=0x7f0800d3;
+    public static final int ic_message_black_24dp=0x7f0800d4;
+    public static final int ic_notifications_black_24dp=0x7f0800d5;
+    public static final int ic_people_black_24dp=0x7f0800d6;
+    public static final int ic_person_black_24dp=0x7f0800d7;
+    public static final int ic_search_black_24dp=0x7f0800d8;
+    public static final int ic_send_black_24dp=0x7f0800d9;
+    public static final int ic_title_black_24dp=0x7f0800da;
+    public static final int img12=0x7f0800db;
+    public static final int img8=0x7f0800dc;
+    public static final int img9=0x7f0800dd;
+    public static final int love2=0x7f0800de;
+    public static final int love4=0x7f0800df;
+    public static final int main_activity_background_color=0x7f0800e0;
+    public static final int makeup=0x7f0800e1;
+    public static final int man=0x7f0800e2;
+    public static final int man1=0x7f0800e3;
+    public static final int man2=0x7f0800e4;
+    public static final int man3=0x7f0800e5;
+    public static final int man4=0x7f0800e6;
+    public static final int man5=0x7f0800e7;
+    public static final int man6=0x7f0800e8;
+    public static final int marketing=0x7f0800e9;
+    public static final int ms1=0x7f0800ea;
+    public static final int ms2=0x7f0800eb;
+    public static final int ms3=0x7f0800ec;
+    public static final int music=0x7f0800ed;
+    public static final int navigation_empty_icon=0x7f0800ee;
+    public static final int newyear=0x7f0800ef;
+    public static final int notification_action_background=0x7f0800f0;
+    public static final int notification_bg=0x7f0800f1;
+    public static final int notification_bg_low=0x7f0800f2;
+    public static final int notification_bg_low_normal=0x7f0800f3;
+    public static final int notification_bg_low_pressed=0x7f0800f4;
+    public static final int notification_bg_normal=0x7f0800f5;
+    public static final int notification_bg_normal_pressed=0x7f0800f6;
+    public static final int notification_icon_background=0x7f0800f7;
+    public static final int notification_template_icon_bg=0x7f0800f8;
+    public static final int notification_template_icon_low_bg=0x7f0800f9;
+    public static final int notification_tile_bg=0x7f0800fa;
+    public static final int notify_panel_notification_icon_bg=0x7f0800fb;
+    public static final int officelife=0x7f0800fc;
+    public static final int path1=0x7f0800fd;
+    public static final int path2=0x7f0800fe;
+    public static final int personal_activity_buttons_design=0x7f0800ff;
+    public static final int photo_video_background_design=0x7f080100;
+    public static final int pink=0x7f080101;
+    public static final int places_ic_clear=0x7f080102;
+    public static final int places_ic_search=0x7f080103;
+    public static final int powered_by_google_dark=0x7f080104;
+    public static final int powered_by_google_light=0x7f080105;
+    public static final int profile_follow_button=0x7f080106;
+    public static final int profile_follow_following_posts_button=0x7f080107;
+    public static final int profile_followers=0x7f080108;
+    public static final int profman=0x7f080109;
+    public static final int ride=0x7f08010a;
+    public static final int round_button=0x7f08010b;
+    public static final int scareevent=0x7f08010c;
+    public static final int search_box_design=0x7f08010d;
+    public static final int secondperson=0x7f08010e;
+    public static final int shoping=0x7f08010f;
+    public static final int signup4=0x7f080110;
+    public static final int signup_button_design1=0x7f080111;
+    public static final int signup_button_design2=0x7f080112;
+    public static final int signup_button_design_n2=0x7f080113;
+    public static final int signup_buttons_design=0x7f080114;
+    public static final int story10=0x7f080115;
+    public static final int story5=0x7f080116;
+    public static final int story6=0x7f080117;
+    public static final int story7=0x7f080118;
+    public static final int story8=0x7f080119;
+    public static final int story9=0x7f08011a;
+    public static final int success=0x7f08011b;
+    public static final int success3=0x7f08011c;
+    public static final int text=0x7f08011d;
+    public static final int thirdperson=0x7f08011e;
+    public static final int tooltip_frame_dark=0x7f08011f;
+    public static final int tooltip_frame_light=0x7f080120;
+    public static final int train=0x7f080121;
+    public static final int travel=0x7f080122;
+    public static final int walidnoori=0x7f080123;
+    public static final int wedding=0x7f080124;
+    public static final int willianhenry=0x7f080125;
+    public static final int work=0x7f080126;
+    public static final int xplore_recommanded_background_design=0x7f080127;
+    public static final int xplore_sport_background_design=0x7f080128;
   }
   public static final class font {
     public static final int joti_one=0x7f090000;
@@ -4215,336 +4221,353 @@ public final class R {
     public static final int blocking=0x7f0a0025;
     public static final int bottom=0x7f0a0026;
     public static final int breakfast=0x7f0a0027;
-    public static final int browser_actions_header_text=0x7f0a0028;
-    public static final int browser_actions_menu_item_icon=0x7f0a0029;
-    public static final int browser_actions_menu_item_text=0x7f0a002a;
-    public static final int browser_actions_menu_items=0x7f0a002b;
-    public static final int browser_actions_menu_view=0x7f0a002c;
-    public static final int btn_holder=0x7f0a002d;
-    public static final int button3=0x7f0a002e;
-    public static final int button4=0x7f0a002f;
-    public static final int button5=0x7f0a0030;
-    public static final int button6=0x7f0a0031;
-    public static final int buttonPanel=0x7f0a0032;
-    public static final int button_choose_image=0x7f0a0033;
-    public static final int button_create=0x7f0a0034;
-    public static final int button_done=0x7f0a0035;
-    public static final int button_next=0x7f0a0036;
-    public static final int button_upload=0x7f0a0037;
-    public static final int cake=0x7f0a0038;
-    public static final int cameraButton=0x7f0a0039;
-    public static final int cameraImageView=0x7f0a003a;
-    public static final int cameraVideoButton=0x7f0a003b;
-    public static final int cameraVideoView=0x7f0a003c;
-    public static final int cancel_action=0x7f0a003d;
-    public static final int center=0x7f0a003e;
-    public static final int center_horizontal=0x7f0a003f;
-    public static final int center_vertical=0x7f0a0040;
-    public static final int chains=0x7f0a0041;
-    public static final int checkbox=0x7f0a0042;
-    public static final int chronometer=0x7f0a0043;
-    public static final int clip_horizontal=0x7f0a0044;
-    public static final int clip_vertical=0x7f0a0045;
-    public static final int coffee=0x7f0a0046;
-    public static final int collapseActionView=0x7f0a0047;
-    public static final int confirmation_code=0x7f0a0048;
-    public static final int confirmation_code_layout=0x7f0a0049;
-    public static final int container=0x7f0a004a;
-    public static final int contentPanel=0x7f0a004b;
-    public static final int coordinator=0x7f0a004c;
-    public static final int country_list=0x7f0a004d;
-    public static final int crash_reporting_present=0x7f0a004e;
-    public static final int create_account_text=0x7f0a004f;
-    public static final int create_account_tos=0x7f0a0050;
-    public static final int custom=0x7f0a0051;
-    public static final int customPanel=0x7f0a0052;
-    public static final int dark=0x7f0a0053;
-    public static final int decor_content_parent=0x7f0a0054;
-    public static final int default_activity_button=0x7f0a0055;
-    public static final int design_bottom_sheet=0x7f0a0056;
-    public static final int design_menu_item_action_area=0x7f0a0057;
-    public static final int design_menu_item_action_area_stub=0x7f0a0058;
-    public static final int design_menu_item_text=0x7f0a0059;
-    public static final int design_navigation_view=0x7f0a005a;
-    public static final int dimensions=0x7f0a005b;
-    public static final int direct=0x7f0a005c;
-    public static final int disableHome=0x7f0a005d;
-    public static final int dm_btn=0x7f0a005e;
-    public static final int edit_phone_number=0x7f0a005f;
-    public static final int edit_query=0x7f0a0060;
-    public static final int edit_text_file_name=0x7f0a0061;
-    public static final int email=0x7f0a0062;
-    public static final int emailText=0x7f0a0063;
-    public static final int emailTxt=0x7f0a0064;
-    public static final int email_button=0x7f0a0065;
-    public static final int email_layout=0x7f0a0066;
-    public static final int end=0x7f0a0067;
-    public static final int end_padder=0x7f0a0068;
-    public static final int enterAlways=0x7f0a0069;
-    public static final int enterAlwaysCollapsed=0x7f0a006a;
-    public static final int event_img_01=0x7f0a006b;
-    public static final int event_img_02=0x7f0a006c;
-    public static final int event_img_03=0x7f0a006d;
-    public static final int event_img_04=0x7f0a006e;
-    public static final int event_img_05=0x7f0a006f;
-    public static final int event_img_06=0x7f0a0070;
-    public static final int event_img_07=0x7f0a0071;
-    public static final int event_img_08=0x7f0a0072;
-    public static final int exitUntilCollapsed=0x7f0a0073;
-    public static final int expand_activities_button=0x7f0a0074;
-    public static final int expanded_menu=0x7f0a0075;
-    public static final int explore_btn=0x7f0a0076;
-    public static final int explore_grid_container=0x7f0a0077;
-    public static final int explore_object_title=0x7f0a0078;
-    public static final int fab=0x7f0a0079;
-    public static final int facebook_button=0x7f0a007a;
-    public static final int fill=0x7f0a007b;
-    public static final int fill_horizontal=0x7f0a007c;
-    public static final int fill_vertical=0x7f0a007d;
-    public static final int fixed=0x7f0a007e;
-    public static final int followings_pager=0x7f0a007f;
-    public static final int follows_btn=0x7f0a0080;
-    public static final int forever=0x7f0a0081;
-    public static final int fragment_register_email=0x7f0a0082;
-    public static final int fragment_verify_phone=0x7f0a0083;
-    public static final int ghost_view=0x7f0a0084;
-    public static final int gone=0x7f0a0085;
-    public static final int googleBtn=0x7f0a0086;
-    public static final int google_button=0x7f0a0087;
-    public static final int header=0x7f0a0088;
-    public static final int heading=0x7f0a0089;
-    public static final int home=0x7f0a008a;
-    public static final int homeAsUp=0x7f0a008b;
-    public static final int hybrid=0x7f0a008c;
-    public static final int icon=0x7f0a008d;
-    public static final int icon_group=0x7f0a008e;
-    public static final int icon_only=0x7f0a008f;
-    public static final int ifRoom=0x7f0a0090;
-    public static final int image=0x7f0a0091;
-    public static final int imageButton2=0x7f0a0092;
-    public static final int imageButton3=0x7f0a0093;
-    public static final int imageButton4=0x7f0a0094;
-    public static final int imageView6=0x7f0a0095;
-    public static final int image_view=0x7f0a0096;
-    public static final int image_view_upload=0x7f0a0097;
-    public static final int info=0x7f0a0098;
-    public static final int invisible=0x7f0a0099;
-    public static final int italic=0x7f0a009a;
-    public static final int item_touch_helper_previous_elevation=0x7f0a009b;
-    public static final int largeLabel=0x7f0a009c;
-    public static final int layout=0x7f0a009d;
-    public static final int left=0x7f0a009e;
-    public static final int light=0x7f0a009f;
-    public static final int line1=0x7f0a00a0;
-    public static final int line3=0x7f0a00a1;
-    public static final int listMode=0x7f0a00a2;
-    public static final int list_item=0x7f0a00a3;
-    public static final int live_story_btn=0x7f0a00a4;
-    public static final int loginText=0x7f0a00a5;
-    public static final int loginbtn=0x7f0a00a6;
-    public static final int logo=0x7f0a00a7;
-    public static final int main_page_events_container=0x7f0a00a8;
-    public static final int main_page_notifications_btn=0x7f0a00a9;
-    public static final int masked=0x7f0a00aa;
-    public static final int media_actions=0x7f0a00ab;
-    public static final int menu_sign_out=0x7f0a00ac;
-    public static final int message=0x7f0a00ad;
-    public static final int message_text=0x7f0a00ae;
-    public static final int message_time=0x7f0a00af;
-    public static final int message_user=0x7f0a00b0;
-    public static final int middle=0x7f0a00b1;
-    public static final int mini=0x7f0a00b2;
-    public static final int multiply=0x7f0a00b3;
-    public static final int name=0x7f0a00b4;
-    public static final int name_layout=0x7f0a00b5;
-    public static final int navigate_from_dm_to_main_btn=0x7f0a00b6;
-    public static final int navigate_from_profile_to_main_btn=0x7f0a00b7;
-    public static final int navigation_header_container=0x7f0a00b8;
-    public static final int never=0x7f0a00b9;
-    public static final int none=0x7f0a00ba;
-    public static final int normal=0x7f0a00bb;
-    public static final int notification_background=0x7f0a00bc;
-    public static final int notification_main_column=0x7f0a00bd;
-    public static final int notification_main_column_container=0x7f0a00be;
-    public static final int packed=0x7f0a00bf;
-    public static final int pager=0x7f0a00c0;
-    public static final int parallax=0x7f0a00c1;
-    public static final int parent=0x7f0a00c2;
-    public static final int parentPanel=0x7f0a00c3;
-    public static final int parent_matrix=0x7f0a00c4;
-    public static final int password=0x7f0a00c5;
-    public static final int password_layout=0x7f0a00c6;
-    public static final int percent=0x7f0a00c7;
-    public static final int personal_actions_btn=0x7f0a00c8;
-    public static final int personal_event_btn=0x7f0a00c9;
-    public static final int personal_event_date_text=0x7f0a00ca;
-    public static final int personal_event_place_text=0x7f0a00cb;
-    public static final int personal_event_time_text=0x7f0a00cc;
-    public static final int personal_event_title=0x7f0a00cd;
-    public static final int personal_live_story_btn=0x7f0a00ce;
-    public static final int personal_photo_video_btn=0x7f0a00cf;
-    public static final int personal_text_btn=0x7f0a00d0;
-    public static final int phone_button=0x7f0a00d1;
-    public static final int phone_layout=0x7f0a00d2;
-    public static final int phone_number=0x7f0a00d3;
-    public static final int pin=0x7f0a00d4;
-    public static final int pink=0x7f0a00d5;
-    public static final int place_autocomplete_clear_button=0x7f0a00d6;
-    public static final int place_autocomplete_powered_by_google=0x7f0a00d7;
-    public static final int place_autocomplete_prediction_primary_text=0x7f0a00d8;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f0a00d9;
-    public static final int place_autocomplete_progress=0x7f0a00da;
-    public static final int place_autocomplete_search_button=0x7f0a00db;
-    public static final int place_autocomplete_search_input=0x7f0a00dc;
-    public static final int place_autocomplete_separator=0x7f0a00dd;
-    public static final int profile_btn=0x7f0a00de;
-    public static final int progress_bar=0x7f0a00df;
-    public static final int progress_circle=0x7f0a00e0;
-    public static final int progress_circular=0x7f0a00e1;
-    public static final int progress_horizontal=0x7f0a00e2;
-    public static final int progress_msg=0x7f0a00e3;
-    public static final int progress_success_imaage=0x7f0a00e4;
-    public static final int pwdText=0x7f0a00e5;
-    public static final int pwdTxt=0x7f0a00e6;
-    public static final int radio=0x7f0a00e7;
-    public static final int resend_code=0x7f0a00e8;
-    public static final int right=0x7f0a00e9;
-    public static final int right_icon=0x7f0a00ea;
-    public static final int right_side=0x7f0a00eb;
-    public static final int root=0x7f0a00ec;
-    public static final int satellite=0x7f0a00ed;
-    public static final int save_image_matrix=0x7f0a00ee;
-    public static final int save_non_transition_alpha=0x7f0a00ef;
-    public static final int save_scale_type=0x7f0a00f0;
-    public static final int screen=0x7f0a00f1;
-    public static final int scroll=0x7f0a00f2;
-    public static final int scrollIndicatorDown=0x7f0a00f3;
-    public static final int scrollIndicatorUp=0x7f0a00f4;
-    public static final int scrollView=0x7f0a00f5;
-    public static final int scrollable=0x7f0a00f6;
-    public static final int search_badge=0x7f0a00f7;
-    public static final int search_bar=0x7f0a00f8;
-    public static final int search_button=0x7f0a00f9;
-    public static final int search_close_btn=0x7f0a00fa;
-    public static final int search_edit_frame=0x7f0a00fb;
-    public static final int search_go_btn=0x7f0a00fc;
-    public static final int search_list=0x7f0a00fd;
-    public static final int search_mag_icon=0x7f0a00fe;
-    public static final int search_plate=0x7f0a00ff;
-    public static final int search_src_text=0x7f0a0100;
-    public static final int search_voice_btn=0x7f0a0101;
-    public static final int select_dialog_listview=0x7f0a0102;
-    public static final int send_button=0x7f0a0103;
-    public static final int send_code=0x7f0a0104;
-    public static final int send_sms_tos=0x7f0a0105;
-    public static final int shortcut=0x7f0a0106;
-    public static final int showCustom=0x7f0a0107;
-    public static final int showHome=0x7f0a0108;
-    public static final int showTitle=0x7f0a0109;
-    public static final int signout=0x7f0a010a;
-    public static final int signupBtn=0x7f0a010b;
-    public static final int singUpText=0x7f0a010c;
-    public static final int smallLabel=0x7f0a010d;
-    public static final int snackbar_action=0x7f0a010e;
-    public static final int snackbar_text=0x7f0a010f;
-    public static final int snap=0x7f0a0110;
-    public static final int spacer=0x7f0a0111;
-    public static final int split_action_bar=0x7f0a0112;
-    public static final int spread=0x7f0a0113;
-    public static final int spread_inside=0x7f0a0114;
-    public static final int src_atop=0x7f0a0115;
-    public static final int src_in=0x7f0a0116;
-    public static final int src_over=0x7f0a0117;
-    public static final int standard=0x7f0a0118;
-    public static final int start=0x7f0a0119;
-    public static final int status_bar_latest_event_content=0x7f0a011a;
-    public static final int submenuarrow=0x7f0a011b;
-    public static final int submit_area=0x7f0a011c;
-    public static final int submit_confirmation_code=0x7f0a011d;
-    public static final int success=0x7f0a011e;
-    public static final int tabMode=0x7f0a011f;
-    public static final int tag_transition_group=0x7f0a0120;
-    public static final int terrain=0x7f0a0121;
-    public static final int text=0x7f0a0122;
-    public static final int text2=0x7f0a0123;
-    public static final int textSpacerNoButtons=0x7f0a0124;
-    public static final int textSpacerNoTitle=0x7f0a0125;
-    public static final int textView=0x7f0a0126;
-    public static final int textView2=0x7f0a0127;
-    public static final int textView3=0x7f0a0128;
-    public static final int textView4=0x7f0a0129;
-    public static final int textView5=0x7f0a012a;
-    public static final int textView_show_uploads=0x7f0a012b;
-    public static final int text_input_password_toggle=0x7f0a012c;
-    public static final int text_view_name=0x7f0a012d;
-    public static final int textinput_counter=0x7f0a012e;
-    public static final int textinput_error=0x7f0a012f;
-    public static final int ticker=0x7f0a0130;
-    public static final int time=0x7f0a0131;
-    public static final int title=0x7f0a0132;
-    public static final int titleDividerNoCustom=0x7f0a0133;
-    public static final int title_template=0x7f0a0134;
-    public static final int toolbar=0x7f0a0135;
-    public static final int top=0x7f0a0136;
-    public static final int topPanel=0x7f0a0137;
-    public static final int tos_barrier=0x7f0a0138;
-    public static final int touch_outside=0x7f0a0139;
-    public static final int transition_current_scene=0x7f0a013a;
-    public static final int transition_layout_save=0x7f0a013b;
-    public static final int transition_position=0x7f0a013c;
-    public static final int transition_scene_layoutid_cache=0x7f0a013d;
-    public static final int transition_transform=0x7f0a013e;
-    public static final int travel=0x7f0a013f;
-    public static final int trouble_signing_in=0x7f0a0140;
-    public static final int twitter_button=0x7f0a0141;
-    public static final int uniform=0x7f0a0142;
-    public static final int up=0x7f0a0143;
-    public static final int useLogo=0x7f0a0144;
-    public static final int view_offset_helper=0x7f0a0145;
-    public static final int visible=0x7f0a0146;
-    public static final int welcome_back_idp_button=0x7f0a0147;
-    public static final int welcome_back_idp_prompt=0x7f0a0148;
-    public static final int welcome_back_password_body=0x7f0a0149;
-    public static final int wide=0x7f0a014a;
-    public static final int withText=0x7f0a014b;
-    public static final int wrap=0x7f0a014c;
-    public static final int wrap_content=0x7f0a014d;
-    public static final int your_events_09_location=0x7f0a014e;
-    public static final int your_events_09_time=0x7f0a014f;
-    public static final int your_events_09_title=0x7f0a0150;
-    public static final int your_events_10_location=0x7f0a0151;
-    public static final int your_events_10_time=0x7f0a0152;
-    public static final int your_events_10_title=0x7f0a0153;
-    public static final int your_events_11_location=0x7f0a0154;
-    public static final int your_events_11_time=0x7f0a0155;
-    public static final int your_events_11_title=0x7f0a0156;
-    public static final int your_events_12_location=0x7f0a0157;
-    public static final int your_events_12_time=0x7f0a0158;
-    public static final int your_events_12_title=0x7f0a0159;
-    public static final int your_events_13_location=0x7f0a015a;
-    public static final int your_events_13_time=0x7f0a015b;
-    public static final int your_events_13_title=0x7f0a015c;
-    public static final int your_events_14_location=0x7f0a015d;
-    public static final int your_events_14_time=0x7f0a015e;
-    public static final int your_events_14_title=0x7f0a015f;
-    public static final int your_events_15_location=0x7f0a0160;
-    public static final int your_events_15_time=0x7f0a0161;
-    public static final int your_events_15_title=0x7f0a0162;
-    public static final int your_events_16_location=0x7f0a0163;
-    public static final int your_events_16_time=0x7f0a0164;
-    public static final int your_events_16_title=0x7f0a0165;
-    public static final int your_events_17_location=0x7f0a0166;
-    public static final int your_events_17_time=0x7f0a0167;
-    public static final int your_events_17_title=0x7f0a0168;
-    public static final int your_events_18_location=0x7f0a0169;
-    public static final int your_events_18_time=0x7f0a016a;
-    public static final int your_events_18_title=0x7f0a016b;
-    public static final int your_events_19_location=0x7f0a016c;
-    public static final int your_events_19_time=0x7f0a016d;
-    public static final int your_events_19_title=0x7f0a016e;
-    public static final int your_events_20_location=0x7f0a016f;
-    public static final int your_events_20_time=0x7f0a0170;
-    public static final int your_events_20_title=0x7f0a0171;
+    public static final int breakfast2=0x7f0a0028;
+    public static final int breakfast3=0x7f0a0029;
+    public static final int browser_actions_header_text=0x7f0a002a;
+    public static final int browser_actions_menu_item_icon=0x7f0a002b;
+    public static final int browser_actions_menu_item_text=0x7f0a002c;
+    public static final int browser_actions_menu_items=0x7f0a002d;
+    public static final int browser_actions_menu_view=0x7f0a002e;
+    public static final int btn_holder=0x7f0a002f;
+    public static final int button3=0x7f0a0030;
+    public static final int button4=0x7f0a0031;
+    public static final int button5=0x7f0a0032;
+    public static final int button6=0x7f0a0033;
+    public static final int buttonPanel=0x7f0a0034;
+    public static final int button_choose_image=0x7f0a0035;
+    public static final int button_create=0x7f0a0036;
+    public static final int button_done=0x7f0a0037;
+    public static final int button_next=0x7f0a0038;
+    public static final int button_upload=0x7f0a0039;
+    public static final int cake=0x7f0a003a;
+    public static final int cameraButton=0x7f0a003b;
+    public static final int cameraImageView=0x7f0a003c;
+    public static final int cameraVideoButton=0x7f0a003d;
+    public static final int cameraVideoView=0x7f0a003e;
+    public static final int cancel_action=0x7f0a003f;
+    public static final int center=0x7f0a0040;
+    public static final int center_horizontal=0x7f0a0041;
+    public static final int center_vertical=0x7f0a0042;
+    public static final int chains=0x7f0a0043;
+    public static final int checkbox=0x7f0a0044;
+    public static final int chronometer=0x7f0a0045;
+    public static final int clip_horizontal=0x7f0a0046;
+    public static final int clip_vertical=0x7f0a0047;
+    public static final int coffee=0x7f0a0048;
+    public static final int coffee2=0x7f0a0049;
+    public static final int coffee3=0x7f0a004a;
+    public static final int collapseActionView=0x7f0a004b;
+    public static final int confirmation_code=0x7f0a004c;
+    public static final int confirmation_code_layout=0x7f0a004d;
+    public static final int container=0x7f0a004e;
+    public static final int contentPanel=0x7f0a004f;
+    public static final int coordinator=0x7f0a0050;
+    public static final int country_list=0x7f0a0051;
+    public static final int crash_reporting_present=0x7f0a0052;
+    public static final int create_account_text=0x7f0a0053;
+    public static final int create_account_tos=0x7f0a0054;
+    public static final int custom=0x7f0a0055;
+    public static final int customPanel=0x7f0a0056;
+    public static final int dark=0x7f0a0057;
+    public static final int decor_content_parent=0x7f0a0058;
+    public static final int default_activity_button=0x7f0a0059;
+    public static final int design_bottom_sheet=0x7f0a005a;
+    public static final int design_menu_item_action_area=0x7f0a005b;
+    public static final int design_menu_item_action_area_stub=0x7f0a005c;
+    public static final int design_menu_item_text=0x7f0a005d;
+    public static final int design_navigation_view=0x7f0a005e;
+    public static final int dimensions=0x7f0a005f;
+    public static final int direct=0x7f0a0060;
+    public static final int disableHome=0x7f0a0061;
+    public static final int dm_btn=0x7f0a0062;
+    public static final int edit_phone_number=0x7f0a0063;
+    public static final int edit_query=0x7f0a0064;
+    public static final int edit_text_file_name=0x7f0a0065;
+    public static final int email=0x7f0a0066;
+    public static final int emailText=0x7f0a0067;
+    public static final int emailTxt=0x7f0a0068;
+    public static final int email_button=0x7f0a0069;
+    public static final int email_layout=0x7f0a006a;
+    public static final int end=0x7f0a006b;
+    public static final int end_padder=0x7f0a006c;
+    public static final int enterAlways=0x7f0a006d;
+    public static final int enterAlwaysCollapsed=0x7f0a006e;
+    public static final int event_img_01=0x7f0a006f;
+    public static final int event_img_02=0x7f0a0070;
+    public static final int event_img_03=0x7f0a0071;
+    public static final int event_img_04=0x7f0a0072;
+    public static final int event_img_05=0x7f0a0073;
+    public static final int event_img_06=0x7f0a0074;
+    public static final int event_img_07=0x7f0a0075;
+    public static final int event_img_08=0x7f0a0076;
+    public static final int event_viewer_event_date=0x7f0a0077;
+    public static final int event_viewer_event_description=0x7f0a0078;
+    public static final int event_viewer_event_img=0x7f0a0079;
+    public static final int event_viewer_event_location=0x7f0a007a;
+    public static final int event_viewer_event_tagged_users=0x7f0a007b;
+    public static final int event_viewer_event_tags=0x7f0a007c;
+    public static final int event_viewer_event_time=0x7f0a007d;
+    public static final int event_viewer_event_title=0x7f0a007e;
+    public static final int exitUntilCollapsed=0x7f0a007f;
+    public static final int expand_activities_button=0x7f0a0080;
+    public static final int expanded_menu=0x7f0a0081;
+    public static final int explore_grid_container=0x7f0a0082;
+    public static final int explore_object_title=0x7f0a0083;
+    public static final int fab=0x7f0a0084;
+    public static final int facebook_button=0x7f0a0085;
+    public static final int fill=0x7f0a0086;
+    public static final int fill_horizontal=0x7f0a0087;
+    public static final int fill_vertical=0x7f0a0088;
+    public static final int fixed=0x7f0a0089;
+    public static final int followings_pager=0x7f0a008a;
+    public static final int forever=0x7f0a008b;
+    public static final int fragment_register_email=0x7f0a008c;
+    public static final int fragment_verify_phone=0x7f0a008d;
+    public static final int ghost_view=0x7f0a008e;
+    public static final int gone=0x7f0a008f;
+    public static final int googleBtn=0x7f0a0090;
+    public static final int google_button=0x7f0a0091;
+    public static final int header=0x7f0a0092;
+    public static final int heading=0x7f0a0093;
+    public static final int home=0x7f0a0094;
+    public static final int homeAsUp=0x7f0a0095;
+    public static final int hybrid=0x7f0a0096;
+    public static final int icon=0x7f0a0097;
+    public static final int icon_group=0x7f0a0098;
+    public static final int icon_only=0x7f0a0099;
+    public static final int ifRoom=0x7f0a009a;
+    public static final int image=0x7f0a009b;
+    public static final int imageButton2=0x7f0a009c;
+    public static final int imageButton3=0x7f0a009d;
+    public static final int imageButton4=0x7f0a009e;
+    public static final int imageView6=0x7f0a009f;
+    public static final int image_view=0x7f0a00a0;
+    public static final int image_view_upload=0x7f0a00a1;
+    public static final int info=0x7f0a00a2;
+    public static final int invisible=0x7f0a00a3;
+    public static final int italic=0x7f0a00a4;
+    public static final int item_touch_helper_previous_elevation=0x7f0a00a5;
+    public static final int largeLabel=0x7f0a00a6;
+    public static final int layout=0x7f0a00a7;
+    public static final int left=0x7f0a00a8;
+    public static final int light=0x7f0a00a9;
+    public static final int line1=0x7f0a00aa;
+    public static final int line3=0x7f0a00ab;
+    public static final int listMode=0x7f0a00ac;
+    public static final int list_item=0x7f0a00ad;
+    public static final int loginText=0x7f0a00ae;
+    public static final int loginbtn=0x7f0a00af;
+    public static final int logo=0x7f0a00b0;
+    public static final int main_live_story_view_pager=0x7f0a00b1;
+    public static final int main_page_events_container=0x7f0a00b2;
+    public static final int main_page_notifications_btn=0x7f0a00b3;
+    public static final int masked=0x7f0a00b4;
+    public static final int media_actions=0x7f0a00b5;
+    public static final int menu_sign_out=0x7f0a00b6;
+    public static final int message=0x7f0a00b7;
+    public static final int message_text=0x7f0a00b8;
+    public static final int message_time=0x7f0a00b9;
+    public static final int message_user=0x7f0a00ba;
+    public static final int middle=0x7f0a00bb;
+    public static final int mini=0x7f0a00bc;
+    public static final int multiply=0x7f0a00bd;
+    public static final int name=0x7f0a00be;
+    public static final int name_layout=0x7f0a00bf;
+    public static final int navigate_from_dm_to_main_btn=0x7f0a00c0;
+    public static final int navigate_from_profile_to_main_btn=0x7f0a00c1;
+    public static final int navigation_header_container=0x7f0a00c2;
+    public static final int never=0x7f0a00c3;
+    public static final int none=0x7f0a00c4;
+    public static final int normal=0x7f0a00c5;
+    public static final int notification_background=0x7f0a00c6;
+    public static final int notification_main_column=0x7f0a00c7;
+    public static final int notification_main_column_container=0x7f0a00c8;
+    public static final int packed=0x7f0a00c9;
+    public static final int pager=0x7f0a00ca;
+    public static final int parallax=0x7f0a00cb;
+    public static final int parent=0x7f0a00cc;
+    public static final int parentPanel=0x7f0a00cd;
+    public static final int parent_matrix=0x7f0a00ce;
+    public static final int password=0x7f0a00cf;
+    public static final int password_layout=0x7f0a00d0;
+    public static final int percent=0x7f0a00d1;
+    public static final int personal_actions_btn=0x7f0a00d2;
+    public static final int personal_event_btn=0x7f0a00d3;
+    public static final int personal_event_date_text=0x7f0a00d4;
+    public static final int personal_event_empty_image_layout=0x7f0a00d5;
+    public static final int personal_event_image=0x7f0a00d6;
+    public static final int personal_event_image_options_layout=0x7f0a00d7;
+    public static final int personal_event_place_text=0x7f0a00d8;
+    public static final int personal_event_tagged_users=0x7f0a00d9;
+    public static final int personal_event_tags=0x7f0a00da;
+    public static final int personal_event_time_text=0x7f0a00db;
+    public static final int personal_event_title=0x7f0a00dc;
+    public static final int personal_live_story_btn=0x7f0a00dd;
+    public static final int personal_photo_video_btn=0x7f0a00de;
+    public static final int personal_text_btn=0x7f0a00df;
+    public static final int phone_button=0x7f0a00e0;
+    public static final int phone_layout=0x7f0a00e1;
+    public static final int phone_number=0x7f0a00e2;
+    public static final int pin=0x7f0a00e3;
+    public static final int pink=0x7f0a00e4;
+    public static final int place_autocomplete_clear_button=0x7f0a00e5;
+    public static final int place_autocomplete_powered_by_google=0x7f0a00e6;
+    public static final int place_autocomplete_prediction_primary_text=0x7f0a00e7;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f0a00e8;
+    public static final int place_autocomplete_progress=0x7f0a00e9;
+    public static final int place_autocomplete_search_button=0x7f0a00ea;
+    public static final int place_autocomplete_search_input=0x7f0a00eb;
+    public static final int place_autocomplete_separator=0x7f0a00ec;
+    public static final int profile_btn=0x7f0a00ed;
+    public static final int progress_bar=0x7f0a00ee;
+    public static final int progress_circle=0x7f0a00ef;
+    public static final int progress_circular=0x7f0a00f0;
+    public static final int progress_horizontal=0x7f0a00f1;
+    public static final int progress_msg=0x7f0a00f2;
+    public static final int progress_success_imaage=0x7f0a00f3;
+    public static final int pwdText=0x7f0a00f4;
+    public static final int pwdTxt=0x7f0a00f5;
+    public static final int radio=0x7f0a00f6;
+    public static final int resend_code=0x7f0a00f7;
+    public static final int right=0x7f0a00f8;
+    public static final int right_icon=0x7f0a00f9;
+    public static final int right_side=0x7f0a00fa;
+    public static final int root=0x7f0a00fb;
+    public static final int satellite=0x7f0a00fc;
+    public static final int save_image_matrix=0x7f0a00fd;
+    public static final int save_non_transition_alpha=0x7f0a00fe;
+    public static final int save_scale_type=0x7f0a00ff;
+    public static final int screen=0x7f0a0100;
+    public static final int scroll=0x7f0a0101;
+    public static final int scrollIndicatorDown=0x7f0a0102;
+    public static final int scrollIndicatorUp=0x7f0a0103;
+    public static final int scrollView=0x7f0a0104;
+    public static final int scrollable=0x7f0a0105;
+    public static final int search_badge=0x7f0a0106;
+    public static final int search_bar=0x7f0a0107;
+    public static final int search_button=0x7f0a0108;
+    public static final int search_close_btn=0x7f0a0109;
+    public static final int search_edit_frame=0x7f0a010a;
+    public static final int search_go_btn=0x7f0a010b;
+    public static final int search_list=0x7f0a010c;
+    public static final int search_mag_icon=0x7f0a010d;
+    public static final int search_plate=0x7f0a010e;
+    public static final int search_src_text=0x7f0a010f;
+    public static final int search_voice_btn=0x7f0a0110;
+    public static final int select_dialog_listview=0x7f0a0111;
+    public static final int send_button=0x7f0a0112;
+    public static final int send_code=0x7f0a0113;
+    public static final int send_sms_tos=0x7f0a0114;
+    public static final int shortcut=0x7f0a0115;
+    public static final int showCustom=0x7f0a0116;
+    public static final int showHome=0x7f0a0117;
+    public static final int showTitle=0x7f0a0118;
+    public static final int signout=0x7f0a0119;
+    public static final int signupBtn=0x7f0a011a;
+    public static final int singUpText=0x7f0a011b;
+    public static final int smallLabel=0x7f0a011c;
+    public static final int snackbar_action=0x7f0a011d;
+    public static final int snackbar_text=0x7f0a011e;
+    public static final int snap=0x7f0a011f;
+    public static final int spacer=0x7f0a0120;
+    public static final int split_action_bar=0x7f0a0121;
+    public static final int spread=0x7f0a0122;
+    public static final int spread_inside=0x7f0a0123;
+    public static final int src_atop=0x7f0a0124;
+    public static final int src_in=0x7f0a0125;
+    public static final int src_over=0x7f0a0126;
+    public static final int standard=0x7f0a0127;
+    public static final int start=0x7f0a0128;
+    public static final int status_bar_latest_event_content=0x7f0a0129;
+    public static final int submenuarrow=0x7f0a012a;
+    public static final int submit_area=0x7f0a012b;
+    public static final int submit_confirmation_code=0x7f0a012c;
+    public static final int success=0x7f0a012d;
+    public static final int tabMode=0x7f0a012e;
+    public static final int tag_transition_group=0x7f0a012f;
+    public static final int terrain=0x7f0a0130;
+    public static final int text=0x7f0a0131;
+    public static final int text2=0x7f0a0132;
+    public static final int textSpacerNoButtons=0x7f0a0133;
+    public static final int textSpacerNoTitle=0x7f0a0134;
+    public static final int textView=0x7f0a0135;
+    public static final int textView2=0x7f0a0136;
+    public static final int textView3=0x7f0a0137;
+    public static final int textView4=0x7f0a0138;
+    public static final int textView5=0x7f0a0139;
+    public static final int textView_show_uploads=0x7f0a013a;
+    public static final int text_input_password_toggle=0x7f0a013b;
+    public static final int text_view_name=0x7f0a013c;
+    public static final int textinput_counter=0x7f0a013d;
+    public static final int textinput_error=0x7f0a013e;
+    public static final int ticker=0x7f0a013f;
+    public static final int time=0x7f0a0140;
+    public static final int title=0x7f0a0141;
+    public static final int titleDividerNoCustom=0x7f0a0142;
+    public static final int title_template=0x7f0a0143;
+    public static final int toolbar=0x7f0a0144;
+    public static final int top=0x7f0a0145;
+    public static final int topPanel=0x7f0a0146;
+    public static final int tos_barrier=0x7f0a0147;
+    public static final int touch_outside=0x7f0a0148;
+    public static final int transition_current_scene=0x7f0a0149;
+    public static final int transition_layout_save=0x7f0a014a;
+    public static final int transition_position=0x7f0a014b;
+    public static final int transition_scene_layoutid_cache=0x7f0a014c;
+    public static final int transition_transform=0x7f0a014d;
+    public static final int travel=0x7f0a014e;
+    public static final int travel2=0x7f0a014f;
+    public static final int travel3=0x7f0a0150;
+    public static final int trouble_signing_in=0x7f0a0151;
+    public static final int twitter_button=0x7f0a0152;
+    public static final int uniform=0x7f0a0153;
+    public static final int up=0x7f0a0154;
+    public static final int useLogo=0x7f0a0155;
+    public static final int view_offset_helper=0x7f0a0156;
+    public static final int visible=0x7f0a0157;
+    public static final int welcome_back_idp_button=0x7f0a0158;
+    public static final int welcome_back_idp_prompt=0x7f0a0159;
+    public static final int welcome_back_password_body=0x7f0a015a;
+    public static final int wide=0x7f0a015b;
+    public static final int withText=0x7f0a015c;
+    public static final int wrap=0x7f0a015d;
+    public static final int wrap_content=0x7f0a015e;
+    public static final int your_events_09_location=0x7f0a015f;
+    public static final int your_events_09_time=0x7f0a0160;
+    public static final int your_events_09_title=0x7f0a0161;
+    public static final int your_events_10_location=0x7f0a0162;
+    public static final int your_events_10_time=0x7f0a0163;
+    public static final int your_events_10_title=0x7f0a0164;
+    public static final int your_events_11_location=0x7f0a0165;
+    public static final int your_events_11_time=0x7f0a0166;
+    public static final int your_events_11_title=0x7f0a0167;
+    public static final int your_events_12_location=0x7f0a0168;
+    public static final int your_events_12_time=0x7f0a0169;
+    public static final int your_events_12_title=0x7f0a016a;
+    public static final int your_events_13_location=0x7f0a016b;
+    public static final int your_events_13_time=0x7f0a016c;
+    public static final int your_events_13_title=0x7f0a016d;
+    public static final int your_events_14_location=0x7f0a016e;
+    public static final int your_events_14_time=0x7f0a016f;
+    public static final int your_events_14_title=0x7f0a0170;
+    public static final int your_events_15_location=0x7f0a0171;
+    public static final int your_events_15_time=0x7f0a0172;
+    public static final int your_events_15_title=0x7f0a0173;
+    public static final int your_events_16_location=0x7f0a0174;
+    public static final int your_events_16_time=0x7f0a0175;
+    public static final int your_events_16_title=0x7f0a0176;
+    public static final int your_events_17_location=0x7f0a0177;
+    public static final int your_events_17_time=0x7f0a0178;
+    public static final int your_events_17_title=0x7f0a0179;
+    public static final int your_events_18_location=0x7f0a017a;
+    public static final int your_events_18_time=0x7f0a017b;
+    public static final int your_events_18_title=0x7f0a017c;
+    public static final int your_events_19_location=0x7f0a017d;
+    public static final int your_events_19_time=0x7f0a017e;
+    public static final int your_events_19_title=0x7f0a017f;
+    public static final int your_events_20_location=0x7f0a0180;
+    public static final int your_events_20_time=0x7f0a0181;
+    public static final int your_events_20_title=0x7f0a0182;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0b0000;
@@ -4588,94 +4611,96 @@ public final class R {
     public static final int abc_search_view=0x7f0c0018;
     public static final int abc_select_dialog_material=0x7f0c0019;
     public static final int abc_tooltip=0x7f0c001a;
-    public static final int activity_events=0x7f0c001b;
-    public static final int activity_explore=0x7f0c001c;
-    public static final int activity_following=0x7f0c001d;
-    public static final int activity_images=0x7f0c001e;
-    public static final int activity_live_story=0x7f0c001f;
-    public static final int activity_login=0x7f0c0020;
-    public static final int activity_message_content=0x7f0c0021;
-    public static final int activity_notification_fragrment=0x7f0c0022;
-    public static final int activity_personal_event=0x7f0c0023;
-    public static final int activity_personal_live_story=0x7f0c0024;
-    public static final int activity_personal_photo_video=0x7f0c0025;
-    public static final int activity_personal_text=0x7f0c0026;
-    public static final int activity_sign_up=0x7f0c0027;
-    public static final int activity_story=0x7f0c0028;
-    public static final int activity_test=0x7f0c0029;
-    public static final int browser_actions_context_menu_page=0x7f0c002a;
-    public static final int browser_actions_context_menu_row=0x7f0c002b;
-    public static final int content_events=0x7f0c002c;
-    public static final int content_following=0x7f0c002d;
-    public static final int content_live_story=0x7f0c002e;
-    public static final int content_personal_event=0x7f0c002f;
-    public static final int content_personal_live_story=0x7f0c0030;
-    public static final int content_personal_photo_video=0x7f0c0031;
-    public static final int content_personal_text=0x7f0c0032;
-    public static final int content_test=0x7f0c0033;
-    public static final int design_bottom_navigation_item=0x7f0c0034;
-    public static final int design_bottom_sheet_dialog=0x7f0c0035;
-    public static final int design_layout_snackbar=0x7f0c0036;
-    public static final int design_layout_snackbar_include=0x7f0c0037;
-    public static final int design_layout_tab_icon=0x7f0c0038;
-    public static final int design_layout_tab_text=0x7f0c0039;
-    public static final int design_menu_item_action_area=0x7f0c003a;
-    public static final int design_navigation_item=0x7f0c003b;
-    public static final int design_navigation_item_header=0x7f0c003c;
-    public static final int design_navigation_item_separator=0x7f0c003d;
-    public static final int design_navigation_item_subheader=0x7f0c003e;
-    public static final int design_navigation_menu=0x7f0c003f;
-    public static final int design_navigation_menu_item=0x7f0c0040;
-    public static final int design_text_input_password_icon=0x7f0c0041;
-    public static final int explore_grid_item=0x7f0c0042;
-    public static final int fragment_dm=0x7f0c0043;
-    public static final int fragment_main_page=0x7f0c0044;
-    public static final int fragment_personal_activities=0x7f0c0045;
-    public static final int fragment_posts=0x7f0c0046;
-    public static final int fragment_profile=0x7f0c0047;
-    public static final int fragment_stories=0x7f0c0048;
-    public static final int fui_activity_register_email=0x7f0c0049;
-    public static final int fui_activity_register_phone=0x7f0c004a;
-    public static final int fui_auth_method_picker_layout=0x7f0c004b;
-    public static final int fui_check_email_layout=0x7f0c004c;
-    public static final int fui_confirmation_code_layout=0x7f0c004d;
-    public static final int fui_dgts_country_row=0x7f0c004e;
-    public static final int fui_forgot_password_layout=0x7f0c004f;
-    public static final int fui_idp_button_facebook=0x7f0c0050;
-    public static final int fui_idp_button_google=0x7f0c0051;
-    public static final int fui_idp_button_twitter=0x7f0c0052;
-    public static final int fui_phone_layout=0x7f0c0053;
-    public static final int fui_phone_progress_dialog=0x7f0c0054;
-    public static final int fui_provider_button_email=0x7f0c0055;
-    public static final int fui_provider_button_phone=0x7f0c0056;
-    public static final int fui_register_email_layout=0x7f0c0057;
-    public static final int fui_welcome_back_idp_prompt_layout=0x7f0c0058;
-    public static final int fui_welcome_back_password_prompt_layout=0x7f0c0059;
-    public static final int image_view=0x7f0c005a;
-    public static final int list_item=0x7f0c005b;
-    public static final int notification_action=0x7f0c005c;
-    public static final int notification_action_tombstone=0x7f0c005d;
-    public static final int notification_media_action=0x7f0c005e;
-    public static final int notification_media_cancel_action=0x7f0c005f;
-    public static final int notification_template_big_media=0x7f0c0060;
-    public static final int notification_template_big_media_custom=0x7f0c0061;
-    public static final int notification_template_big_media_narrow=0x7f0c0062;
-    public static final int notification_template_big_media_narrow_custom=0x7f0c0063;
-    public static final int notification_template_custom_big=0x7f0c0064;
-    public static final int notification_template_icon_group=0x7f0c0065;
-    public static final int notification_template_lines_media=0x7f0c0066;
-    public static final int notification_template_media=0x7f0c0067;
-    public static final int notification_template_media_custom=0x7f0c0068;
-    public static final int notification_template_part_chronometer=0x7f0c0069;
-    public static final int notification_template_part_time=0x7f0c006a;
-    public static final int place_autocomplete_fragment=0x7f0c006b;
-    public static final int place_autocomplete_item_powered_by_google=0x7f0c006c;
-    public static final int place_autocomplete_item_prediction=0x7f0c006d;
-    public static final int place_autocomplete_progress=0x7f0c006e;
-    public static final int select_dialog_item_material=0x7f0c006f;
-    public static final int select_dialog_multichoice_material=0x7f0c0070;
-    public static final int select_dialog_singlechoice_material=0x7f0c0071;
-    public static final int support_simple_spinner_dropdown_item=0x7f0c0072;
+    public static final int activity_event_viewer=0x7f0c001b;
+    public static final int activity_events=0x7f0c001c;
+    public static final int activity_explore=0x7f0c001d;
+    public static final int activity_following=0x7f0c001e;
+    public static final int activity_images=0x7f0c001f;
+    public static final int activity_live_story=0x7f0c0020;
+    public static final int activity_login=0x7f0c0021;
+    public static final int activity_message_content=0x7f0c0022;
+    public static final int activity_notification_fragrment=0x7f0c0023;
+    public static final int activity_personal_event=0x7f0c0024;
+    public static final int activity_personal_live_story=0x7f0c0025;
+    public static final int activity_personal_photo_video=0x7f0c0026;
+    public static final int activity_personal_text=0x7f0c0027;
+    public static final int activity_sign_up=0x7f0c0028;
+    public static final int activity_story=0x7f0c0029;
+    public static final int activity_test=0x7f0c002a;
+    public static final int browser_actions_context_menu_page=0x7f0c002b;
+    public static final int browser_actions_context_menu_row=0x7f0c002c;
+    public static final int content_events=0x7f0c002d;
+    public static final int content_following=0x7f0c002e;
+    public static final int content_live_story=0x7f0c002f;
+    public static final int content_personal_event=0x7f0c0030;
+    public static final int content_personal_live_story=0x7f0c0031;
+    public static final int content_personal_photo_video=0x7f0c0032;
+    public static final int content_personal_text=0x7f0c0033;
+    public static final int content_test=0x7f0c0034;
+    public static final int design_bottom_navigation_item=0x7f0c0035;
+    public static final int design_bottom_sheet_dialog=0x7f0c0036;
+    public static final int design_layout_snackbar=0x7f0c0037;
+    public static final int design_layout_snackbar_include=0x7f0c0038;
+    public static final int design_layout_tab_icon=0x7f0c0039;
+    public static final int design_layout_tab_text=0x7f0c003a;
+    public static final int design_menu_item_action_area=0x7f0c003b;
+    public static final int design_navigation_item=0x7f0c003c;
+    public static final int design_navigation_item_header=0x7f0c003d;
+    public static final int design_navigation_item_separator=0x7f0c003e;
+    public static final int design_navigation_item_subheader=0x7f0c003f;
+    public static final int design_navigation_menu=0x7f0c0040;
+    public static final int design_navigation_menu_item=0x7f0c0041;
+    public static final int design_text_input_password_icon=0x7f0c0042;
+    public static final int explore_grid_item=0x7f0c0043;
+    public static final int fragment_dm=0x7f0c0044;
+    public static final int fragment_main_menu_story=0x7f0c0045;
+    public static final int fragment_main_page=0x7f0c0046;
+    public static final int fragment_personal_activities=0x7f0c0047;
+    public static final int fragment_posts=0x7f0c0048;
+    public static final int fragment_profile=0x7f0c0049;
+    public static final int fragment_stories=0x7f0c004a;
+    public static final int fui_activity_register_email=0x7f0c004b;
+    public static final int fui_activity_register_phone=0x7f0c004c;
+    public static final int fui_auth_method_picker_layout=0x7f0c004d;
+    public static final int fui_check_email_layout=0x7f0c004e;
+    public static final int fui_confirmation_code_layout=0x7f0c004f;
+    public static final int fui_dgts_country_row=0x7f0c0050;
+    public static final int fui_forgot_password_layout=0x7f0c0051;
+    public static final int fui_idp_button_facebook=0x7f0c0052;
+    public static final int fui_idp_button_google=0x7f0c0053;
+    public static final int fui_idp_button_twitter=0x7f0c0054;
+    public static final int fui_phone_layout=0x7f0c0055;
+    public static final int fui_phone_progress_dialog=0x7f0c0056;
+    public static final int fui_provider_button_email=0x7f0c0057;
+    public static final int fui_provider_button_phone=0x7f0c0058;
+    public static final int fui_register_email_layout=0x7f0c0059;
+    public static final int fui_welcome_back_idp_prompt_layout=0x7f0c005a;
+    public static final int fui_welcome_back_password_prompt_layout=0x7f0c005b;
+    public static final int image_view=0x7f0c005c;
+    public static final int list_item=0x7f0c005d;
+    public static final int notification_action=0x7f0c005e;
+    public static final int notification_action_tombstone=0x7f0c005f;
+    public static final int notification_media_action=0x7f0c0060;
+    public static final int notification_media_cancel_action=0x7f0c0061;
+    public static final int notification_template_big_media=0x7f0c0062;
+    public static final int notification_template_big_media_custom=0x7f0c0063;
+    public static final int notification_template_big_media_narrow=0x7f0c0064;
+    public static final int notification_template_big_media_narrow_custom=0x7f0c0065;
+    public static final int notification_template_custom_big=0x7f0c0066;
+    public static final int notification_template_icon_group=0x7f0c0067;
+    public static final int notification_template_lines_media=0x7f0c0068;
+    public static final int notification_template_media=0x7f0c0069;
+    public static final int notification_template_media_custom=0x7f0c006a;
+    public static final int notification_template_part_chronometer=0x7f0c006b;
+    public static final int notification_template_part_time=0x7f0c006c;
+    public static final int place_autocomplete_fragment=0x7f0c006d;
+    public static final int place_autocomplete_item_powered_by_google=0x7f0c006e;
+    public static final int place_autocomplete_item_prediction=0x7f0c006f;
+    public static final int place_autocomplete_progress=0x7f0c0070;
+    public static final int select_dialog_item_material=0x7f0c0071;
+    public static final int select_dialog_multichoice_material=0x7f0c0072;
+    public static final int select_dialog_singlechoice_material=0x7f0c0073;
+    public static final int support_simple_spinner_dropdown_item=0x7f0c0074;
   }
   public static final class menu {
     public static final int dm_menu=0x7f0d0000;
@@ -4838,18 +4863,19 @@ public final class R {
     public static final int search_menu_title=0x7f100093;
     public static final int sign_up=0x7f100094;
     public static final int status_bar_notification_info_overflow=0x7f100095;
-    public static final int title_activity_events=0x7f100096;
-    public static final int title_activity_explore=0x7f100097;
-    public static final int title_activity_following=0x7f100098;
-    public static final int title_activity_live_story=0x7f100099;
-    public static final int title_activity_personal_event=0x7f10009a;
-    public static final int title_activity_personal_live_story=0x7f10009b;
-    public static final int title_activity_personal_photo_video=0x7f10009c;
-    public static final int title_activity_personal_text=0x7f10009d;
-    public static final int title_activity_test=0x7f10009e;
-    public static final int todo=0x7f10009f;
-    public static final int twitter_consumer_key=0x7f1000a0;
-    public static final int twitter_consumer_secret=0x7f1000a1;
+    public static final int title_activity_event_viewer=0x7f100096;
+    public static final int title_activity_events=0x7f100097;
+    public static final int title_activity_explore=0x7f100098;
+    public static final int title_activity_following=0x7f100099;
+    public static final int title_activity_live_story=0x7f10009a;
+    public static final int title_activity_personal_event=0x7f10009b;
+    public static final int title_activity_personal_live_story=0x7f10009c;
+    public static final int title_activity_personal_photo_video=0x7f10009d;
+    public static final int title_activity_personal_text=0x7f10009e;
+    public static final int title_activity_test=0x7f10009f;
+    public static final int todo=0x7f1000a0;
+    public static final int twitter_consumer_key=0x7f1000a1;
+    public static final int twitter_consumer_secret=0x7f1000a2;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f110000;
@@ -5306,35 +5332,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background sensormonitor.inf.unideb.hu.socialapplication:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit sensormonitor.inf.unideb.hu.socialapplication:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked sensormonitor.inf.unideb.hu.socialapplication:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd sensormonitor.inf.unideb.hu.socialapplication:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions sensormonitor.inf.unideb.hu.socialapplication:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft sensormonitor.inf.unideb.hu.socialapplication:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight sensormonitor.inf.unideb.hu.socialapplication:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart sensormonitor.inf.unideb.hu.socialapplication:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation sensormonitor.inf.unideb.hu.socialapplication:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout sensormonitor.inf.unideb.hu.socialapplication:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions sensormonitor.inf.unideb.hu.socialapplication:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider sensormonitor.inf.unideb.hu.socialapplication:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation sensormonitor.inf.unideb.hu.socialapplication:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height sensormonitor.inf.unideb.hu.socialapplication:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll sensormonitor.inf.unideb.hu.socialapplication:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator sensormonitor.inf.unideb.hu.socialapplication:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout sensormonitor.inf.unideb.hu.socialapplication:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon sensormonitor.inf.unideb.hu.socialapplication:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle sensormonitor.inf.unideb.hu.socialapplication:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding sensormonitor.inf.unideb.hu.socialapplication:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo sensormonitor.inf.unideb.hu.socialapplication:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode sensormonitor.inf.unideb.hu.socialapplication:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme sensormonitor.inf.unideb.hu.socialapplication:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding sensormonitor.inf.unideb.hu.socialapplication:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle sensormonitor.inf.unideb.hu.socialapplication:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle sensormonitor.inf.unideb.hu.socialapplication:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle sensormonitor.inf.unideb.hu.socialapplication:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title sensormonitor.inf.unideb.hu.socialapplication:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle sensormonitor.inf.unideb.hu.socialapplication:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background social.application:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit social.application:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked social.application:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd social.application:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions social.application:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft social.application:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight social.application:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart social.application:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation social.application:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout social.application:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions social.application:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider social.application:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation social.application:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height social.application:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll social.application:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator social.application:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout social.application:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon social.application:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle social.application:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding social.application:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo social.application:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode social.application:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme social.application:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding social.application:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle social.application:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle social.application:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle social.application:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title social.application:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle social.application:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -5377,7 +5403,7 @@ public final class R {
         0x7f0401a5
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#background}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5385,11 +5411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:background
+     * @attr name social.application:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5400,11 +5426,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundSplit
+     * @attr name social.application:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5415,11 +5441,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundStacked
+     * @attr name social.application:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5428,11 +5454,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetEnd
+     * @attr name social.application:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5441,11 +5467,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetEndWithActions
+     * @attr name social.application:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5454,11 +5480,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetLeft
+     * @attr name social.application:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5467,11 +5493,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetRight
+     * @attr name social.application:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5480,11 +5506,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetStart
+     * @attr name social.application:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5493,11 +5519,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetStartWithNavigation
+     * @attr name social.application:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5505,11 +5531,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:customNavigationLayout
+     * @attr name social.application:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5527,11 +5553,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:displayOptions
+     * @attr name social.application:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#divider}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5539,11 +5565,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:divider
+     * @attr name social.application:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5552,11 +5578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:elevation
+     * @attr name social.application:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#height}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5565,21 +5591,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:height
+     * @attr name social.application:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:hideOnContentScroll
+     * @attr name social.application:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5587,11 +5613,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:homeAsUpIndicator
+     * @attr name social.application:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5599,11 +5625,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:homeLayout
+     * @attr name social.application:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#icon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5611,11 +5637,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:icon
+     * @attr name social.application:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5623,11 +5649,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:indeterminateProgressStyle
+     * @attr name social.application:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5636,11 +5662,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemPadding
+     * @attr name social.application:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#logo}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5648,11 +5674,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:logo
+     * @attr name social.application:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5666,11 +5692,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:navigationMode
+     * @attr name social.application:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5678,11 +5704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:popupTheme
+     * @attr name social.application:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5691,11 +5717,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:progressBarPadding
+     * @attr name social.application:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5703,21 +5729,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:progressBarStyle
+     * @attr name social.application:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subtitle
+     * @attr name social.application:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5725,21 +5751,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subtitleTextStyle
+     * @attr name social.application:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#title}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:title
+     * @attr name social.application:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5747,7 +5773,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleTextStyle
+     * @attr name social.application:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -5829,12 +5855,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background sensormonitor.inf.unideb.hu.socialapplication:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit sensormonitor.inf.unideb.hu.socialapplication:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout sensormonitor.inf.unideb.hu.socialapplication:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height sensormonitor.inf.unideb.hu.socialapplication:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle sensormonitor.inf.unideb.hu.socialapplication:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle sensormonitor.inf.unideb.hu.socialapplication:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background social.application:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit social.application:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout social.application:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height social.application:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle social.application:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle social.application:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -5848,7 +5874,7 @@ public final class R {
         0x7f04016f, 0x7f0401a5
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#background}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5856,11 +5882,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:background
+     * @attr name social.application:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5871,11 +5897,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundSplit
+     * @attr name social.application:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5883,11 +5909,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:closeItemLayout
+     * @attr name social.application:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#height}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5896,11 +5922,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:height
+     * @attr name social.application:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5908,11 +5934,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subtitleTextStyle
+     * @attr name social.application:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5920,7 +5946,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleTextStyle
+     * @attr name social.application:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -5930,8 +5956,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable sensormonitor.inf.unideb.hu.socialapplication:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount sensormonitor.inf.unideb.hu.socialapplication:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable social.application:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount social.application:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -5940,7 +5966,7 @@ public final class R {
         0x7f0400a3, 0x7f0400d0
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5948,17 +5974,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandActivityOverflowButtonDrawable
+     * @attr name social.application:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:initialActivityCount
+     * @attr name social.application:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -5969,13 +5995,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen sensormonitor.inf.unideb.hu.socialapplication:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout sensormonitor.inf.unideb.hu.socialapplication:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout sensormonitor.inf.unideb.hu.socialapplication:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout sensormonitor.inf.unideb.hu.socialapplication:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout sensormonitor.inf.unideb.hu.socialapplication:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle sensormonitor.inf.unideb.hu.socialapplication:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout sensormonitor.inf.unideb.hu.socialapplication:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen social.application:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout social.application:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout social.application:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout social.application:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout social.application:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle social.application:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout social.application:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6003,7 +6029,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6012,11 +6038,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonIconDimen
+     * @attr name social.application:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6024,11 +6050,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonPanelSideLayout
+     * @attr name social.application:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6036,11 +6062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listItemLayout
+     * @attr name social.application:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6048,11 +6074,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listLayout
+     * @attr name social.application:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6060,21 +6086,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:multiChoiceItemLayout
+     * @attr name social.application:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:showTitle
+     * @attr name social.application:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6082,7 +6108,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:singleChoiceItemLayout
+     * @attr name social.application:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -6095,8 +6121,8 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation sensormonitor.inf.unideb.hu.socialapplication:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded sensormonitor.inf.unideb.hu.socialapplication:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation social.application:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded social.application:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -6144,7 +6170,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6153,17 +6179,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:elevation
+     * @attr name social.application:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expanded
+     * @attr name social.application:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
@@ -6173,8 +6199,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed sensormonitor.inf.unideb.hu.socialapplication:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible sensormonitor.inf.unideb.hu.socialapplication:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed social.application:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible social.application:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -6183,23 +6209,23 @@ public final class R {
         0x7f040166, 0x7f040167
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:state_collapsed
+     * @attr name social.application:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:state_collapsible
+     * @attr name social.application:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -6209,8 +6235,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags sensormonitor.inf.unideb.hu.socialapplication:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator sensormonitor.inf.unideb.hu.socialapplication:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags social.application:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator social.application:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -6219,7 +6245,7 @@ public final class R {
         0x7f040119, 0x7f04011a
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6235,11 +6261,11 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_scrollFlags
+     * @attr name social.application:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6247,7 +6273,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_scrollInterpolator
+     * @attr name social.application:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -6258,9 +6284,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat sensormonitor.inf.unideb.hu.socialapplication:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint sensormonitor.inf.unideb.hu.socialapplication:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode sensormonitor.inf.unideb.hu.socialapplication:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat social.application:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint social.application:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode social.application:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -6286,7 +6312,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6294,22 +6320,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:srcCompat
+     * @attr name social.application:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tint
+     * @attr name social.application:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6326,7 +6352,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tintMode
+     * @attr name social.application:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -6337,9 +6363,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark sensormonitor.inf.unideb.hu.socialapplication:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint sensormonitor.inf.unideb.hu.socialapplication:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode sensormonitor.inf.unideb.hu.socialapplication:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark social.application:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint social.application:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode social.application:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -6362,7 +6388,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6370,22 +6396,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tickMark
+     * @attr name social.application:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tickMarkTint
+     * @attr name social.application:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6402,7 +6428,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tickMarkTintMode
+     * @attr name social.application:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -6542,13 +6568,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize sensormonitor.inf.unideb.hu.socialapplication:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize sensormonitor.inf.unideb.hu.socialapplication:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes sensormonitor.inf.unideb.hu.socialapplication:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity sensormonitor.inf.unideb.hu.socialapplication:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType sensormonitor.inf.unideb.hu.socialapplication:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily sensormonitor.inf.unideb.hu.socialapplication:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps sensormonitor.inf.unideb.hu.socialapplication:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize social.application:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize social.application:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes social.application:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity social.application:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType social.application:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily social.application:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps social.application:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -6576,7 +6602,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6585,11 +6611,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:autoSizeMaxTextSize
+     * @attr name social.application:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6598,11 +6624,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:autoSizeMinTextSize
+     * @attr name social.application:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6610,11 +6636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:autoSizePresetSizes
+     * @attr name social.application:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6623,11 +6649,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:autoSizeStepGranularity
+     * @attr name social.application:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6640,21 +6666,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:autoSizeTextType
+     * @attr name social.application:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontFamily
+     * @attr name social.application:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6664,7 +6690,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAllCaps
+     * @attr name social.application:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -6676,124 +6702,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider sensormonitor.inf.unideb.hu.socialapplication:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground sensormonitor.inf.unideb.hu.socialapplication:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme sensormonitor.inf.unideb.hu.socialapplication:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize sensormonitor.inf.unideb.hu.socialapplication:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle sensormonitor.inf.unideb.hu.socialapplication:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle sensormonitor.inf.unideb.hu.socialapplication:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle sensormonitor.inf.unideb.hu.socialapplication:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle sensormonitor.inf.unideb.hu.socialapplication:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle sensormonitor.inf.unideb.hu.socialapplication:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme sensormonitor.inf.unideb.hu.socialapplication:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme sensormonitor.inf.unideb.hu.socialapplication:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle sensormonitor.inf.unideb.hu.socialapplication:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle sensormonitor.inf.unideb.hu.socialapplication:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance sensormonitor.inf.unideb.hu.socialapplication:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor sensormonitor.inf.unideb.hu.socialapplication:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground sensormonitor.inf.unideb.hu.socialapplication:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle sensormonitor.inf.unideb.hu.socialapplication:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle sensormonitor.inf.unideb.hu.socialapplication:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground sensormonitor.inf.unideb.hu.socialapplication:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle sensormonitor.inf.unideb.hu.socialapplication:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable sensormonitor.inf.unideb.hu.socialapplication:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle sensormonitor.inf.unideb.hu.socialapplication:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle sensormonitor.inf.unideb.hu.socialapplication:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle sensormonitor.inf.unideb.hu.socialapplication:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle sensormonitor.inf.unideb.hu.socialapplication:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons sensormonitor.inf.unideb.hu.socialapplication:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle sensormonitor.inf.unideb.hu.socialapplication:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme sensormonitor.inf.unideb.hu.socialapplication:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle sensormonitor.inf.unideb.hu.socialapplication:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle sensormonitor.inf.unideb.hu.socialapplication:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle sensormonitor.inf.unideb.hu.socialapplication:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle sensormonitor.inf.unideb.hu.socialapplication:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle sensormonitor.inf.unideb.hu.socialapplication:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle sensormonitor.inf.unideb.hu.socialapplication:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle sensormonitor.inf.unideb.hu.socialapplication:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle sensormonitor.inf.unideb.hu.socialapplication:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall sensormonitor.inf.unideb.hu.socialapplication:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle sensormonitor.inf.unideb.hu.socialapplication:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle sensormonitor.inf.unideb.hu.socialapplication:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent sensormonitor.inf.unideb.hu.socialapplication:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating sensormonitor.inf.unideb.hu.socialapplication:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal sensormonitor.inf.unideb.hu.socialapplication:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated sensormonitor.inf.unideb.hu.socialapplication:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight sensormonitor.inf.unideb.hu.socialapplication:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal sensormonitor.inf.unideb.hu.socialapplication:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError sensormonitor.inf.unideb.hu.socialapplication:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary sensormonitor.inf.unideb.hu.socialapplication:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark sensormonitor.inf.unideb.hu.socialapplication:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal sensormonitor.inf.unideb.hu.socialapplication:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground sensormonitor.inf.unideb.hu.socialapplication:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding sensormonitor.inf.unideb.hu.socialapplication:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme sensormonitor.inf.unideb.hu.socialapplication:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal sensormonitor.inf.unideb.hu.socialapplication:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical sensormonitor.inf.unideb.hu.socialapplication:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle sensormonitor.inf.unideb.hu.socialapplication:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight sensormonitor.inf.unideb.hu.socialapplication:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground sensormonitor.inf.unideb.hu.socialapplication:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor sensormonitor.inf.unideb.hu.socialapplication:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle sensormonitor.inf.unideb.hu.socialapplication:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator sensormonitor.inf.unideb.hu.socialapplication:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle sensormonitor.inf.unideb.hu.socialapplication:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator sensormonitor.inf.unideb.hu.socialapplication:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog sensormonitor.inf.unideb.hu.socialapplication:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle sensormonitor.inf.unideb.hu.socialapplication:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle sensormonitor.inf.unideb.hu.socialapplication:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground sensormonitor.inf.unideb.hu.socialapplication:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme sensormonitor.inf.unideb.hu.socialapplication:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth sensormonitor.inf.unideb.hu.socialapplication:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle sensormonitor.inf.unideb.hu.socialapplication:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle sensormonitor.inf.unideb.hu.socialapplication:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle sensormonitor.inf.unideb.hu.socialapplication:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle sensormonitor.inf.unideb.hu.socialapplication:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator sensormonitor.inf.unideb.hu.socialapplication:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall sensormonitor.inf.unideb.hu.socialapplication:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle sensormonitor.inf.unideb.hu.socialapplication:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle sensormonitor.inf.unideb.hu.socialapplication:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground sensormonitor.inf.unideb.hu.socialapplication:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless sensormonitor.inf.unideb.hu.socialapplication:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle sensormonitor.inf.unideb.hu.socialapplication:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle sensormonitor.inf.unideb.hu.socialapplication:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle sensormonitor.inf.unideb.hu.socialapplication:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu sensormonitor.inf.unideb.hu.socialapplication:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem sensormonitor.inf.unideb.hu.socialapplication:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary sensormonitor.inf.unideb.hu.socialapplication:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall sensormonitor.inf.unideb.hu.socialapplication:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader sensormonitor.inf.unideb.hu.socialapplication:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle sensormonitor.inf.unideb.hu.socialapplication:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle sensormonitor.inf.unideb.hu.socialapplication:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu sensormonitor.inf.unideb.hu.socialapplication:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem sensormonitor.inf.unideb.hu.socialapplication:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl sensormonitor.inf.unideb.hu.socialapplication:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle sensormonitor.inf.unideb.hu.socialapplication:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle sensormonitor.inf.unideb.hu.socialapplication:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor sensormonitor.inf.unideb.hu.socialapplication:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground sensormonitor.inf.unideb.hu.socialapplication:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass sensormonitor.inf.unideb.hu.socialapplication:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar sensormonitor.inf.unideb.hu.socialapplication:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay sensormonitor.inf.unideb.hu.socialapplication:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay sensormonitor.inf.unideb.hu.socialapplication:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor sensormonitor.inf.unideb.hu.socialapplication:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor sensormonitor.inf.unideb.hu.socialapplication:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor sensormonitor.inf.unideb.hu.socialapplication:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor sensormonitor.inf.unideb.hu.socialapplication:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor sensormonitor.inf.unideb.hu.socialapplication:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor sensormonitor.inf.unideb.hu.socialapplication:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle sensormonitor.inf.unideb.hu.socialapplication:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider social.application:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground social.application:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme social.application:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize social.application:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle social.application:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle social.application:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle social.application:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle social.application:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle social.application:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme social.application:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme social.application:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle social.application:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle social.application:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance social.application:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor social.application:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground social.application:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle social.application:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable social.application:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable social.application:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable social.application:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable social.application:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable social.application:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle social.application:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable social.application:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable social.application:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground social.application:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle social.application:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable social.application:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle social.application:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle social.application:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle social.application:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle social.application:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons social.application:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle social.application:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme social.application:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle social.application:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle social.application:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle social.application:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle social.application:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle social.application:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle social.application:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle social.application:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle social.application:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall social.application:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle social.application:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle social.application:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent social.application:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating social.application:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal social.application:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated social.application:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight social.application:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal social.application:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError social.application:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary social.application:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark social.application:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal social.application:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground social.application:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding social.application:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme social.application:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal social.application:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical social.application:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle social.application:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight social.application:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground social.application:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor social.application:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle social.application:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator social.application:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle social.application:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator social.application:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog social.application:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle social.application:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle social.application:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight social.application:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge social.application:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall social.application:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft social.application:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight social.application:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground social.application:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme social.application:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth social.application:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle social.application:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle social.application:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle social.application:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle social.application:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator social.application:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall social.application:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle social.application:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle social.application:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground social.application:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless social.application:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle social.application:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle social.application:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle social.application:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu social.application:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem social.application:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary social.application:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall social.application:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader social.application:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle social.application:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle social.application:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu social.application:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem social.application:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl social.application:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle social.application:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle social.application:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor social.application:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground social.application:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass social.application:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar social.application:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay social.application:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay social.application:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor social.application:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor social.application:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor social.application:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor social.application:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor social.application:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor social.application:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle social.application:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -6971,7 +6997,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6979,11 +7005,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarDivider
+     * @attr name social.application:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6991,11 +7017,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarItemBackground
+     * @attr name social.application:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7003,11 +7029,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarPopupTheme
+     * @attr name social.application:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7024,11 +7050,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarSize
+     * @attr name social.application:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7036,11 +7062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarSplitStyle
+     * @attr name social.application:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7048,11 +7074,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarStyle
+     * @attr name social.application:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7060,11 +7086,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarTabBarStyle
+     * @attr name social.application:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7072,11 +7098,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarTabStyle
+     * @attr name social.application:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7084,11 +7110,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarTabTextStyle
+     * @attr name social.application:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7096,11 +7122,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarTheme
+     * @attr name social.application:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7108,11 +7134,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionBarWidgetTheme
+     * @attr name social.application:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7120,11 +7146,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionButtonStyle
+     * @attr name social.application:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7132,11 +7158,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionDropDownStyle
+     * @attr name social.application:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7144,11 +7170,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionMenuTextAppearance
+     * @attr name social.application:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7159,11 +7185,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionMenuTextColor
+     * @attr name social.application:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7171,11 +7197,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeBackground
+     * @attr name social.application:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7183,11 +7209,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeCloseButtonStyle
+     * @attr name social.application:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7195,11 +7221,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeCloseDrawable
+     * @attr name social.application:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7207,11 +7233,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeCopyDrawable
+     * @attr name social.application:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7219,11 +7245,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeCutDrawable
+     * @attr name social.application:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7231,11 +7257,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeFindDrawable
+     * @attr name social.application:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7243,11 +7269,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModePasteDrawable
+     * @attr name social.application:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7255,11 +7281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModePopupWindowStyle
+     * @attr name social.application:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7267,11 +7293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeSelectAllDrawable
+     * @attr name social.application:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7279,11 +7305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeShareDrawable
+     * @attr name social.application:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7291,11 +7317,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeSplitBackground
+     * @attr name social.application:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7303,11 +7329,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeStyle
+     * @attr name social.application:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7315,11 +7341,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionModeWebSearchDrawable
+     * @attr name social.application:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7327,11 +7353,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionOverflowButtonStyle
+     * @attr name social.application:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7339,11 +7365,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionOverflowMenuStyle
+     * @attr name social.application:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7351,11 +7377,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:activityChooserViewStyle
+     * @attr name social.application:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7363,21 +7389,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:alertDialogButtonGroupStyle
+     * @attr name social.application:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:alertDialogCenterButtons
+     * @attr name social.application:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7385,11 +7411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:alertDialogStyle
+     * @attr name social.application:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7397,11 +7423,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:alertDialogTheme
+     * @attr name social.application:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7409,11 +7435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:autoCompleteTextViewStyle
+     * @attr name social.application:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7421,11 +7447,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:borderlessButtonStyle
+     * @attr name social.application:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7433,11 +7459,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonBarButtonStyle
+     * @attr name social.application:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7445,11 +7471,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonBarNegativeButtonStyle
+     * @attr name social.application:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7457,11 +7483,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonBarNeutralButtonStyle
+     * @attr name social.application:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7469,11 +7495,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonBarPositiveButtonStyle
+     * @attr name social.application:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7481,11 +7507,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonBarStyle
+     * @attr name social.application:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7493,11 +7519,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonStyle
+     * @attr name social.application:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7505,11 +7531,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonStyleSmall
+     * @attr name social.application:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7517,11 +7543,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:checkboxStyle
+     * @attr name social.application:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7529,77 +7555,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:checkedTextViewStyle
+     * @attr name social.application:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorAccent
+     * @attr name social.application:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorBackgroundFloating
+     * @attr name social.application:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorButtonNormal
+     * @attr name social.application:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorControlActivated
+     * @attr name social.application:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorControlHighlight
+     * @attr name social.application:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorControlNormal
+     * @attr name social.application:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7610,44 +7636,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorError
+     * @attr name social.application:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorPrimary
+     * @attr name social.application:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorPrimaryDark
+     * @attr name social.application:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorSwitchThumbNormal
+     * @attr name social.application:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7655,11 +7681,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:controlBackground
+     * @attr name social.application:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7668,11 +7694,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dialogPreferredPadding
+     * @attr name social.application:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7680,11 +7706,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dialogTheme
+     * @attr name social.application:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7692,11 +7718,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dividerHorizontal
+     * @attr name social.application:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7704,11 +7730,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dividerVertical
+     * @attr name social.application:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7716,11 +7742,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dropDownListViewStyle
+     * @attr name social.application:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7729,11 +7755,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dropdownListPreferredItemHeight
+     * @attr name social.application:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7741,11 +7767,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:editTextBackground
+     * @attr name social.application:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7756,11 +7782,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:editTextColor
+     * @attr name social.application:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7768,11 +7794,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:editTextStyle
+     * @attr name social.application:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7780,11 +7806,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:homeAsUpIndicator
+     * @attr name social.application:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7792,11 +7818,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:imageButtonStyle
+     * @attr name social.application:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7804,11 +7830,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listChoiceBackgroundIndicator
+     * @attr name social.application:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7816,11 +7842,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listDividerAlertDialog
+     * @attr name social.application:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7828,11 +7854,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listMenuViewStyle
+     * @attr name social.application:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7840,11 +7866,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listPopupWindowStyle
+     * @attr name social.application:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7853,11 +7879,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemHeight
+     * @attr name social.application:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7866,11 +7892,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemHeightLarge
+     * @attr name social.application:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7879,11 +7905,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemHeightSmall
+     * @attr name social.application:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7892,11 +7918,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemPaddingLeft
+     * @attr name social.application:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7905,11 +7931,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:listPreferredItemPaddingRight
+     * @attr name social.application:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7917,11 +7943,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:panelBackground
+     * @attr name social.application:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7929,11 +7955,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:panelMenuListTheme
+     * @attr name social.application:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7942,11 +7968,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:panelMenuListWidth
+     * @attr name social.application:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7954,11 +7980,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:popupMenuStyle
+     * @attr name social.application:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7966,11 +7992,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:popupWindowStyle
+     * @attr name social.application:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7978,11 +8004,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:radioButtonStyle
+     * @attr name social.application:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7990,11 +8016,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:ratingBarStyle
+     * @attr name social.application:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8002,11 +8028,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:ratingBarStyleIndicator
+     * @attr name social.application:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8014,11 +8040,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:ratingBarStyleSmall
+     * @attr name social.application:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8026,11 +8052,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:searchViewStyle
+     * @attr name social.application:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8038,11 +8064,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:seekBarStyle
+     * @attr name social.application:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8050,11 +8076,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:selectableItemBackground
+     * @attr name social.application:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8062,11 +8088,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:selectableItemBackgroundBorderless
+     * @attr name social.application:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8074,11 +8100,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:spinnerDropDownItemStyle
+     * @attr name social.application:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8086,11 +8112,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:spinnerStyle
+     * @attr name social.application:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8098,11 +8124,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:switchStyle
+     * @attr name social.application:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8110,11 +8136,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceLargePopupMenu
+     * @attr name social.application:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8122,11 +8148,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceListItem
+     * @attr name social.application:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8134,11 +8160,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceListItemSecondary
+     * @attr name social.application:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8146,11 +8172,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceListItemSmall
+     * @attr name social.application:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8158,11 +8184,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearancePopupMenuHeader
+     * @attr name social.application:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8170,11 +8196,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceSearchResultSubtitle
+     * @attr name social.application:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8182,11 +8208,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceSearchResultTitle
+     * @attr name social.application:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8194,11 +8220,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAppearanceSmallPopupMenu
+     * @attr name social.application:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8209,11 +8235,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textColorAlertDialogListItem
+     * @attr name social.application:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8224,11 +8250,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textColorSearchUrl
+     * @attr name social.application:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8236,11 +8262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:toolbarNavigationButtonStyle
+     * @attr name social.application:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8248,11 +8274,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:toolbarStyle
+     * @attr name social.application:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8263,11 +8289,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tooltipForegroundColor
+     * @attr name social.application:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8275,51 +8301,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tooltipFrameBackground
+     * @attr name social.application:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:viewInflaterClass
+     * @attr name social.application:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowActionBar
+     * @attr name social.application:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowActionBarOverlay
+     * @attr name social.application:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowActionModeOverlay
+     * @attr name social.application:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8332,11 +8358,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowFixedHeightMajor
+     * @attr name social.application:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8349,11 +8375,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowFixedHeightMinor
+     * @attr name social.application:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8366,11 +8392,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowFixedWidthMajor
+     * @attr name social.application:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8383,11 +8409,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowFixedWidthMinor
+     * @attr name social.application:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8400,11 +8426,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowMinWidthMajor
+     * @attr name social.application:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8417,17 +8443,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowMinWidthMinor
+     * @attr name social.application:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:windowNoTitle
+     * @attr name social.application:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -8437,11 +8463,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation sensormonitor.inf.unideb.hu.socialapplication:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground sensormonitor.inf.unideb.hu.socialapplication:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint sensormonitor.inf.unideb.hu.socialapplication:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor sensormonitor.inf.unideb.hu.socialapplication:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu sensormonitor.inf.unideb.hu.socialapplication:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation social.application:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground social.application:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint social.application:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor social.application:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu social.application:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -8454,7 +8480,7 @@ public final class R {
         0x7f04012d
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8463,11 +8489,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:elevation
+     * @attr name social.application:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8475,33 +8501,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemBackground
+     * @attr name social.application:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemIconTint
+     * @attr name social.application:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemTextColor
+     * @attr name social.application:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#menu}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8509,7 +8535,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:menu
+     * @attr name social.application:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -8519,9 +8545,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable sensormonitor.inf.unideb.hu.socialapplication:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight sensormonitor.inf.unideb.hu.socialapplication:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed sensormonitor.inf.unideb.hu.socialapplication:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable social.application:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight social.application:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed social.application:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -8531,17 +8557,17 @@ public final class R {
         0x7f04003b, 0x7f04003d, 0x7f04003e
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:behavior_hideable
+     * @attr name social.application:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8558,17 +8584,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:behavior_peekHeight
+     * @attr name social.application:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:behavior_skipCollapsed
+     * @attr name social.application:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -8578,7 +8604,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking sensormonitor.inf.unideb.hu.socialapplication:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking social.application:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -8586,13 +8612,13 @@ public final class R {
         0x7f040026
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:allowStacking
+     * @attr name social.application:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -8604,17 +8630,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor sensormonitor.inf.unideb.hu.socialapplication:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius sensormonitor.inf.unideb.hu.socialapplication:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation sensormonitor.inf.unideb.hu.socialapplication:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation sensormonitor.inf.unideb.hu.socialapplication:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap sensormonitor.inf.unideb.hu.socialapplication:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding sensormonitor.inf.unideb.hu.socialapplication:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding sensormonitor.inf.unideb.hu.socialapplication:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom sensormonitor.inf.unideb.hu.socialapplication:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft sensormonitor.inf.unideb.hu.socialapplication:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight sensormonitor.inf.unideb.hu.socialapplication:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop sensormonitor.inf.unideb.hu.socialapplication:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor social.application:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius social.application:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation social.application:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation social.application:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap social.application:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding social.application:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding social.application:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom social.application:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft social.application:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight social.application:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop social.application:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -8663,18 +8689,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cardBackgroundColor
+     * @attr name social.application:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8683,11 +8709,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cardCornerRadius
+     * @attr name social.application:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8696,11 +8722,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cardElevation
+     * @attr name social.application:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8709,31 +8735,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cardMaxElevation
+     * @attr name social.application:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cardPreventCornerOverlap
+     * @attr name social.application:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cardUseCompatPadding
+     * @attr name social.application:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8742,11 +8768,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentPadding
+     * @attr name social.application:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8755,11 +8781,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentPaddingBottom
+     * @attr name social.application:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8768,11 +8794,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentPaddingLeft
+     * @attr name social.application:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8781,11 +8807,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentPaddingRight
+     * @attr name social.application:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8794,7 +8820,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentPaddingTop
+     * @attr name social.application:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -8804,22 +8830,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity sensormonitor.inf.unideb.hu.socialapplication:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance sensormonitor.inf.unideb.hu.socialapplication:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim sensormonitor.inf.unideb.hu.socialapplication:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity sensormonitor.inf.unideb.hu.socialapplication:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance sensormonitor.inf.unideb.hu.socialapplication:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration sensormonitor.inf.unideb.hu.socialapplication:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger sensormonitor.inf.unideb.hu.socialapplication:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim sensormonitor.inf.unideb.hu.socialapplication:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title sensormonitor.inf.unideb.hu.socialapplication:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled sensormonitor.inf.unideb.hu.socialapplication:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId sensormonitor.inf.unideb.hu.socialapplication:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity social.application:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance social.application:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim social.application:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity social.application:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin social.application:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom social.application:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd social.application:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart social.application:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop social.application:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance social.application:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration social.application:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger social.application:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim social.application:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title social.application:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled social.application:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId social.application:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -8845,7 +8871,7 @@ public final class R {
         0x7f040169, 0x7f04019b, 0x7f04019c, 0x7f0401a6
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8866,11 +8892,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:collapsedTitleGravity
+     * @attr name social.application:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8878,22 +8904,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:collapsedTitleTextAppearance
+     * @attr name social.application:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentScrim
+     * @attr name social.application:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8914,11 +8940,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleGravity
+     * @attr name social.application:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8927,11 +8953,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMargin
+     * @attr name social.application:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8940,11 +8966,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginBottom
+     * @attr name social.application:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8953,11 +8979,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginEnd
+     * @attr name social.application:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8966,11 +8992,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginStart
+     * @attr name social.application:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8979,11 +9005,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleMarginTop
+     * @attr name social.application:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8991,20 +9017,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:expandedTitleTextAppearance
+     * @attr name social.application:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:scrimAnimationDuration
+     * @attr name social.application:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9013,42 +9039,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:scrimVisibleHeightTrigger
+     * @attr name social.application:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:statusBarScrim
+     * @attr name social.application:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#title}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:title
+     * @attr name social.application:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleEnabled
+     * @attr name social.application:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9056,7 +9082,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:toolbarId
+     * @attr name social.application:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -9066,8 +9092,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode sensormonitor.inf.unideb.hu.socialapplication:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier sensormonitor.inf.unideb.hu.socialapplication:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode social.application:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier social.application:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -9076,7 +9102,7 @@ public final class R {
         0x7f0400e2, 0x7f0400e3
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9090,16 +9116,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_collapseMode
+     * @attr name social.application:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_collapseParallaxMultiplier
+     * @attr name social.application:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -9111,7 +9137,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha sensormonitor.inf.unideb.hu.socialapplication:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha social.application:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -9141,12 +9167,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:alpha
+     * @attr name social.application:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -9157,8 +9183,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint sensormonitor.inf.unideb.hu.socialapplication:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode sensormonitor.inf.unideb.hu.socialapplication:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint social.application:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode social.application:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -9180,18 +9206,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonTint
+     * @attr name social.application:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9208,7 +9234,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonTintMode
+     * @attr name social.application:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -9223,61 +9249,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets sensormonitor.inf.unideb.hu.socialapplication:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection sensormonitor.inf.unideb.hu.socialapplication:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl sensormonitor.inf.unideb.hu.socialapplication:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet sensormonitor.inf.unideb.hu.socialapplication:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids sensormonitor.inf.unideb.hu.socialapplication:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio sensormonitor.inf.unideb.hu.socialapplication:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel sensormonitor.inf.unideb.hu.socialapplication:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets social.application:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection social.application:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl social.application:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet social.application:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids social.application:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight social.application:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth social.application:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator social.application:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf social.application:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator social.application:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf social.application:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf social.application:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle social.application:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle social.application:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius social.application:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio social.application:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf social.application:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf social.application:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin social.application:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end social.application:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent social.application:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default social.application:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max social.application:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min social.application:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent social.application:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias social.application:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle social.application:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight social.application:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator social.application:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf social.application:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf social.application:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator social.application:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf social.application:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf social.application:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf social.application:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf social.application:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator social.application:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf social.application:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf social.application:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias social.application:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle social.application:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight social.application:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default social.application:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max social.application:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min social.application:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent social.application:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX social.application:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY social.application:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom social.application:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd social.application:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft social.application:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight social.application:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart social.application:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop social.application:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel social.application:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -9427,17 +9453,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:barrierAllowsGoneWidgets
+     * @attr name social.application:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9454,21 +9480,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:barrierDirection
+     * @attr name social.application:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:chainUseRtl
+     * @attr name social.application:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9476,50 +9502,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:constraintSet
+     * @attr name social.application:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:constraint_referenced_ids
+     * @attr name social.application:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedHeight
+     * @attr name social.application:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedWidth
+     * @attr name social.application:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_creator
+     * @attr name social.application:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9535,20 +9561,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_toBaselineOf
+     * @attr name social.application:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_creator
+     * @attr name social.application:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9564,11 +9590,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toBottomOf
+     * @attr name social.application:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9584,11 +9610,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toTopOf
+     * @attr name social.application:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9596,20 +9622,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircle
+     * @attr name social.application:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleAngle
+     * @attr name social.application:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9618,21 +9644,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleRadius
+     * @attr name social.application:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintDimensionRatio
+     * @attr name social.application:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9648,11 +9674,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toEndOf
+     * @attr name social.application:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9668,11 +9694,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toStartOf
+     * @attr name social.application:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9681,11 +9707,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_begin
+     * @attr name social.application:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9694,20 +9720,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_end
+     * @attr name social.application:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_percent
+     * @attr name social.application:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9721,11 +9747,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_default
+     * @attr name social.application:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9742,11 +9768,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_max
+     * @attr name social.application:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9763,29 +9789,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_min
+     * @attr name social.application:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_percent
+     * @attr name social.application:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_bias
+     * @attr name social.application:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9799,29 +9825,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_chainStyle
+     * @attr name social.application:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_weight
+     * @attr name social.application:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_creator
+     * @attr name social.application:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9837,11 +9863,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toLeftOf
+     * @attr name social.application:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9857,20 +9883,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toRightOf
+     * @attr name social.application:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_creator
+     * @attr name social.application:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9886,11 +9912,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toLeftOf
+     * @attr name social.application:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9906,11 +9932,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toRightOf
+     * @attr name social.application:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9926,11 +9952,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toEndOf
+     * @attr name social.application:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9946,20 +9972,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toStartOf
+     * @attr name social.application:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_creator
+     * @attr name social.application:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9975,11 +10001,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toBottomOf
+     * @attr name social.application:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9995,20 +10021,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toTopOf
+     * @attr name social.application:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_bias
+     * @attr name social.application:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10022,20 +10048,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_chainStyle
+     * @attr name social.application:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_weight
+     * @attr name social.application:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10049,11 +10075,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_default
+     * @attr name social.application:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10070,11 +10096,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_max
+     * @attr name social.application:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10091,20 +10117,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_min
+     * @attr name social.application:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_percent
+     * @attr name social.application:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10113,11 +10139,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteX
+     * @attr name social.application:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10126,11 +10152,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteY
+     * @attr name social.application:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10139,11 +10165,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginBottom
+     * @attr name social.application:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10152,11 +10178,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginEnd
+     * @attr name social.application:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10165,11 +10191,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginLeft
+     * @attr name social.application:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10178,11 +10204,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginRight
+     * @attr name social.application:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10191,11 +10217,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginStart
+     * @attr name social.application:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10204,11 +10230,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginTop
+     * @attr name social.application:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10220,12 +10246,12 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_optimizationLevel
+     * @attr name social.application:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -10235,8 +10261,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content sensormonitor.inf.unideb.hu.socialapplication:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility sensormonitor.inf.unideb.hu.socialapplication:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content social.application:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility social.application:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -10245,7 +10271,7 @@ public final class R {
         0x7f040077, 0x7f0400a0
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#content}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10253,11 +10279,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:content
+     * @attr name social.application:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10270,7 +10296,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:emptyVisibility
+     * @attr name social.application:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -10303,55 +10329,55 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio sensormonitor.inf.unideb.hu.socialapplication:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight social.application:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth social.application:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator social.application:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf social.application:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator social.application:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf social.application:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf social.application:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle social.application:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle social.application:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius social.application:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio social.application:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf social.application:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf social.application:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin social.application:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end social.application:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent social.application:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default social.application:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max social.application:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min social.application:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent social.application:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias social.application:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle social.application:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight social.application:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator social.application:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf social.application:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf social.application:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator social.application:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf social.application:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf social.application:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf social.application:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf social.application:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator social.application:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf social.application:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf social.application:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias social.application:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle social.application:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight social.application:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default social.application:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max social.application:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min social.application:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent social.application:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX social.application:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY social.application:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom social.application:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd social.application:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft social.application:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight social.application:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart social.application:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop social.application:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -10750,36 +10776,36 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=22;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedHeight
+     * @attr name social.application:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=23;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constrainedWidth
+     * @attr name social.application:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=24;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_creator
+     * @attr name social.application:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10795,20 +10821,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBaseline_toBaselineOf
+     * @attr name social.application:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_creator
+     * @attr name social.application:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10824,11 +10850,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toBottomOf
+     * @attr name social.application:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10844,11 +10870,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintBottom_toTopOf
+     * @attr name social.application:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10856,20 +10882,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircle
+     * @attr name social.application:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=30;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleAngle
+     * @attr name social.application:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=31;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10878,21 +10904,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintCircleRadius
+     * @attr name social.application:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=32;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintDimensionRatio
+     * @attr name social.application:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10908,11 +10934,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toEndOf
+     * @attr name social.application:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10928,11 +10954,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintEnd_toStartOf
+     * @attr name social.application:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10941,11 +10967,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_begin
+     * @attr name social.application:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10954,20 +10980,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_end
+     * @attr name social.application:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintGuide_percent
+     * @attr name social.application:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10981,11 +11007,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_default
+     * @attr name social.application:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11002,11 +11028,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_max
+     * @attr name social.application:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11023,29 +11049,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_min
+     * @attr name social.application:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHeight_percent
+     * @attr name social.application:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_bias
+     * @attr name social.application:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11059,29 +11085,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_chainStyle
+     * @attr name social.application:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintHorizontal_weight
+     * @attr name social.application:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_creator
+     * @attr name social.application:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11097,11 +11123,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toLeftOf
+     * @attr name social.application:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11117,20 +11143,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintLeft_toRightOf
+     * @attr name social.application:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_creator
+     * @attr name social.application:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11146,11 +11172,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toLeftOf
+     * @attr name social.application:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11166,11 +11192,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintRight_toRightOf
+     * @attr name social.application:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11186,11 +11212,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toEndOf
+     * @attr name social.application:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11206,20 +11232,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintStart_toStartOf
+     * @attr name social.application:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_creator
+     * @attr name social.application:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11235,11 +11261,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toBottomOf
+     * @attr name social.application:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11255,20 +11281,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintTop_toTopOf
+     * @attr name social.application:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_bias
+     * @attr name social.application:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11282,20 +11308,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_chainStyle
+     * @attr name social.application:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintVertical_weight
+     * @attr name social.application:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11309,11 +11335,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_default
+     * @attr name social.application:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11330,11 +11356,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_max
+     * @attr name social.application:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=61;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11351,20 +11377,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_min
+     * @attr name social.application:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=62;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_constraintWidth_percent
+     * @attr name social.application:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=63;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11373,11 +11399,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteX
+     * @attr name social.application:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11386,11 +11412,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_editor_absoluteY
+     * @attr name social.application:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11399,11 +11425,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginBottom
+     * @attr name social.application:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11412,11 +11438,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginEnd
+     * @attr name social.application:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11425,11 +11451,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginLeft
+     * @attr name social.application:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11438,11 +11464,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginRight
+     * @attr name social.application:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11451,11 +11477,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginStart
+     * @attr name social.application:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11464,7 +11490,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_goneMarginTop
+     * @attr name social.application:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=71;
     /**
@@ -11474,8 +11500,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines sensormonitor.inf.unideb.hu.socialapplication:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground sensormonitor.inf.unideb.hu.socialapplication:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines social.application:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground social.application:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -11484,7 +11510,7 @@ public final class R {
         0x7f0400d8, 0x7f040168
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11492,11 +11518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:keylines
+     * @attr name social.application:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11507,7 +11533,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:statusBarBackground
+     * @attr name social.application:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -11518,12 +11544,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor sensormonitor.inf.unideb.hu.socialapplication:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity sensormonitor.inf.unideb.hu.socialapplication:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior sensormonitor.inf.unideb.hu.socialapplication:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges sensormonitor.inf.unideb.hu.socialapplication:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge sensormonitor.inf.unideb.hu.socialapplication:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline sensormonitor.inf.unideb.hu.socialapplication:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor social.application:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity social.application:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior social.application:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges social.application:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge social.application:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline social.application:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -11567,7 +11593,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11575,11 +11601,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_anchor
+     * @attr name social.application:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11604,21 +11630,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_anchorGravity
+     * @attr name social.application:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_behavior
+     * @attr name social.application:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11637,11 +11663,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_dodgeInsetEdges
+     * @attr name social.application:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11659,16 +11685,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_insetEdge
+     * @attr name social.application:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout_keyline
+     * @attr name social.application:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -11678,9 +11704,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme sensormonitor.inf.unideb.hu.socialapplication:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle sensormonitor.inf.unideb.hu.socialapplication:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError sensormonitor.inf.unideb.hu.socialapplication:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme social.application:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle social.application:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError social.application:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -11690,7 +11716,7 @@ public final class R {
         0x7f040041, 0x7f040042, 0x7f04018f
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11698,11 +11724,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:bottomSheetDialogTheme
+     * @attr name social.application:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11710,11 +11736,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:bottomSheetStyle
+     * @attr name social.application:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11725,7 +11751,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textColorError
+     * @attr name social.application:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -11735,14 +11761,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength sensormonitor.inf.unideb.hu.socialapplication:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength sensormonitor.inf.unideb.hu.socialapplication:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength sensormonitor.inf.unideb.hu.socialapplication:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color sensormonitor.inf.unideb.hu.socialapplication:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize sensormonitor.inf.unideb.hu.socialapplication:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars sensormonitor.inf.unideb.hu.socialapplication:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars sensormonitor.inf.unideb.hu.socialapplication:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness sensormonitor.inf.unideb.hu.socialapplication:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength social.application:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength social.application:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength social.application:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color social.application:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize social.application:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars social.application:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars social.application:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness social.application:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -11758,7 +11784,7 @@ public final class R {
         0x7f040096, 0x7f0400be, 0x7f04015f, 0x7f040192
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11767,11 +11793,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:arrowHeadLength
+     * @attr name social.application:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11780,11 +11806,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:arrowShaftLength
+     * @attr name social.application:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11793,22 +11819,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:barLength
+     * @attr name social.application:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#color}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:color
+     * @attr name social.application:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11817,11 +11843,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:drawableSize
+     * @attr name social.application:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11830,21 +11856,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:gapBetweenBars
+     * @attr name social.application:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:spinBars
+     * @attr name social.application:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11853,7 +11879,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:thickness
+     * @attr name social.application:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -11863,15 +11889,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint sensormonitor.inf.unideb.hu.socialapplication:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode sensormonitor.inf.unideb.hu.socialapplication:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth sensormonitor.inf.unideb.hu.socialapplication:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation sensormonitor.inf.unideb.hu.socialapplication:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize sensormonitor.inf.unideb.hu.socialapplication:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize sensormonitor.inf.unideb.hu.socialapplication:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ sensormonitor.inf.unideb.hu.socialapplication:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor sensormonitor.inf.unideb.hu.socialapplication:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding sensormonitor.inf.unideb.hu.socialapplication:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint social.application:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode social.application:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth social.application:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation social.application:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize social.application:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize social.application:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ social.application:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor social.application:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding social.application:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -11889,18 +11915,18 @@ public final class R {
         0x7f0401b6
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundTint
+     * @attr name social.application:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11917,11 +11943,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundTintMode
+     * @attr name social.application:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11930,11 +11956,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:borderWidth
+     * @attr name social.application:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11943,11 +11969,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:elevation
+     * @attr name social.application:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11956,11 +11982,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fabCustomSize
+     * @attr name social.application:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11974,11 +12000,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fabSize
+     * @attr name social.application:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11987,28 +12013,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:pressedTranslationZ
+     * @attr name social.application:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:rippleColor
+     * @attr name social.application:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:useCompatPadding
+     * @attr name social.application:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=8;
     /**
@@ -12018,7 +12044,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide sensormonitor.inf.unideb.hu.socialapplication:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide social.application:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -12026,13 +12052,13 @@ public final class R {
         0x7f04003a
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:behavior_autoHide
+     * @attr name social.application:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -12042,12 +12068,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority sensormonitor.inf.unideb.hu.socialapplication:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts sensormonitor.inf.unideb.hu.socialapplication:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy sensormonitor.inf.unideb.hu.socialapplication:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout sensormonitor.inf.unideb.hu.socialapplication:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage sensormonitor.inf.unideb.hu.socialapplication:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery sensormonitor.inf.unideb.hu.socialapplication:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority social.application:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts social.application:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy social.application:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout social.application:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage social.application:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery social.application:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -12061,17 +12087,17 @@ public final class R {
         0x7f0400b9, 0x7f0400ba
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontProviderAuthority
+     * @attr name social.application:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12079,11 +12105,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontProviderCerts
+     * @attr name social.application:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12096,11 +12122,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontProviderFetchStrategy
+     * @attr name social.application:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12113,27 +12139,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontProviderFetchTimeout
+     * @attr name social.application:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontProviderPackage
+     * @attr name social.application:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontProviderQuery
+     * @attr name social.application:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -12146,9 +12172,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font sensormonitor.inf.unideb.hu.socialapplication:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle sensormonitor.inf.unideb.hu.socialapplication:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight sensormonitor.inf.unideb.hu.socialapplication:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font social.application:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle social.application:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight social.application:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -12200,7 +12226,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#font}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12208,11 +12234,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:font
+     * @attr name social.application:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12225,16 +12251,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontStyle
+     * @attr name social.application:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontWeight
+     * @attr name social.application:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -12246,7 +12272,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding sensormonitor.inf.unideb.hu.socialapplication:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding social.application:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -12298,13 +12324,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:foregroundInsidePadding
+     * @attr name social.application:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -12350,10 +12376,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider sensormonitor.inf.unideb.hu.socialapplication:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding sensormonitor.inf.unideb.hu.socialapplication:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild sensormonitor.inf.unideb.hu.socialapplication:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers sensormonitor.inf.unideb.hu.socialapplication:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider social.application:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding social.application:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild social.application:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers social.application:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -12445,7 +12471,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#divider}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12453,11 +12479,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:divider
+     * @attr name social.application:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12466,21 +12492,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:dividerPadding
+     * @attr name social.application:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:measureWithLargestChild
+     * @attr name social.application:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12495,7 +12521,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:showDividers
+     * @attr name social.application:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -12651,9 +12677,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop sensormonitor.inf.unideb.hu.socialapplication:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio sensormonitor.inf.unideb.hu.socialapplication:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust sensormonitor.inf.unideb.hu.socialapplication:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop social.application:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio social.application:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust social.application:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -12663,26 +12689,26 @@ public final class R {
         0x7f040061, 0x7f0400cc, 0x7f0400cd
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:circleCrop
+     * @attr name social.application:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:imageAspectRatio
+     * @attr name social.application:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12696,7 +12722,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:imageAspectRatioAdjust
+     * @attr name social.application:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -12706,29 +12732,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MapAttrs_ambientEnabled sensormonitor.inf.unideb.hu.socialapplication:ambientEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraBearing sensormonitor.inf.unideb.hu.socialapplication:cameraBearing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference sensormonitor.inf.unideb.hu.socialapplication:cameraMaxZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference sensormonitor.inf.unideb.hu.socialapplication:cameraMinZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLat sensormonitor.inf.unideb.hu.socialapplication:cameraTargetLat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLng sensormonitor.inf.unideb.hu.socialapplication:cameraTargetLng}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTilt sensormonitor.inf.unideb.hu.socialapplication:cameraTilt}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraZoom sensormonitor.inf.unideb.hu.socialapplication:cameraZoom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_liteMode sensormonitor.inf.unideb.hu.socialapplication:liteMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_mapType sensormonitor.inf.unideb.hu.socialapplication:mapType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiCompass sensormonitor.inf.unideb.hu.socialapplication:uiCompass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiMapToolbar sensormonitor.inf.unideb.hu.socialapplication:uiMapToolbar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiRotateGestures sensormonitor.inf.unideb.hu.socialapplication:uiRotateGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGestures sensormonitor.inf.unideb.hu.socialapplication:uiScrollGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiTiltGestures sensormonitor.inf.unideb.hu.socialapplication:uiTiltGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomControls sensormonitor.inf.unideb.hu.socialapplication:uiZoomControls}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomGestures sensormonitor.inf.unideb.hu.socialapplication:uiZoomGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_useViewLifecycle sensormonitor.inf.unideb.hu.socialapplication:useViewLifecycle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_zOrderOnTop sensormonitor.inf.unideb.hu.socialapplication:zOrderOnTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_ambientEnabled social.application:ambientEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraBearing social.application:cameraBearing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference social.application:cameraMaxZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference social.application:cameraMinZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLat social.application:cameraTargetLat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLng social.application:cameraTargetLng}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTilt social.application:cameraTilt}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraZoom social.application:cameraZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude social.application:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude social.application:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude social.application:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude social.application:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_liteMode social.application:liteMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_mapType social.application:mapType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiCompass social.application:uiCompass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiMapToolbar social.application:uiMapToolbar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiRotateGestures social.application:uiRotateGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGestures social.application:uiScrollGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiTiltGestures social.application:uiTiltGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomControls social.application:uiZoomControls}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomGestures social.application:uiZoomGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_useViewLifecycle social.application:useViewLifecycle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_zOrderOnTop social.application:zOrderOnTop}</code></td><td></td></tr>
      * </table>
      * @see #MapAttrs_ambientEnabled
      * @see #MapAttrs_cameraBearing
@@ -12763,126 +12789,126 @@ public final class R {
         0x7f0401b5, 0x7f0401b7, 0x7f0401c4
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#ambientEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#ambientEnabled}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:ambientEnabled
+     * @attr name social.application:ambientEnabled
      */
     public static final int MapAttrs_ambientEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraBearing}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraBearing}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraBearing
+     * @attr name social.application:cameraBearing
      */
     public static final int MapAttrs_cameraBearing=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraMaxZoomPreference}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraMaxZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraMaxZoomPreference
+     * @attr name social.application:cameraMaxZoomPreference
      */
     public static final int MapAttrs_cameraMaxZoomPreference=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraMinZoomPreference}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraMinZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraMinZoomPreference
+     * @attr name social.application:cameraMinZoomPreference
      */
     public static final int MapAttrs_cameraMinZoomPreference=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraTargetLat}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraTargetLat}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraTargetLat
+     * @attr name social.application:cameraTargetLat
      */
     public static final int MapAttrs_cameraTargetLat=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraTargetLng}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraTargetLng}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraTargetLng
+     * @attr name social.application:cameraTargetLng
      */
     public static final int MapAttrs_cameraTargetLng=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraTilt}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraTilt}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraTilt
+     * @attr name social.application:cameraTilt
      */
     public static final int MapAttrs_cameraTilt=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#cameraZoom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#cameraZoom}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:cameraZoom
+     * @attr name social.application:cameraZoom
      */
     public static final int MapAttrs_cameraZoom=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#latLngBoundsNorthEastLatitude}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#latLngBoundsNorthEastLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsNorthEastLatitude
+     * @attr name social.application:latLngBoundsNorthEastLatitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLatitude=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#latLngBoundsNorthEastLongitude}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#latLngBoundsNorthEastLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsNorthEastLongitude
+     * @attr name social.application:latLngBoundsNorthEastLongitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLongitude=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#latLngBoundsSouthWestLatitude}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#latLngBoundsSouthWestLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsSouthWestLatitude
+     * @attr name social.application:latLngBoundsSouthWestLatitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLatitude=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#latLngBoundsSouthWestLongitude}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#latLngBoundsSouthWestLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:latLngBoundsSouthWestLongitude
+     * @attr name social.application:latLngBoundsSouthWestLongitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLongitude=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#liteMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#liteMode}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:liteMode
+     * @attr name social.application:liteMode
      */
     public static final int MapAttrs_liteMode=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#mapType}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#mapType}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12898,97 +12924,97 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:mapType
+     * @attr name social.application:mapType
      */
     public static final int MapAttrs_mapType=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiCompass}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiCompass}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiCompass
+     * @attr name social.application:uiCompass
      */
     public static final int MapAttrs_uiCompass=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiMapToolbar}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiMapToolbar}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiMapToolbar
+     * @attr name social.application:uiMapToolbar
      */
     public static final int MapAttrs_uiMapToolbar=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiRotateGestures}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiRotateGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiRotateGestures
+     * @attr name social.application:uiRotateGestures
      */
     public static final int MapAttrs_uiRotateGestures=16;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiScrollGestures}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiScrollGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiScrollGestures
+     * @attr name social.application:uiScrollGestures
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiTiltGestures}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiTiltGestures
+     * @attr name social.application:uiTiltGestures
      */
     public static final int MapAttrs_uiTiltGestures=18;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiZoomControls}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiZoomControls
+     * @attr name social.application:uiZoomControls
      */
     public static final int MapAttrs_uiZoomControls=19;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#uiZoomGestures}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:uiZoomGestures
+     * @attr name social.application:uiZoomGestures
      */
     public static final int MapAttrs_uiZoomGestures=20;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#useViewLifecycle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:useViewLifecycle
+     * @attr name social.application:useViewLifecycle
      */
     public static final int MapAttrs_useViewLifecycle=21;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#zOrderOnTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:zOrderOnTop
+     * @attr name social.application:zOrderOnTop
      */
     public static final int MapAttrs_zOrderOnTop=22;
     /**
@@ -13114,16 +13140,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout sensormonitor.inf.unideb.hu.socialapplication:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass sensormonitor.inf.unideb.hu.socialapplication:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass sensormonitor.inf.unideb.hu.socialapplication:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers sensormonitor.inf.unideb.hu.socialapplication:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription sensormonitor.inf.unideb.hu.socialapplication:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint sensormonitor.inf.unideb.hu.socialapplication:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode sensormonitor.inf.unideb.hu.socialapplication:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers sensormonitor.inf.unideb.hu.socialapplication:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction sensormonitor.inf.unideb.hu.socialapplication:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText sensormonitor.inf.unideb.hu.socialapplication:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout social.application:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass social.application:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass social.application:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers social.application:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription social.application:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint social.application:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode social.application:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers social.application:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction social.application:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText social.application:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -13300,7 +13326,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13308,31 +13334,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionLayout
+     * @attr name social.application:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionProviderClass
+     * @attr name social.application:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:actionViewClass
+     * @attr name social.application:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13349,32 +13375,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:alphabeticModifiers
+     * @attr name social.application:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentDescription
+     * @attr name social.application:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:iconTint
+     * @attr name social.application:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13391,11 +13417,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:iconTintMode
+     * @attr name social.application:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13412,11 +13438,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:numericModifiers
+     * @attr name social.application:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13432,17 +13458,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:showAsAction
+     * @attr name social.application:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tooltipText
+     * @attr name social.application:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -13459,8 +13485,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing sensormonitor.inf.unideb.hu.socialapplication:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow sensormonitor.inf.unideb.hu.socialapplication:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing social.application:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow social.application:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -13565,17 +13591,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:preserveIconSpacing
+     * @attr name social.application:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13583,7 +13609,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subMenuArrow
+     * @attr name social.application:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -13596,13 +13622,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation sensormonitor.inf.unideb.hu.socialapplication:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout sensormonitor.inf.unideb.hu.socialapplication:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground sensormonitor.inf.unideb.hu.socialapplication:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint sensormonitor.inf.unideb.hu.socialapplication:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance sensormonitor.inf.unideb.hu.socialapplication:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor sensormonitor.inf.unideb.hu.socialapplication:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu sensormonitor.inf.unideb.hu.socialapplication:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation social.application:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout social.application:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground social.application:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint social.application:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance social.application:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor social.application:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu social.application:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -13659,7 +13685,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13668,11 +13694,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:elevation
+     * @attr name social.application:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13680,11 +13706,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:headerLayout
+     * @attr name social.application:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13692,22 +13718,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemBackground
+     * @attr name social.application:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemIconTint
+     * @attr name social.application:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13715,22 +13741,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemTextAppearance
+     * @attr name social.application:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:itemTextColor
+     * @attr name social.application:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#menu}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13738,7 +13764,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:menu
+     * @attr name social.application:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -13750,7 +13776,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor sensormonitor.inf.unideb.hu.socialapplication:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor social.application:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -13787,13 +13813,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:overlapAnchor
+     * @attr name social.application:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -13803,7 +13829,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor sensormonitor.inf.unideb.hu.socialapplication:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor social.application:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -13811,13 +13837,13 @@ public final class R {
         0x7f040165
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:state_above_anchor
+     * @attr name social.application:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -13827,8 +13853,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons sensormonitor.inf.unideb.hu.socialapplication:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle sensormonitor.inf.unideb.hu.socialapplication:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons social.application:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle social.application:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -13837,7 +13863,7 @@ public final class R {
         0x7f040134, 0x7f040137
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13846,11 +13872,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:paddingBottomNoButtons
+     * @attr name social.application:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13859,7 +13885,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:paddingTopNoTitle
+     * @attr name social.application:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -13871,15 +13897,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled sensormonitor.inf.unideb.hu.socialapplication:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable sensormonitor.inf.unideb.hu.socialapplication:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable sensormonitor.inf.unideb.hu.socialapplication:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable sensormonitor.inf.unideb.hu.socialapplication:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable sensormonitor.inf.unideb.hu.socialapplication:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager sensormonitor.inf.unideb.hu.socialapplication:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout sensormonitor.inf.unideb.hu.socialapplication:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount sensormonitor.inf.unideb.hu.socialapplication:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd sensormonitor.inf.unideb.hu.socialapplication:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled social.application:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable social.application:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable social.application:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable social.application:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable social.application:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager social.application:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout social.application:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount social.application:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd social.application:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -13934,17 +13960,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fastScrollEnabled
+     * @attr name social.application:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13952,11 +13978,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fastScrollHorizontalThumbDrawable
+     * @attr name social.application:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13964,11 +13990,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fastScrollHorizontalTrackDrawable
+     * @attr name social.application:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13976,11 +14002,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fastScrollVerticalThumbDrawable
+     * @attr name social.application:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13988,46 +14014,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fastScrollVerticalTrackDrawable
+     * @attr name social.application:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layoutManager
+     * @attr name social.application:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:reverseLayout
+     * @attr name social.application:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:spanCount
+     * @attr name social.application:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:stackFromEnd
+     * @attr name social.application:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -14037,7 +14063,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground sensormonitor.inf.unideb.hu.socialapplication:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground social.application:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -14045,7 +14071,7 @@ public final class R {
         0x7f0400d1
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14056,7 +14082,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:insetForeground
+     * @attr name social.application:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -14066,7 +14092,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop sensormonitor.inf.unideb.hu.socialapplication:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop social.application:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -14074,7 +14100,7 @@ public final class R {
         0x7f04003c
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14083,7 +14109,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:behavior_overlapTop
+     * @attr name social.application:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -14097,19 +14123,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon sensormonitor.inf.unideb.hu.socialapplication:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon sensormonitor.inf.unideb.hu.socialapplication:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint sensormonitor.inf.unideb.hu.socialapplication:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon sensormonitor.inf.unideb.hu.socialapplication:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault sensormonitor.inf.unideb.hu.socialapplication:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout sensormonitor.inf.unideb.hu.socialapplication:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground sensormonitor.inf.unideb.hu.socialapplication:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint sensormonitor.inf.unideb.hu.socialapplication:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon sensormonitor.inf.unideb.hu.socialapplication:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon sensormonitor.inf.unideb.hu.socialapplication:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground sensormonitor.inf.unideb.hu.socialapplication:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout sensormonitor.inf.unideb.hu.socialapplication:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon sensormonitor.inf.unideb.hu.socialapplication:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon social.application:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon social.application:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint social.application:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon social.application:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault social.application:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout social.application:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground social.application:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint social.application:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon social.application:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon social.application:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground social.application:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout social.application:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon social.application:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -14247,7 +14273,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14255,11 +14281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:closeIcon
+     * @attr name social.application:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14267,21 +14293,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:commitIcon
+     * @attr name social.application:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:defaultQueryHint
+     * @attr name social.application:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14289,21 +14315,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:goIcon
+     * @attr name social.application:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:iconifiedByDefault
+     * @attr name social.application:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#layout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14311,11 +14337,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:layout
+     * @attr name social.application:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14323,21 +14349,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:queryBackground
+     * @attr name social.application:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:queryHint
+     * @attr name social.application:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14345,11 +14371,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:searchHintIcon
+     * @attr name social.application:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14357,11 +14383,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:searchIcon
+     * @attr name social.application:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14369,11 +14395,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:submitBackground
+     * @attr name social.application:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14381,11 +14407,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:suggestionRowLayout
+     * @attr name social.application:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14393,7 +14419,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:voiceIcon
+     * @attr name social.application:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -14403,9 +14429,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize sensormonitor.inf.unideb.hu.socialapplication:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme sensormonitor.inf.unideb.hu.socialapplication:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris sensormonitor.inf.unideb.hu.socialapplication:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize social.application:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme social.application:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris social.application:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -14415,7 +14441,7 @@ public final class R {
         0x7f04004b, 0x7f040072, 0x7f04014f
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14433,11 +14459,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonSize
+     * @attr name social.application:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14455,11 +14481,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:colorScheme
+     * @attr name social.application:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14469,7 +14495,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:scopeUris
+     * @attr name social.application:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -14480,8 +14506,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation sensormonitor.inf.unideb.hu.socialapplication:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth sensormonitor.inf.unideb.hu.socialapplication:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation social.application:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth social.application:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -14504,7 +14530,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14513,11 +14539,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:elevation
+     * @attr name social.application:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14526,7 +14552,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:maxActionInlineWidth
+     * @attr name social.application:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -14536,7 +14562,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SpacedEditText_spacingProportion sensormonitor.inf.unideb.hu.socialapplication:spacingProportion}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SpacedEditText_spacingProportion social.application:spacingProportion}</code></td><td></td></tr>
      * </table>
      * @see #SpacedEditText_spacingProportion
      */
@@ -14544,12 +14570,12 @@ public final class R {
         0x7f04015d
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#spacingProportion}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#spacingProportion}
      * attribute's value can be found in the {@link #SpacedEditText} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:spacingProportion
+     * @attr name social.application:spacingProportion
      */
     public static final int SpacedEditText_spacingProportion=0;
     /**
@@ -14563,7 +14589,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme sensormonitor.inf.unideb.hu.socialapplication:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme social.application:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -14638,7 +14664,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14646,7 +14672,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:popupTheme
+     * @attr name social.application:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -14656,10 +14682,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableBottomCompat sensormonitor.inf.unideb.hu.socialapplication:drawableBottomCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableEndCompat sensormonitor.inf.unideb.hu.socialapplication:drawableEndCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableStartCompat sensormonitor.inf.unideb.hu.socialapplication:drawableStartCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableTopCompat sensormonitor.inf.unideb.hu.socialapplication:drawableTopCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableBottomCompat social.application:drawableBottomCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableEndCompat social.application:drawableEndCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableStartCompat social.application:drawableStartCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SupportVectorDrawablesButton_drawableTopCompat social.application:drawableTopCompat}</code></td><td></td></tr>
      * </table>
      * @see #SupportVectorDrawablesButton_drawableBottomCompat
      * @see #SupportVectorDrawablesButton_drawableEndCompat
@@ -14670,7 +14696,7 @@ public final class R {
         0x7f040094, 0x7f040095, 0x7f040097, 0x7f040098
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#drawableBottomCompat}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#drawableBottomCompat}
      * attribute's value can be found in the {@link #SupportVectorDrawablesButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14678,11 +14704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:drawableBottomCompat
+     * @attr name social.application:drawableBottomCompat
      */
     public static final int SupportVectorDrawablesButton_drawableBottomCompat=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#drawableEndCompat}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#drawableEndCompat}
      * attribute's value can be found in the {@link #SupportVectorDrawablesButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14690,11 +14716,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:drawableEndCompat
+     * @attr name social.application:drawableEndCompat
      */
     public static final int SupportVectorDrawablesButton_drawableEndCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#drawableStartCompat}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#drawableStartCompat}
      * attribute's value can be found in the {@link #SupportVectorDrawablesButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14702,11 +14728,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:drawableStartCompat
+     * @attr name social.application:drawableStartCompat
      */
     public static final int SupportVectorDrawablesButton_drawableStartCompat=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#drawableTopCompat}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#drawableTopCompat}
      * attribute's value can be found in the {@link #SupportVectorDrawablesButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14714,7 +14740,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:drawableTopCompat
+     * @attr name social.application:drawableTopCompat
      */
     public static final int SupportVectorDrawablesButton_drawableTopCompat=3;
     /**
@@ -14727,17 +14753,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText sensormonitor.inf.unideb.hu.socialapplication:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack sensormonitor.inf.unideb.hu.socialapplication:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth sensormonitor.inf.unideb.hu.socialapplication:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding sensormonitor.inf.unideb.hu.socialapplication:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance sensormonitor.inf.unideb.hu.socialapplication:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding sensormonitor.inf.unideb.hu.socialapplication:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint sensormonitor.inf.unideb.hu.socialapplication:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode sensormonitor.inf.unideb.hu.socialapplication:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track sensormonitor.inf.unideb.hu.socialapplication:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint sensormonitor.inf.unideb.hu.socialapplication:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode sensormonitor.inf.unideb.hu.socialapplication:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText social.application:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack social.application:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth social.application:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding social.application:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance social.application:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding social.application:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint social.application:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode social.application:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track social.application:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint social.application:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode social.application:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -14793,27 +14819,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#showText}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:showText
+     * @attr name social.application:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:splitTrack
+     * @attr name social.application:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14822,11 +14848,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:switchMinWidth
+     * @attr name social.application:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14835,11 +14861,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:switchPadding
+     * @attr name social.application:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14847,11 +14873,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:switchTextAppearance
+     * @attr name social.application:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14860,22 +14886,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:thumbTextPadding
+     * @attr name social.application:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:thumbTint
+     * @attr name social.application:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14892,11 +14918,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:thumbTintMode
+     * @attr name social.application:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#track}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14904,22 +14930,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:track
+     * @attr name social.application:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:trackTint
+     * @attr name social.application:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14936,7 +14962,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:trackTintMode
+     * @attr name social.application:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -14998,22 +15024,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground sensormonitor.inf.unideb.hu.socialapplication:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart sensormonitor.inf.unideb.hu.socialapplication:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity sensormonitor.inf.unideb.hu.socialapplication:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor sensormonitor.inf.unideb.hu.socialapplication:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight sensormonitor.inf.unideb.hu.socialapplication:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth sensormonitor.inf.unideb.hu.socialapplication:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth sensormonitor.inf.unideb.hu.socialapplication:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode sensormonitor.inf.unideb.hu.socialapplication:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding sensormonitor.inf.unideb.hu.socialapplication:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom sensormonitor.inf.unideb.hu.socialapplication:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd sensormonitor.inf.unideb.hu.socialapplication:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart sensormonitor.inf.unideb.hu.socialapplication:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop sensormonitor.inf.unideb.hu.socialapplication:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor sensormonitor.inf.unideb.hu.socialapplication:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance sensormonitor.inf.unideb.hu.socialapplication:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor sensormonitor.inf.unideb.hu.socialapplication:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground social.application:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart social.application:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity social.application:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor social.application:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight social.application:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth social.application:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth social.application:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode social.application:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding social.application:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom social.application:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd social.application:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart social.application:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop social.application:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor social.application:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance social.application:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor social.application:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -15039,7 +15065,7 @@ public final class R {
         0x7f040181, 0x7f040182, 0x7f040183, 0x7f040184
       };
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15047,11 +15073,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabBackground
+     * @attr name social.application:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15060,11 +15086,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabContentStart
+     * @attr name social.application:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15077,22 +15103,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabGravity
+     * @attr name social.application:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabIndicatorColor
+     * @attr name social.application:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15101,11 +15127,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabIndicatorHeight
+     * @attr name social.application:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15114,11 +15140,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabMaxWidth
+     * @attr name social.application:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15127,11 +15153,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabMinWidth
+     * @attr name social.application:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15144,11 +15170,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabMode
+     * @attr name social.application:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15157,11 +15183,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabPadding
+     * @attr name social.application:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15170,11 +15196,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabPaddingBottom
+     * @attr name social.application:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15183,11 +15209,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabPaddingEnd
+     * @attr name social.application:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15196,11 +15222,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabPaddingStart
+     * @attr name social.application:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15209,22 +15235,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabPaddingTop
+     * @attr name social.application:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabSelectedTextColor
+     * @attr name social.application:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15232,18 +15258,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabTextAppearance
+     * @attr name social.application:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:tabTextColor
+     * @attr name social.application:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -15264,8 +15290,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily sensormonitor.inf.unideb.hu.socialapplication:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps sensormonitor.inf.unideb.hu.socialapplication:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily social.application:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps social.application:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -15431,17 +15457,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:fontFamily
+     * @attr name social.application:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15451,7 +15477,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:textAllCaps
+     * @attr name social.application:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -15463,20 +15489,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled sensormonitor.inf.unideb.hu.socialapplication:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength sensormonitor.inf.unideb.hu.socialapplication:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance sensormonitor.inf.unideb.hu.socialapplication:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance sensormonitor.inf.unideb.hu.socialapplication:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled sensormonitor.inf.unideb.hu.socialapplication:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance sensormonitor.inf.unideb.hu.socialapplication:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled sensormonitor.inf.unideb.hu.socialapplication:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled sensormonitor.inf.unideb.hu.socialapplication:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance sensormonitor.inf.unideb.hu.socialapplication:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription sensormonitor.inf.unideb.hu.socialapplication:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable sensormonitor.inf.unideb.hu.socialapplication:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled sensormonitor.inf.unideb.hu.socialapplication:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint sensormonitor.inf.unideb.hu.socialapplication:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode sensormonitor.inf.unideb.hu.socialapplication:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled social.application:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength social.application:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance social.application:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance social.application:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled social.application:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance social.application:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled social.application:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled social.application:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance social.application:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription social.application:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable social.application:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled social.application:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint social.application:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode social.application:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -15527,26 +15553,26 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:counterEnabled
+     * @attr name social.application:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:counterMaxLength
+     * @attr name social.application:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15554,11 +15580,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:counterOverflowTextAppearance
+     * @attr name social.application:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15566,21 +15592,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:counterTextAppearance
+     * @attr name social.application:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:errorEnabled
+     * @attr name social.application:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15588,31 +15614,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:errorTextAppearance
+     * @attr name social.application:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:hintAnimationEnabled
+     * @attr name social.application:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:hintEnabled
+     * @attr name social.application:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15620,21 +15646,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:hintTextAppearance
+     * @attr name social.application:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:passwordToggleContentDescription
+     * @attr name social.application:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15642,32 +15668,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:passwordToggleDrawable
+     * @attr name social.application:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:passwordToggleEnabled
+     * @attr name social.application:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:passwordToggleTint
+     * @attr name social.application:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15683,7 +15709,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:passwordToggleTintMode
+     * @attr name social.application:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -15695,33 +15721,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity sensormonitor.inf.unideb.hu.socialapplication:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription sensormonitor.inf.unideb.hu.socialapplication:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon sensormonitor.inf.unideb.hu.socialapplication:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd sensormonitor.inf.unideb.hu.socialapplication:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions sensormonitor.inf.unideb.hu.socialapplication:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft sensormonitor.inf.unideb.hu.socialapplication:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight sensormonitor.inf.unideb.hu.socialapplication:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart sensormonitor.inf.unideb.hu.socialapplication:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation sensormonitor.inf.unideb.hu.socialapplication:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo sensormonitor.inf.unideb.hu.socialapplication:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription sensormonitor.inf.unideb.hu.socialapplication:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight sensormonitor.inf.unideb.hu.socialapplication:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription sensormonitor.inf.unideb.hu.socialapplication:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon sensormonitor.inf.unideb.hu.socialapplication:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme sensormonitor.inf.unideb.hu.socialapplication:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle sensormonitor.inf.unideb.hu.socialapplication:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance sensormonitor.inf.unideb.hu.socialapplication:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor sensormonitor.inf.unideb.hu.socialapplication:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title sensormonitor.inf.unideb.hu.socialapplication:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin sensormonitor.inf.unideb.hu.socialapplication:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom sensormonitor.inf.unideb.hu.socialapplication:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd sensormonitor.inf.unideb.hu.socialapplication:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart sensormonitor.inf.unideb.hu.socialapplication:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop sensormonitor.inf.unideb.hu.socialapplication:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins sensormonitor.inf.unideb.hu.socialapplication:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance sensormonitor.inf.unideb.hu.socialapplication:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor sensormonitor.inf.unideb.hu.socialapplication:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity social.application:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription social.application:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon social.application:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd social.application:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions social.application:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft social.application:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight social.application:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart social.application:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation social.application:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo social.application:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription social.application:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight social.application:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription social.application:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon social.application:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme social.application:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle social.application:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance social.application:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor social.application:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title social.application:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin social.application:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom social.application:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd social.application:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart social.application:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop social.application:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins social.application:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance social.application:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor social.application:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -15806,7 +15832,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15819,21 +15845,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:buttonGravity
+     * @attr name social.application:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:collapseContentDescription
+     * @attr name social.application:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15841,11 +15867,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:collapseIcon
+     * @attr name social.application:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15854,11 +15880,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetEnd
+     * @attr name social.application:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15867,11 +15893,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetEndWithActions
+     * @attr name social.application:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15880,11 +15906,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetLeft
+     * @attr name social.application:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15893,11 +15919,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetRight
+     * @attr name social.application:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15906,11 +15932,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetStart
+     * @attr name social.application:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15919,11 +15945,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:contentInsetStartWithNavigation
+     * @attr name social.application:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#logo}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15931,21 +15957,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:logo
+     * @attr name social.application:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:logoDescription
+     * @attr name social.application:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15954,21 +15980,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:maxButtonHeight
+     * @attr name social.application:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:navigationContentDescription
+     * @attr name social.application:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15976,11 +16002,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:navigationIcon
+     * @attr name social.application:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15988,21 +16014,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:popupTheme
+     * @attr name social.application:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subtitle
+     * @attr name social.application:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16010,32 +16036,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subtitleTextAppearance
+     * @attr name social.application:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:subtitleTextColor
+     * @attr name social.application:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#title}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:title
+     * @attr name social.application:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16044,11 +16070,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleMargin
+     * @attr name social.application:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16057,11 +16083,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleMarginBottom
+     * @attr name social.application:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16070,11 +16096,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleMarginEnd
+     * @attr name social.application:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16083,11 +16109,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleMarginStart
+     * @attr name social.application:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16096,11 +16122,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleMarginTop
+     * @attr name social.application:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16109,11 +16135,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleMargins
+     * @attr name social.application:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16121,18 +16147,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleTextAppearance
+     * @attr name social.application:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:titleTextColor
+     * @attr name social.application:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -16144,9 +16170,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd sensormonitor.inf.unideb.hu.socialapplication:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart sensormonitor.inf.unideb.hu.socialapplication:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme sensormonitor.inf.unideb.hu.socialapplication:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd social.application:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart social.application:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme social.application:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -16189,7 +16215,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16198,11 +16224,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:paddingEnd
+     * @attr name social.application:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16211,11 +16237,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:paddingStart
+     * @attr name social.application:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#theme}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16223,7 +16249,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:theme
+     * @attr name social.application:theme
      */
     public static final int View_theme=4;
     /**
@@ -16234,8 +16260,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint sensormonitor.inf.unideb.hu.socialapplication:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode sensormonitor.inf.unideb.hu.socialapplication:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint social.application:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode social.application:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -16260,18 +16286,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundTint
+     * @attr name social.application:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link sensormonitor.inf.unideb.hu.socialapplication.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link social.application.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16288,7 +16314,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name sensormonitor.inf.unideb.hu.socialapplication:backgroundTintMode
+     * @attr name social.application:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

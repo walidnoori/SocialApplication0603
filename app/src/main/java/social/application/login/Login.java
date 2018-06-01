@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -110,7 +111,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 firebaseAuthWithGoogle(account);
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
-                //Log.w(TAG, "Google sign in failed", e);
+                Log.w("ERROR", "Google sign in failed", e);
                 // ...
             }
         }
@@ -133,7 +134,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
                         } else {
                             // If sign in fails, display a message to the user.
-                            //Log.w(TAG, "signInWithCredential:failure", task.getException());
+                            Log.w("ERROE", "signInWithCredential:failure", task.getException());
                             //Snackbar.make(findViewById(R.id.main_layout), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
 
                         }

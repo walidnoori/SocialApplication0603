@@ -21,5 +21,6 @@
     <string name="_1_5k">1.5k</string>
     <string name="follow">follow</string>
     <string name="todo">todo</string>
-    <string name="google_places_api_key">AIzaSyAQbLZvt9yRBk0MDh55g96qHdayYTEX7-I</string>
+    <string name="google_places_api_key">AIzaSyDY5ZV3HY2wqs7V7jKd3SXQwHtnA_UT0Bw</string>
+    <string name="title_activity_event_viewer">EventViewerActivity</string>
 </resources>

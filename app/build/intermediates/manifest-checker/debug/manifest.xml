@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sensormonitor.inf.unideb.hu.socialapplication"
+    package="social.application"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -28,10 +28,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="sensormonitor.inf.unideb.hu.socialapplication.permission.C2D_MESSAGE"
+        android:name="social.application.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="sensormonitor.inf.unideb.hu.socialapplication.permission.C2D_MESSAGE" />
+    <uses-permission android:name="social.application.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
@@ -106,6 +106,10 @@
             android:value="@string/google_places_api_key" />
 
         <activity android:name="social.application.ImagesActivity" />
+        <activity
+            android:name="social.application.events.EventViewerActivity"
+            android:label="@string/title_activity_event_viewer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -177,7 +181,7 @@
 
         <provider
             android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
-            android:authorities="sensormonitor.inf.unideb.hu.socialapplication.authuiinitprovider"
+            android:authorities="social.application.authuiinitprovider"
             android:exported="false"
             android:initOrder="90" />
 
@@ -233,7 +237,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="sensormonitor.inf.unideb.hu.socialapplication" />
+                <category android:name="social.application" />
             </intent-filter>
         </receiver>
         <!--
@@ -269,17 +273,17 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="sensormonitor.inf.unideb.hu.socialapplication.firebaseinitprovider"
+            android:authorities="social.application.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="sensormonitor.inf.unideb.hu.socialapplication.lifecycle-trojan"
+            android:authorities="social.application.lifecycle-trojan"
             android:exported="false"
             android:multiprocess="true" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="sensormonitor.inf.unideb.hu.socialapplication.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="social.application.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

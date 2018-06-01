@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sensormonitor.inf.unideb.hu.socialapplication.test" >
+    package="social.application.test" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for sensormonitor.inf.unideb.hu.socialapplication"
-        android:targetPackage="sensormonitor.inf.unideb.hu.socialapplication" />
+        android:label="Tests for social.application"
+        android:targetPackage="social.application" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

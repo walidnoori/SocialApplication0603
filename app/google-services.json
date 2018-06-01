@@ -1,95 +1,39 @@
 {
   "project_info": {
-    "project_number": "175740982941",
-    "firebase_url": "https://socialapplication-fd64b.firebaseio.com",
-    "project_id": "socialapplication-fd64b",
-    "storage_bucket": "socialapplication-fd64b.appspot.com"
+    "project_number": "705938809235",
+    "firebase_url": "https://socialapplication02.firebaseio.com",
+    "project_id": "socialapplication02",
+    "storage_bucket": "socialapplication02.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:175740982941:android:4413dee6cfda2967",
+        "mobilesdk_app_id": "1:705938809235:android:0e935c1620b20674",
         "android_client_info": {
-          "package_name": "com.app.social.socialapp"
+          "package_name": "social.application"
         }
       },
       "oauth_client": [
         {
-          "client_id": "175740982941-1oa1vi6lk2ejdkd1dq4rl1h9i3lsjfd6.apps.googleusercontent.com",
+          "client_id": "705938809235-m4ef37bhc185t7pdgmmd35nn4ovd6k4a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.app.social.socialapp",
-            "certificate_hash": "45bd3d6d0d201d92031561aed8794ed910c270d1"
-          }
-        },
-        {
-          "client_id": "175740982941-losmsa4ivmk4b5tlooa1l58rhjifqast.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBGMmjgr0E9Qbksg2dJ4_h6gkh8r0rbr54"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "175740982941-losmsa4ivmk4b5tlooa1l58rhjifqast.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:175740982941:android:39fead4199f0ed91",
-        "android_client_info": {
-          "package_name": "sensormonitor.inf.unideb.hu.socialapplication"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "175740982941-i8nnhb1ifdlg7hccnah3s51c8du23mn1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "sensormonitor.inf.unideb.hu.socialapplication",
+            "package_name": "social.application",
             "certificate_hash": "8246cf74bdbe0618f777f9dc34f4a6a14e286ac5"
           }
         },
         {
-          "client_id": "175740982941-l5btp6dug03856irjvuklk1p0ejqf39k.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "sensormonitor.inf.unideb.hu.socialapplication",
-            "certificate_hash": "263b8272493399f9971cf7772d9d849fe33561c5"
-          }
+          "client_id": "705938809235-cqnn703t03m1uigr5jf7tf6v6uunb5pl.apps.googleusercontent.com",
+          "client_type": 3
         },
         {
-          "client_id": "175740982941-qdna6klltbrkg5qo0dgbke7hdmtfrd84.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "sensormonitor.inf.unideb.hu.socialapplication",
-            "certificate_hash": "45bd3d6d0d201d92031561aed8794ed910c270d1"
-          }
-        },
-        {
-          "client_id": "175740982941-losmsa4ivmk4b5tlooa1l58rhjifqast.apps.googleusercontent.com",
+          "client_id": "705938809235-cqnn703t03m1uigr5jf7tf6v6uunb5pl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBGMmjgr0E9Qbksg2dJ4_h6gkh8r0rbr54"
+          "current_key": "AIzaSyDY5ZV3HY2wqs7V7jKd3SXQwHtnA_UT0Bw"
         }
       ],
       "services": {
@@ -100,7 +44,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "175740982941-losmsa4ivmk4b5tlooa1l58rhjifqast.apps.googleusercontent.com",
+              "client_id": "705938809235-cqnn703t03m1uigr5jf7tf6v6uunb5pl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

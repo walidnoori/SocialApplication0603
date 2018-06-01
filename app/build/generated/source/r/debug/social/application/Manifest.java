@@ -9,7 +9,7 @@ package social.application;
 
 public final class Manifest {
   public static final class permission {
-    public static final String C2D_MESSAGE="sensormonitor.inf.unideb.hu.socialapplication.permission.C2D_MESSAGE";
+    public static final String C2D_MESSAGE="social.application.permission.C2D_MESSAGE";
   }
 
 }

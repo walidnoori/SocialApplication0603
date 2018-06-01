@@ -8,6 +8,6 @@ package com.google.firebase.crash;
 
 public final class R {
     public static final class id {
-        public static final int crash_reporting_present = 0x7f0a004e;
+        public static final int crash_reporting_present = 0x7f0a0052;
     }
 }
