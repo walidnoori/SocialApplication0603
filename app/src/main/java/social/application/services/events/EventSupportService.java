@@ -2,17 +2,15 @@ package social.application.services.events;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -28,10 +26,8 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -39,9 +35,8 @@ import java.util.Map;
 import social.application.R;
 import social.application.events.EventViewerActivity;
 import social.application.events.EventsActivity;
-import social.application.mainpage.MainPageFragment;
+import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
 
-import static android.content.ContentValues.TAG;
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 /**
@@ -54,7 +49,7 @@ public  class EventSupportService {
 
     private static Context context;
 
-    private static LinearLayout parentView;
+    private static FrameLayout parentView;
 
     private static FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -68,22 +63,22 @@ public  class EventSupportService {
         eventsRef.child(String.valueOf(event.getId())).setValue(event);
     }
 
-    public static void getAllEvents(LinearLayout parent, Context ctx){
+    public static void addAllEventsToPagerAdapter(final MainMenuEventsPagerAdapter adapter, Context ctx){
         context = ctx;
-        parentView = parent;
+
         events = new ArrayList<Event>();
         DatabaseReference eventsRef = database.getReference("events");
         eventsRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                parentView.removeAllViews();
+                adapter.removeAllItems();
 
                 for (DataSnapshot eventSnapShot: dataSnapshot.getChildren()) {
                     Map<String, Object> eventMap = (Map<String, Object>)eventSnapShot.getValue();
                     Event event = toEvent(eventMap);
                     events.add(event);
-                    createEventLayout(event);
-                    Log.d("INFO:", events.toString());
+                    adapter.addEventFragment(event);
+                    Log.d("INFO:", event.toString());
                 }
             }
 
@@ -94,7 +89,9 @@ public  class EventSupportService {
         });
     }
 
-    public static void createEventLayout(final Event event){
+    public static void createEventLayout(final Event event, FrameLayout parent){
+
+        parentView = parent;
 
         Integer id = event.getId().hashCode();
 

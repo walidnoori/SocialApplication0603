@@ -102,7 +102,7 @@
                 android:layout_marginBottom="2dp"
                 android:layout_marginRight="2dp">
 
-                <!--<LinearLayout-->
+                <!--<FrameLayout-->
                     <!--android:layout_width="match_parent"-->
                     <!--android:layout_height="match_parent"-->
                     <!--android:orientation="horizontal">-->
@@ -115,6 +115,12 @@
                         <!--android:scaleType="fitXY"-->
                         <!--android:src="@drawable/coffee"-->
                         <!--/>-->
+                <!--</FrameLayout>-->
+
+                <!--<FrameLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="horizontal">-->
 
                     <!--<ImageView-->
                         <!--android:id="@+id/breakfast"-->
@@ -123,85 +129,32 @@
                         <!--android:scaleType="fitXY"-->
                         <!--android:src="@drawable/breakfast"-->
                         <!--/>-->
+                <!--</FrameLayout>-->
 
-                    <!--<ImageView-->
-                        <!--android:id="@+id/travel"-->
-                        <!--android:layout_width="170dp"-->
-                        <!--android:layout_height="210dp"-->
-                        <!--android:layout_marginEnd="5dp"-->
-                        <!--android:scaleType="fitXY"-->
-                        <!--android:src="@drawable/travel"-->
-                        <!--/>-->
+                <!--<FrameLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:orientation="horizontal">-->
 
-                <!--</LinearLayout>-->
+                <!--<ImageView-->
+                    <!--android:id="@+id/travel"-->
+                    <!--android:layout_width="170dp"-->
+                    <!--android:layout_height="210dp"-->
+                    <!--android:layout_marginEnd="5dp"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@drawable/travel"-->
+                    <!--/>-->
+                <!--</FrameLayout>-->
 
             </android.support.v4.view.ViewPager>
 
-            <HorizontalScrollView
+            <android.support.v4.view.ViewPager
+                android:id="@+id/main_page_events_container"
                 android:layout_width="170dp"
                 android:layout_height="210dp"
                 android:scrollbars="none"
                 android:layout_marginBottom="2dp"
-                android:layout_marginLeft="2dp">
-
-                <LinearLayout
-                    android:id="@+id/main_page_events_container"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <!--<RelativeLayout-->
-                        <!--android:layout_width="160dp"-->
-                        <!--android:layout_height="160dp">-->
-
-                        <!--<ImageView-->
-                            <!--android:id="@+id/event_img_05"-->
-                            <!--android:layout_width="160dp"-->
-                            <!--android:layout_height="160dp"-->
-                            <!--android:background="@android:color/transparent"-->
-                            <!--android:scaleType="fitXY"-->
-                            <!--android:src="@drawable/concert_small" />-->
-
-                        <!--<TextView-->
-                            <!--android:id="@+id/your_events_12_title"-->
-                            <!--style="@style/RecommendedEventsTitleTextStyle"-->
-                            <!--android:text="#basketball #play" />-->
-
-                        <!--<TextView-->
-                            <!--android:id="@+id/your_events_12_location"-->
-                            <!--style="@style/RecommendedEventsDescriptionTextStyle"-->
-                            <!--android:layout_alignParentBottom="true"-->
-                            <!--android:paddingBottom="2dp"-->
-                            <!--android:paddingTop="1dp"-->
-                            <!--android:text="Victoria Rd 5." />-->
-
-                        <!--<TextView-->
-                            <!--android:id="@+id/your_events_12_time"-->
-                            <!--style="@style/RecommendedEventsDescriptionTextStyle"-->
-                            <!--android:layout_above="@id/your_events_12_location"-->
-                            <!--android:paddingBottom="1dp"-->
-                            <!--android:paddingTop="2dp"-->
-                            <!--android:text="Tomorrow" />-->
-
-                    <!--</RelativeLayout>-->
-
-                    <!--<RelativeLayout-->
-                        <!--style="@style/YourEventsRelativeLayoutStyle"-->
-                        <!--android:layout_width="160dp"-->
-                        <!--android:layout_height="160dp">-->
-
-                        <!--<ImageView-->
-                            <!--android:id="@+id/event_img_06"-->
-                            <!--android:layout_width="match_parent"-->
-                            <!--android:layout_height="match_parent"-->
-                            <!--android:background="@android:color/transparent"-->
-                            <!--android:scaleType="fitXY"-->
-                            <!--android:src="@drawable/group9" />-->
-
-                    <!--</RelativeLayout>-->
-                </LinearLayout>
-
-            </HorizontalScrollView>
+                android:layout_marginLeft="2dp"/>
 
         </LinearLayout>
 

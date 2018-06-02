@@ -792,6 +792,10 @@
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.1.aar\\d6256bb66e97c0ca02a5addf88c118b0\\res\\drawable-mdpi-v4\\places_ic_clear.png"
     },
     {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_menu_event.xml.flat",
+        "source": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\src\\main\\res\\layout\\fragment_main_menu_event.xml"
+    },
+    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_girl.png.flat",
         "source": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\src\\main\\res\\drawable\\girl.png"
     },

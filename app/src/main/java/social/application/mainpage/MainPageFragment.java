@@ -8,27 +8,19 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import social.application.R;
-import social.application.Story.story;
-import social.application.events.EventsActivity;
-import social.application.explore.ExploreActivity;
-import social.application.following.FollowingActivity;
-import social.application.Story.story;
 import social.application.main.MainActivity;
+import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
+import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.personalactivities.PersonalActivitiesFragment;
 import social.application.services.events.Event;
 import social.application.services.events.EventSupportService;
@@ -40,25 +32,25 @@ public class MainPageFragment extends Fragment {
 
     private ImageButton profileBtn;
 
-    private ImageButton liveBtn;
-
-    private ImageButton eventsBtn;
-
-    private ImageButton exploreBtn;
-
-    private ImageButton followingBtn;
-
     private TextView personalActivitiesBtn;
 
     private View rootView;
 
-    private LinearLayout eventsContainer;
-
-    private List<Event> events;
-
     private ViewPager storyViewPager;
 
     private PagerAdapter storyViewPagerAdapter;
+
+    private ViewPager eventViewPager;
+
+    private PagerAdapter eventViewPagerAdapter;
+
+    private ViewPager exploreViewPager;
+
+    private PagerAdapter exploreViewPagerAdapter;
+
+    private ViewPager followingsViewPager;
+
+    private PagerAdapter followingsViewPagerAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -70,13 +62,32 @@ public class MainPageFragment extends Fragment {
 
     public void init(){
         initEvents();
+        initStories();
+        initExplore();
+        initFollowings();
         initViewElements();
-
+        initBtnOnClickListeners();
     }
 
     public void initEvents(){
-        eventsContainer = (LinearLayout)rootView.findViewById(R.id.main_page_events_container);
-        EventSupportService.getAllEvents(eventsContainer, getContext());
+        eventViewPagerAdapter = new MainMenuEventsPagerAdapter(getActivity().getSupportFragmentManager());
+        eventViewPager = (ViewPager)rootView.findViewById(R.id.main_page_events_container);
+        eventViewPager.setAdapter(eventViewPagerAdapter);
+        EventSupportService.addAllEventsToPagerAdapter((MainMenuEventsPagerAdapter) eventViewPagerAdapter, getContext());
+    }
+
+    public void initStories(){
+        storyViewPagerAdapter = new MainMenuStoryPagerAdapter(getActivity().getSupportFragmentManager());
+        storyViewPager = (ViewPager)rootView.findViewById(R.id.main_live_story_view_pager);
+        storyViewPager.setAdapter(storyViewPagerAdapter);
+    }
+
+    public void initExplore(){
+
+    }
+
+    public void initFollowings(){
+
     }
 
     public void initViewElements() {
@@ -87,12 +98,6 @@ public class MainPageFragment extends Fragment {
 //        exploreBtn = (ImageButton) rootView.findViewById(R.id.explore_btn);
 //        followingBtn = (ImageButton) rootView.findViewById(R.id.follows_btn);
         personalActivitiesBtn = (TextView) rootView.findViewById(R.id.personal_actions_btn);
-
-        storyViewPagerAdapter = new ScreenSlidePagerAdapter(getActivity().getSupportFragmentManager());
-        storyViewPager = (ViewPager)rootView.findViewById(R.id.main_live_story_view_pager);
-        storyViewPager.setAdapter(storyViewPagerAdapter);
-
-        initBtnOnClickListeners();
     }
 
     public void initBtnOnClickListeners() {
@@ -157,21 +162,6 @@ public class MainPageFragment extends Fragment {
         personalActivitiesFragment.show(fm, "test");
     }
 
-    private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
-        public ScreenSlidePagerAdapter(FragmentManager fm) {
-            super(fm);
-        }
-
-        @Override
-        public Fragment getItem(int position) {
-            return new MainMenuStoryFragment();
-        }
-
-        @Override
-        public int getCount() {
-            return 5;
-        }
-    }
 
 
 
