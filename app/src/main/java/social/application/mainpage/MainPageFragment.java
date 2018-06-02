@@ -20,6 +20,8 @@ import java.util.List;
 import social.application.R;
 import social.application.main.MainActivity;
 import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
+import social.application.mainpage.adapters.MainMenuExplorePagerAdapter;
+import social.application.mainpage.adapters.MainMenuFollowingPagerAdapter;
 import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.personalactivities.PersonalActivitiesFragment;
 import social.application.services.events.Event;
@@ -83,11 +85,15 @@ public class MainPageFragment extends Fragment {
     }
 
     public void initExplore(){
-
+        exploreViewPager = (ViewPager)rootView.findViewById(R.id.main_live_explore_view_pager);
+        exploreViewPagerAdapter = new MainMenuExplorePagerAdapter(getActivity().getSupportFragmentManager());
+        exploreViewPager.setAdapter(exploreViewPagerAdapter);
     }
 
     public void initFollowings(){
-
+        followingsViewPager = (ViewPager)rootView.findViewById(R.id.main_live_followings_view_pager);
+        followingsViewPagerAdapter = new MainMenuFollowingPagerAdapter(getActivity().getSupportFragmentManager());
+        followingsViewPager.setAdapter(followingsViewPagerAdapter);
     }
 
     public void initViewElements() {
