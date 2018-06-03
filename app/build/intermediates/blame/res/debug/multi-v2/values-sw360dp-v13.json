@@ -4,7 +4,7 @@
             "outputFile": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.1.aar\\f52aff4fa485517c112787bc5117542f\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.1.aar\\cdd8c5fae2a906dc86ff52323193c4de\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

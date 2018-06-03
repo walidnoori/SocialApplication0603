@@ -14,13 +14,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="choose a file" />
+        android:textColor="#fff"
+        android:background="@drawable/main_activity_background_color"
+        android:text="F i l e"
+        android:textSize="20sp"/>
 
     <EditText
         android:id="@+id/edit_text_file_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:hint="Enter file name"
+        android:textColorHint="#3C18C6"
         android:layout_toEndOf="@+id/button_choose_image"
         />
 
@@ -43,23 +48,25 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="50dp" />
 
-    <Button
+    <TextView
         android:id="@+id/button_upload"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#3C18C6"
         android:layout_centerHorizontal="true"
-        android:text="Upload" />
-
+        android:text="Upload"
+        android:textSize="18sp"
+        android:background="@drawable/border"/>
 
     <TextView
-        android:id="@+id/textView_show_uploads"
+        android:id="@+id/show_upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button_upload"
         android:layout_alignParentEnd="true"
-
-        android:layout_marginEnd="17dp"
-        android:text="show Uploads"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_marginEnd="15dp"
+        android:text="show upload" />
 </RelativeLayout>

@@ -1,4 +1,4 @@
-#Wed May 30 22:11:46 CEST 2018
-base.0=D\:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+#Sun Jun 03 15:12:20 CEST 2018
+base.0=D\:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\45
 path.0=classes.dex
 renamed.0=classes.dex

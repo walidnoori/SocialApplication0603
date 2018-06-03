@@ -4,26 +4,26 @@
             "outputFile": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\92e6c7920e70ab7e94a26af002f0b2a3\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.1.aar\\cdd8c5fae2a906dc86ff52323193c4de\\res\\values-v26\\values-v26.xml",
                     "from": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,896",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,984"
+                        "startLines": "2,6,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,253,438,631",
+                        "endLines": "5,9,13,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "248,433,626,1035"
                     },
                     "to": {
-                        "startLines": "2,3,4,8,12,20",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,1140",
-                        "endLines": "2,3,7,11,15,20",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,1228"
+                        "startLines": "22,26,30,34",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1330,1528,1713,1906",
+                        "endLines": "25,29,33,41",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "1523,1708,1901,2310"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\27561d22473d378badc64d4291fe5440\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\49f7d67ae23e6b99ba006bf6e56896e7\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -42,22 +42,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.1.aar\\f52aff4fa485517c112787bc5117542f\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07ff428c240998bc92318a1e9c696639\\res\\values-v26\\values-v26.xml",
                     "from": {
-                        "startLines": "2,6,10,14",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,253,438,631",
-                        "endLines": "5,9,13,21",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "248,433,626,1035"
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
                     },
                     "to": {
-                        "startLines": "22,26,30,34",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "1330,1528,1713,1906",
-                        "endLines": "25,29,33,41",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "1523,1708,1901,2310"
+                        "startLines": "2,3,4,8,12,20",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,1140",
+                        "endLines": "2,3,7,11,15,20",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,1228"
                     }
                 }
             ]

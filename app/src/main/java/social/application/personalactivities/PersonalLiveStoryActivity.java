@@ -18,6 +18,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
@@ -38,8 +39,8 @@ public class PersonalLiveStoryActivity extends AppCompatActivity implements View
     static final int REQUEST_IMAGE_CAPTURE = 2;
     VideoView mVideoView;
     ImageView mImageView;
-    Button mVideoButton;
-    Button mPictureButton;
+    TextView mVideoButton;
+    TextView mPictureButton;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -48,8 +49,8 @@ public class PersonalLiveStoryActivity extends AppCompatActivity implements View
 
         mVideoView = (VideoView) findViewById(R.id.cameraVideoView);
         mImageView = (ImageView) findViewById(R.id.cameraImageView);
-        mVideoButton = (Button) findViewById(R.id.cameraVideoButton);
-        mPictureButton = (Button) findViewById(R.id.cameraButton);
+        mVideoButton = (TextView) findViewById(R.id.cameraVideoButton);
+        mPictureButton = (TextView) findViewById(R.id.cameraButton);
 
 
         mVideoButton.setOnClickListener(this);

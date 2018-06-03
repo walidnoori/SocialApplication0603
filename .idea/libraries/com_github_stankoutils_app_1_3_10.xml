@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.stankoutils:app-1.3.10">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/app-1.3.10.aar/8611317809b889c3404ad1d5ae2e651c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/app-1.3.10.aar/8611317809b889c3404ad1d5ae2e651c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stankoutils/app/1.3.10/9d08c01600d38f66b775125a3a1b41215a9c28eb/app-1.3.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

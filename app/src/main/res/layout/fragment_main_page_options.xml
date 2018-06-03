@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#E7847C"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/dm_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:padding="6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_message_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/joti_one"
+            android:text="HipeMe"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="28sp" />
+
+        <ImageButton
+            android:id="@+id/profile_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:padding="6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_person_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <TextView
+            android:id="@+id/personal_actions_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:text="Would you...?"
+            android:layout_marginRight="60dp"
+            />
+
+        <ImageButton
+            android:id="@+id/main_page_notifications_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="6dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_notifications_black_24dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_live_story_view_pager"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:scrollbars="none"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp">
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/coffee"-->
+            <!--android:layout_width="170dp"-->
+            <!--android:layout_height="210dp"-->
+            <!--android:layout_marginEnd="5dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/coffee"-->
+            <!--/>-->
+            <!--</FrameLayout>-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/breakfast"-->
+            <!--android:layout_width="170dp"-->
+            <!--android:layout_height="210dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/breakfast"-->
+            <!--/>-->
+            <!--</FrameLayout>-->
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/travel"-->
+            <!--android:layout_width="170dp"-->
+            <!--android:layout_height="210dp"-->
+            <!--android:layout_marginEnd="5dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/travel"-->
+            <!--/>-->
+            <!--</FrameLayout>-->
+
+        </android.support.v4.view.ViewPager>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_page_events_container"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:scrollbars="none"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_live_explore_view_pager"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:scrollbars="none"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_live_followings_view_pager"
+            android:layout_width="170dp"
+            android:layout_height="210dp"
+            android:scrollbars="none"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

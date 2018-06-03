@@ -2,15 +2,11 @@ package social.application.personalactivities;
 
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
@@ -29,30 +25,29 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
+import com.squareup.picasso.Picasso;
 
-import social.application.ImagesActivity;
+import java.net.URL;
+
 import social.application.R;
-import social.application.main.MainActivity;
-import social.application.mainpage.MainPageFragment;
-import social.application.profile.ProfileFragment;
 
 
 public class PersonalPhotoVideoActivity extends AppCompatActivity {
-private static final int PICT_IMAGE_REQUEST = 1;
+    private static final int PICT_IMAGE_REQUEST = 1;
 
-private Button mButtonChooseImage;
-private Button mButtonUpload;
-private TextView mTextViewShowUploads;
-private EditText mEditTextFileName;
-private ImageView mImageView;
-private ProgressBar mProgressBar;
+    private Button mButtonChooseImage;
+    private TextView mButtonUpload;
 
-private StorageReference mStorageRef;
-private DatabaseReference mDatabaseRef;
+    private EditText mEditTextFileName;
+    private ImageView mImageView;
+    private ProgressBar mProgressBar;
 
-private StorageTask mUploadTask;
+    private StorageReference mStorageRef;
+    private DatabaseReference mDatabaseRef;
 
-private Uri mImageUri;
+    private StorageTask mUploadTask;
+
+    private Uri mImageUri;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +55,7 @@ private Uri mImageUri;
 
         mButtonChooseImage = findViewById(R.id.button_choose_image);
         mButtonUpload = findViewById(R.id.button_upload);
-        mTextViewShowUploads = findViewById(R.id.textView_show_uploads);
+
         mEditTextFileName = findViewById(R.id.edit_text_file_name);
         mImageView = findViewById(R.id.image_view);
         mProgressBar = findViewById(R.id.progress_bar);
@@ -91,12 +86,6 @@ private Uri mImageUri;
             }
         });
 
-        mTextViewShowUploads.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openImagesActivity();
-            }
-        });
 
 
     }
@@ -115,8 +104,8 @@ private Uri mImageUri;
 
         if(requestCode == PICT_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.getData() != null){
             mImageUri = data.getData();
-
-            mImageView.setImageURI(mImageUri);
+            Picasso.with(this).load(mImageUri).into(mImageView);
+            // mImageView.setImageURI(mImageUri);
         }
     }
 
@@ -143,8 +132,8 @@ private Uri mImageUri;
                             }, 500);
 
                             Toast.makeText(PersonalPhotoVideoActivity.this, "Upload successul", Toast.LENGTH_LONG).show();
-                            Upload upload = new Upload(mEditTextFileName.getText().toString().trim(),
-                                    taskSnapshot.getDownloadUrl().toString());
+                            Upload upload = new Upload(mEditTextFileName.getText().toString(),
+                                    taskSnapshot.getUploadSessionUri().toString());
                             String uploadId= mDatabaseRef.push().getKey();
                             mDatabaseRef.child(uploadId).setValue(upload);
 
@@ -170,8 +159,5 @@ private Uri mImageUri;
         }
     }
 
-    private void openImagesActivity(){
-        Intent intent = new Intent(PersonalPhotoVideoActivity.this, MainActivity.class);
-        startActivity(intent);
-    }
+
 }

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\app-1.3.10.aar\\8611317809b889c3404ad1d5ae2e651c\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "202,277,322,356,390,442,504,540,658,735,867",
+                        "endColumns": "74,44,33,33,51,61,35,117,76,131,76",
+                        "endOffsets": "272,317,351,385,437,499,535,653,730,862,939"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,175,209,243,295,357,393,511,588,720",
+                        "endColumns": "74,44,33,33,51,61,35,117,76,131,76",
+                        "endOffsets": "125,170,204,238,290,352,388,506,583,715,792"
+                    }
+                }
+            ]
+        }
+    ]
+}

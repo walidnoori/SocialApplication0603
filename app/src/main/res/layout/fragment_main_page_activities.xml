@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="#232D4E"
+        android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+        android:text="Button" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your daily activities"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Morning"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="12:00pm"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="2:00pm"
+                android:textColor="#fff"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/giphy"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif2"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/giphy3"
+
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif3"
+                android:layout_width="120dp"
+                android:layout_height="110dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/giphy2"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

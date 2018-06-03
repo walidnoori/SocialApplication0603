@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Dokumentumok\\Egyetem\\Android\\teamTeam2-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-large-v13\\values-sw600dp-large-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\app-1.3.10.aar\\8611317809b889c3404ad1d5ae2e651c\\res\\values-sw600dp-large\\values-sw600dp-large.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "215",
+                        "endColumns": "37",
+                        "endOffsets": "248"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "37",
+                        "endOffsets": "88"
+                    }
+                }
+            ]
+        }
+    ]
+}
