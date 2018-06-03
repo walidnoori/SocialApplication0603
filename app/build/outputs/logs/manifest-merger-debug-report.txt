@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\b421c7f60504afc1ee99cc07afc00a43\AndroidManifest.xml:2:1-11:12
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\ebe317a67196dac508b6e830176d844e\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.devlight:infinitecycleviewpager:1.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\infinitecycleviewpager-1.0.2.aar\d48b19b329934a5513c50de543ca24e2\AndroidManifest.xml:2:1-11:12
@@ -71,20 +71,20 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Chappy\.gradle\cac
 MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.6.1.aar\68e3e12b5c617edb9ce58735701eedba\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\34b52280b4edcb4e782ca415c8a388b5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\24f8bf81d2af6b6e08f1a6820641f263\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
 	package
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-91:12
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:11-69
@@ -133,7 +133,7 @@ ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\An
 	android:name
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:11:9-47
 application
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:14:5-89:19
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:14:5-94:19
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\b421c7f60504afc1ee99cc07afc00a43\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\b421c7f60504afc1ee99cc07afc00a43\AndroidManifest.xml:9:5-20
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\ebe317a67196dac508b6e830176d844e\AndroidManifest.xml:9:5-20
@@ -308,30 +308,38 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:73:17-77
 	android:name
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:73:27-74
-meta-data#preloaded_fonts
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:77:9-79:57
-	android:resource
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:79:13-54
-	android:name
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:78:13-43
-meta-data#com.google.android.geo.API_KEY
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:80:9-82:61
-	android:value
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:82:13-58
-	android:name
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:81:13-58
-activity#social.application.ImagesActivity
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:84:9-52
-	android:name
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:84:19-49
-activity#social.application.events.EventViewerActivity
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:85:9-88:81
+activity#social.application.profile.infiniteView
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:77:9-80:72
 	android:label
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:87:13-64
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:79:13-42
 	android:theme
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:88:13-69
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:80:13-69
 	android:name
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:86:13-55
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:78:13-49
+meta-data#preloaded_fonts
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:82:9-84:57
+	android:resource
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:84:13-54
+	android:name
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:83:13-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:85:9-87:61
+	android:value
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:87:13-58
+	android:name
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:86:13-58
+activity#social.application.ImagesActivity
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:89:9-52
+	android:name
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:89:19-49
+activity#social.application.events.EventViewerActivity
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:90:9-93:81
+	android:label
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:92:13-64
+	android:theme
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:93:13-69
+	android:name
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:91:13-55
 uses-sdk
 INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml

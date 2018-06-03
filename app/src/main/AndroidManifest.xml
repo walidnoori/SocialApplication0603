@@ -74,6 +74,11 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".profile.infiniteView"
+            android:label="infinite view"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
