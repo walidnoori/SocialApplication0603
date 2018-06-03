@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="last_update_test_preferences">Last_Update_Check</string>
+    <string name="loading">Duke ngarkuar…</string>
+    <string name="no">JO</string>
+    <string name="ok">OK</string>
+    <string name="please_wait">Ju lutem prisni</string>
+    <string name="update_test">Duke kontrolluar për azhurnime…</string>
+    <string name="yes">PO</string>
+    <string name="you_are_not_updated_message">Shtypni PO për të azhurnuar app në Google Play, shtypni JO për të dalur.</string>
+    <string name="you_are_not_updated_title">App nuk është azhurnuar</string>
+    <string name="you_are_updated_message">App juaj është tashmë azhurnuar në versionin e fundit i disponueshëm.\nShtypni OK për të dalur.</string>
+    <string name="you_are_updated_title">App tashmë është azhurnuar</string>
+</resources>
