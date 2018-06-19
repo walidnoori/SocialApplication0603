@@ -160,14 +160,7 @@ public  class EventSupportService {
         dateLayoutParams.addRule(RelativeLayout.ABOVE, id + 1);
         dateTextView.setLayoutParams(dateLayoutParams);
 
-//        /*Container*/
-//        final RelativeLayout eventContainer = new RelativeLayout(context);
-//        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(CommonEventsUtil.getDipValue(170, context), CommonEventsUtil.getDipValue(210, context));
-//        layoutParams.setMargins(0, 0, CommonEventsUtil.getDipValue(2, context), 0);
-//        eventContainer.setLayoutParams(layoutParams);
-//
-//        setEventViewBackgroundImage(event, eventContainer);
-
+        /*Assigning things to Parent view*/
         parent.addView(titleTextView);
         parent.addView(locationTextView);
         parent.addView(dateTextView);
@@ -192,8 +185,6 @@ public  class EventSupportService {
                 context.startActivity(intent);
             }
         });
-
-//        parent.addView(eventContainer);
     }
 
     public static void setEventViewBackgroundImage(Event event, final View view){
