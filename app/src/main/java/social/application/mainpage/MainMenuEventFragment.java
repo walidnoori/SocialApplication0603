@@ -10,10 +10,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import social.application.R;
+import social.application.services.events.CommonEventsUtil;
 import social.application.services.events.Event;
 import social.application.services.events.EventSupportService;
+
+import static social.application.services.events.EventSupportService.setEventViewBackgroundImage;
 
 
 public class MainMenuEventFragment extends Fragment {
@@ -49,8 +54,16 @@ public class MainMenuEventFragment extends Fragment {
 
         event = (Event) getArguments().getSerializable(EVENT_KEY);
 
-        EventSupportService.createEventLayout(event, rootView);
+        /*Container*/
+        final RelativeLayout eventContainer = new RelativeLayout(getContext());
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(CommonEventsUtil.getDipValue(170, getContext()), CommonEventsUtil.getDipValue(210, getContext()));
+        layoutParams.setMargins(0, 0, CommonEventsUtil.getDipValue(2, getContext()), 0);
+        eventContainer.setLayoutParams(layoutParams);
 
+        EventSupportService.addEventLayoutToParent(event, eventContainer);
+        setEventViewBackgroundImage(event, eventContainer);
+
+        rootView.addView(eventContainer);
         return rootView;
     }
 

@@ -91,53 +91,7 @@
             android:layout_height="210dp"
             android:scrollbars="none"
             android:layout_marginBottom="2dp"
-            android:layout_marginRight="2dp">
-
-            <!--<FrameLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:orientation="horizontal">-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/coffee"-->
-            <!--android:layout_width="170dp"-->
-            <!--android:layout_height="210dp"-->
-            <!--android:layout_marginEnd="5dp"-->
-            <!--android:scaleType="fitXY"-->
-            <!--android:src="@drawable/coffee"-->
-            <!--/>-->
-            <!--</FrameLayout>-->
-
-            <!--<FrameLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:orientation="horizontal">-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/breakfast"-->
-            <!--android:layout_width="170dp"-->
-            <!--android:layout_height="210dp"-->
-            <!--android:scaleType="fitXY"-->
-            <!--android:src="@drawable/breakfast"-->
-            <!--/>-->
-            <!--</FrameLayout>-->
-
-            <!--<FrameLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:orientation="horizontal">-->
-
-            <!--<ImageView-->
-            <!--android:id="@+id/travel"-->
-            <!--android:layout_width="170dp"-->
-            <!--android:layout_height="210dp"-->
-            <!--android:layout_marginEnd="5dp"-->
-            <!--android:scaleType="fitXY"-->
-            <!--android:src="@drawable/travel"-->
-            <!--/>-->
-            <!--</FrameLayout>-->
-
-        </android.support.v4.view.ViewPager>
+            android:layout_marginRight="2dp"/>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/main_page_events_container"

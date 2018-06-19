@@ -392,6 +392,10 @@
         "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\drawable\\secondperson.png"
     },
     {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\layout_cycle_view_pager_item.xml.flat",
+        "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\layout\\cycle_view_pager_item.xml"
+    },
+    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\49f7d67ae23e6b99ba006bf6e56896e7\\res\\layout\\design_bottom_navigation_item.xml"
     },

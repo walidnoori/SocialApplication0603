@@ -7,9 +7,11 @@ import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
+import android.text.Layout;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -35,6 +37,7 @@ import java.util.Map;
 import social.application.R;
 import social.application.events.EventViewerActivity;
 import social.application.events.EventsActivity;
+import social.application.events.adapters.CycleViewPagerAdapter;
 import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
@@ -49,7 +52,7 @@ public  class EventSupportService {
 
     private static Context context;
 
-    private static FrameLayout parentView;
+    private static ViewGroup parentView;
 
     private static FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -89,9 +92,33 @@ public  class EventSupportService {
         });
     }
 
-    public static void createEventLayout(final Event event, FrameLayout parent){
+    public static void addAllEventsToCycleViewPagerAdapter(final CycleViewPagerAdapter adapter, Context ctx){
+        context = ctx;
 
-        parentView = parent;
+        events = new ArrayList<Event>();
+        DatabaseReference eventsRef = database.getReference("events");
+        eventsRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                adapter.removeAllItems();
+
+                for (DataSnapshot eventSnapShot: dataSnapshot.getChildren()) {
+                    Map<String, Object> eventMap = (Map<String, Object>)eventSnapShot.getValue();
+                    Event event = toEvent(eventMap);
+                    events.add(event);
+                    adapter.addItem(event);
+                    Log.d("INFO:", event.toString());
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public static void addEventLayoutToParent(final Event event, ViewGroup parent){
 
         Integer id = event.getId().hashCode();
 
@@ -102,7 +129,7 @@ public  class EventSupportService {
         RelativeLayout.LayoutParams titleLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         titleLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
-        titleTextView.setPadding(getDipValue(8), getDipValue(2), 0, getDipValue(2));
+        titleTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context), 0, CommonEventsUtil.getDipValue(2, context));
         titleTextView.setLayoutParams(titleLayoutParams);
         titleTextView.setText(event.getTitle());
 
@@ -111,7 +138,8 @@ public  class EventSupportService {
         locationTextView.setId(id + 1);
         locationTextView.setTextColor(Color.parseColor("#ffffff"));
         locationTextView.setBackgroundColor(Color.parseColor("#33000000"));
-        locationTextView.setPadding(getDipValue(8), getDipValue(1), getDipValue(8), getDipValue(2));
+        locationTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(1, context),
+                CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context));
         RelativeLayout.LayoutParams locationLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         locationLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
@@ -124,26 +152,27 @@ public  class EventSupportService {
         dateTextView.setText(sdfDate.format(new Date(event.getDateTime())).toString());
         dateTextView.setTextColor(Color.parseColor("#ffffff"));
         dateTextView.setBackgroundColor(Color.parseColor("#33000000"));
-        dateTextView.setPadding(getDipValue(8), getDipValue(2), getDipValue(8), getDipValue(1));
+        dateTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context),
+                CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(1, context));
         RelativeLayout.LayoutParams dateLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         dateLayoutParams.addRule(RelativeLayout.ABOVE);
         dateLayoutParams.addRule(RelativeLayout.ABOVE, id + 1);
         dateTextView.setLayoutParams(dateLayoutParams);
 
-        /*Container*/
-        final RelativeLayout eventContainer = new RelativeLayout(context);
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(getDipValue(170), getDipValue(210));
-        layoutParams.setMargins(0, 0, getDipValue(2), 0);
-        eventContainer.setLayoutParams(layoutParams);
+//        /*Container*/
+//        final RelativeLayout eventContainer = new RelativeLayout(context);
+//        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(CommonEventsUtil.getDipValue(170, context), CommonEventsUtil.getDipValue(210, context));
+//        layoutParams.setMargins(0, 0, CommonEventsUtil.getDipValue(2, context), 0);
+//        eventContainer.setLayoutParams(layoutParams);
+//
+//        setEventViewBackgroundImage(event, eventContainer);
 
-        setEventViewBackgroundImage(event, eventContainer);
+        parent.addView(titleTextView);
+        parent.addView(locationTextView);
+        parent.addView(dateTextView);
 
-        eventContainer.addView(titleTextView);
-        eventContainer.addView(locationTextView);
-        eventContainer.addView(dateTextView);
-
-        eventContainer.setOnLongClickListener(new View.OnLongClickListener() {
+        parent.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
                 Intent intent = new Intent(context, EventViewerActivity.class);
@@ -155,7 +184,7 @@ public  class EventSupportService {
             }
         });
 
-        eventContainer.setOnClickListener(new View.OnClickListener() {
+        parent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, EventsActivity.class);
@@ -164,7 +193,7 @@ public  class EventSupportService {
             }
         });
 
-        parentView.addView(eventContainer);
+//        parent.addView(eventContainer);
     }
 
     public static void setEventViewBackgroundImage(Event event, final View view){
@@ -183,10 +212,6 @@ public  class EventSupportService {
                 Log.d("ERROR", exception.getStackTrace().toString());
             }
         });
-    }
-
-    private static int getDipValue(int value){
-        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, value, context.getResources().getDisplayMetrics());
     }
 
     public static Event toEvent(Map<String, Object> eventMap){
@@ -258,6 +283,53 @@ public  class EventSupportService {
         return eventImageRef.getPath();
 
     }
+
+//    public static void addCycleViewPagerItemToViewGroup(ViewGroup parentViewGroup, Event event, Context context){
+//
+//        Integer id = event.getId().hashCode();
+//
+//        /*Title TextView*/
+//        TextView titleTextView = new TextView(context);
+//        titleTextView.setTextColor(Color.parseColor("#ffffff"));
+//        titleTextView.setBackgroundColor(Color.parseColor("#33000000"));
+//        RelativeLayout.LayoutParams titleLayoutParams =
+//                new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+//        titleLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
+//        titleTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context), 0, CommonEventsUtil.getDipValue(2, context));
+//        titleTextView.setLayoutParams(titleLayoutParams);
+//        titleTextView.setText(event.getTitle());
+//
+//        /*Location TextView*/
+//        TextView locationTextView = new TextView(context);
+//        locationTextView.setId(id + 1);
+//        locationTextView.setTextColor(Color.parseColor("#ffffff"));
+//        locationTextView.setBackgroundColor(Color.parseColor("#33000000"));
+//        locationTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(1, context),
+//                CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context));
+//        RelativeLayout.LayoutParams locationLayoutParams =
+//                new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+//        locationLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
+//        locationTextView.setText(getShortPlaceInformation(event.getLocation()));
+//        locationTextView.setLayoutParams(locationLayoutParams);
+//
+//        /*Date TextView*/
+//        TextView dateTextView = new TextView(context, null, R.style.RecommendedEventsDescriptionTextStyle);
+//        SimpleDateFormat sdfDate = new SimpleDateFormat("MM.dd.");
+//        dateTextView.setText(sdfDate.format(new Date(event.getDateTime())).toString());
+//        dateTextView.setTextColor(Color.parseColor("#ffffff"));
+//        dateTextView.setBackgroundColor(Color.parseColor("#33000000"));
+//        dateTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context),
+//                CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(1, context));
+//        RelativeLayout.LayoutParams dateLayoutParams =
+//                new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+//        dateLayoutParams.addRule(RelativeLayout.ABOVE);
+//        dateLayoutParams.addRule(RelativeLayout.ABOVE, id + 1);
+//        dateTextView.setLayoutParams(dateLayoutParams);
+//
+//        parentViewGroup.addView(titleTextView);
+//        parentViewGroup.addView(locationTextView);
+//        parentViewGroup.addView(dateTextView);
+//    }
 
 
 }
