@@ -2,54 +2,35 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1529442879014"
+    timestamp="1530827631476"
     token="-7696441448875779624"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="3327" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="58" />
+        duration="0" />
     <task
         name="verifier"
-        duration="9" />
+        duration="0" />
 
     <artifact
-        location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
-        timestamp="1529442464825"
+        timestamp="1530816850920"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -69,26 +50,76 @@
             location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1529442879014"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
             location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1530826419310"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1530827501425"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1530827631476"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

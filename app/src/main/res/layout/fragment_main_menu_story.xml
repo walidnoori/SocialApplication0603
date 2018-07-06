@@ -4,12 +4,5 @@
     android:layout_height="match_parent"
     tools:context="social.application.mainpage.MainMenuStoryFragment">
 
-    <ImageView
-        android:id="@+id/coffee"
-        android:layout_width="170dp"
-        android:layout_height="210dp"
-        android:layout_marginEnd="5dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/coffee"/>
 
 </FrameLayout>

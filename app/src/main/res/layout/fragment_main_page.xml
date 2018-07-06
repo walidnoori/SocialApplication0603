@@ -7,28 +7,23 @@
     android:layout_height="match_parent"
     tools:context="social.application.mainpage.MainPageFragment">
 
-
-    <com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:sothree="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/sliding_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom"
-        sothree:umanoPanelHeight="28dp"
-        sothree:umanoShadowHeight="4dp">
-
-
-        <include
-            layout="@layout/fragment_main_page_options"
+        <com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:sothree="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bottom_sliding_layout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            sothree:umanoPanelHeight="28dp"
+            sothree:umanoShadowHeight="4dp">
 
-        <include
-            layout="@layout/fragment_main_page_activities"
-            android:layout_width="match_parent"
-            android:layout_height="480dp" />
+            <include
+                layout="@layout/fragment_main_page_options"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-
-    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
-
+            <include
+                layout="@layout/fragment_main_page_activities"
+                android:layout_width="match_parent"
+                android:layout_height="480dp" />
+        </com.sothree.slidinguppanel.SlidingUpPanelLayout>
 
 </LinearLayout>

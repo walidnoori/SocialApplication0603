@@ -28,20 +28,20 @@ public final class R {
         public static final int place_autocomplete_separator_start = 0x7f0700ae;
     }
     public static final class drawable {
-        public static final int places_ic_clear = 0x7f080109;
-        public static final int places_ic_search = 0x7f08010a;
-        public static final int powered_by_google_dark = 0x7f08010b;
-        public static final int powered_by_google_light = 0x7f08010c;
+        public static final int places_ic_clear = 0x7f08010a;
+        public static final int places_ic_search = 0x7f08010b;
+        public static final int powered_by_google_dark = 0x7f08010c;
+        public static final int powered_by_google_light = 0x7f08010d;
     }
     public static final class id {
-        public static final int place_autocomplete_clear_button = 0x7f0a00f6;
-        public static final int place_autocomplete_powered_by_google = 0x7f0a00f7;
-        public static final int place_autocomplete_prediction_primary_text = 0x7f0a00f8;
-        public static final int place_autocomplete_prediction_secondary_text = 0x7f0a00f9;
-        public static final int place_autocomplete_progress = 0x7f0a00fa;
-        public static final int place_autocomplete_search_button = 0x7f0a00fb;
-        public static final int place_autocomplete_search_input = 0x7f0a00fc;
-        public static final int place_autocomplete_separator = 0x7f0a00fd;
+        public static final int place_autocomplete_clear_button = 0x7f0a00eb;
+        public static final int place_autocomplete_powered_by_google = 0x7f0a00ec;
+        public static final int place_autocomplete_prediction_primary_text = 0x7f0a00ed;
+        public static final int place_autocomplete_prediction_secondary_text = 0x7f0a00ee;
+        public static final int place_autocomplete_progress = 0x7f0a00ef;
+        public static final int place_autocomplete_search_button = 0x7f0a00f0;
+        public static final int place_autocomplete_search_input = 0x7f0a00f1;
+        public static final int place_autocomplete_separator = 0x7f0a00f2;
     }
     public static final class layout {
         public static final int place_autocomplete_fragment = 0x7f0c0075;

@@ -1,59 +1,52 @@
 package social.application.profile;
 
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.Rect;
-import android.graphics.RectF;
-import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager;
 import com.google.firebase.auth.FirebaseAuth;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import de.hdodenhof.circleimageview.CircleImageView;
 import social.application.R;
-import social.application.login.Login;
+import social.application.entity.LivePicture;
+import social.application.events.adapters.EventCycleViewPagerAdapter;
+import social.application.events.adapters.LivePictureCycleViewPagerAdapter;
 import social.application.login.Login;
 import social.application.main.MainActivity;
-import social.application.signup.SignUp;
+import social.application.services.LiveStory.LivePictureSupportService;
+import social.application.services.events.EventSupportService;
 
 import static android.app.Activity.RESULT_OK;
 
 
 public class ProfileFragment extends Fragment {
+
     private static final int PICT_IMAGE_REQUEST = 2;
 
     private CircleImageView mChooseImage;
+
     private Uri imgUri;
 
-    List<Integer> lstImages = new ArrayList<>();
-
-
     TextView text11;
+
     ImageButton backBtn;
+
     TextView signOutButton;
+
     View rootView;
+
     FirebaseAuth mAuth;
+
+    HorizontalInfiniteCycleViewPager yourEventsViewPager;
+
+    HorizontalInfiniteCycleViewPager profileLivePicturesViewPager;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -64,7 +57,6 @@ public class ProfileFragment extends Fragment {
 
         super.onCreate(savedInstanceState);
         mAuth = FirebaseAuth.getInstance();
-
     }
 
 
@@ -72,12 +64,8 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_profile, container, false);
         init();
-        //initview();
-
 
         return rootView;
-
-
     }
 
 
@@ -117,16 +105,23 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+        initYourEvents();
+        initYourLivePhotos();
     }
-/*
-    public void initview(){
-        lstImages.add(R.drawable.foll6);
-        lstImages.add(R.drawable.foll7);
-        lstImages.add(R.drawable.foll8);
-        lstImages.add(R.drawable.foll9);
-        lstImages.add(R.drawable.foll10);
+
+    public void initYourEvents(){
+        yourEventsViewPager = (HorizontalInfiniteCycleViewPager) rootView.findViewById(R.id.profile_events_horizontal_cycle_view);
+        EventCycleViewPagerAdapter yourEventsAdapter = new EventCycleViewPagerAdapter(rootView.getContext());
+        EventSupportService.addAllEventsToCycleViewPagerAdapter(yourEventsAdapter, rootView.getContext());
+        yourEventsViewPager.setAdapter(yourEventsAdapter);
     }
-    */
+
+    public void initYourLivePhotos(){
+        profileLivePicturesViewPager = (HorizontalInfiniteCycleViewPager) rootView.findViewById(R.id.profile_live_pictures_horizontal_cycle_view);
+        LivePictureCycleViewPagerAdapter yourLivePicturesAdapter = new LivePictureCycleViewPagerAdapter(rootView.getContext());
+        LivePictureSupportService.addAllLivePicturesToCycleViewPagerAdapter(yourLivePicturesAdapter, rootView.getContext());
+        profileLivePicturesViewPager.setAdapter(yourLivePicturesAdapter);
+    }
 
     private void openFileChooser() {
         Intent intent = new Intent();

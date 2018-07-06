@@ -1,11 +1,7 @@
 package social.application.mainpage;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import social.application.R;
-import social.application.services.events.CommonEventsUtil;
-import social.application.services.events.Event;
+import social.application.services.CommonDisplayUtil;
+import social.application.entity.Event;
 import social.application.services.events.EventSupportService;
 
 import static social.application.services.events.EventSupportService.setEventViewBackgroundImage;
@@ -49,15 +45,15 @@ public class MainMenuEventFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
         rootView = (FrameLayout)inflater.inflate(R.layout.fragment_main_menu_event, container, false);
 
         event = (Event) getArguments().getSerializable(EVENT_KEY);
 
         /*Container*/
         final RelativeLayout eventContainer = new RelativeLayout(getContext());
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(CommonEventsUtil.getDipValue(170, getContext()), CommonEventsUtil.getDipValue(210, getContext()));
-        layoutParams.setMargins(0, 0, CommonEventsUtil.getDipValue(2, getContext()), 0);
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams( CommonDisplayUtil.getDipValue(170, getContext()),
+                                                                                CommonDisplayUtil.getDipValue(240, getContext()));
+            layoutParams.setMargins(0, 0, 0, 0);
         eventContainer.setLayoutParams(layoutParams);
 
         EventSupportService.addEventLayoutToParent(event, eventContainer);

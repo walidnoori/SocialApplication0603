@@ -5,26 +5,29 @@ import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
-import java.util.List;
-
 import social.application.R;
+import social.application.Story.story;
+import social.application.entity.LivePicture;
+import social.application.explore.ExploreActivity;
 import social.application.main.MainActivity;
 import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
 import social.application.mainpage.adapters.MainMenuExplorePagerAdapter;
 import social.application.mainpage.adapters.MainMenuFollowingPagerAdapter;
 import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.personalactivities.PersonalActivitiesFragment;
-import social.application.services.events.Event;
+import social.application.services.LiveStory.LivePictureSupportService;
 import social.application.services.events.EventSupportService;
 
 
@@ -82,6 +85,7 @@ public class MainPageFragment extends Fragment {
         storyViewPagerAdapter = new MainMenuStoryPagerAdapter(getActivity().getSupportFragmentManager());
         storyViewPager = (ViewPager)rootView.findViewById(R.id.main_live_story_view_pager);
         storyViewPager.setAdapter(storyViewPagerAdapter);
+        LivePictureSupportService.addAllLivePicturesToPagerAdapter((MainMenuStoryPagerAdapter) storyViewPagerAdapter, getContext());
     }
 
     public void initExplore(){
@@ -99,10 +103,6 @@ public class MainPageFragment extends Fragment {
     public void initViewElements() {
         dmBtn = (ImageButton) rootView.findViewById(R.id.dm_btn);
         profileBtn = (ImageButton) rootView.findViewById(R.id.profile_btn);
-//        liveBtn = (ImageButton) rootView.findViewById(R.id.live_story_btn);
-//        eventsBtn = (ImageButton) rootView.findViewById(R.id.events_btn);
-//        exploreBtn = (ImageButton) rootView.findViewById(R.id.explore_btn);
-//        followingBtn = (ImageButton) rootView.findViewById(R.id.follows_btn);
         personalActivitiesBtn = (TextView) rootView.findViewById(R.id.personal_actions_btn);
     }
 
@@ -121,33 +121,20 @@ public class MainPageFragment extends Fragment {
             }
         });
 
-//        liveBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startSpecificActivity(new story());
-//            }
-//        });
+        storyViewPager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startSpecificActivity(new story());
+            }
+        });
 
-//        eventsBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startSpecificActivity(new EventsActivity());
-//            }
-//        });
+        exploreViewPager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startSpecificActivity(new ExploreActivity());
+            }
+        });
 
-//        exploreBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startSpecificActivity(new ExploreActivity());
-//            }
-//        });
-//
-//        followingBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startSpecificActivity(new FollowingActivity());
-//            }
-//        });
 //
         personalActivitiesBtn.setOnClickListener(new View.OnClickListener() {
             @Override

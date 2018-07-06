@@ -390,8 +390,10 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="wrap_content"
                 android:layout_height="33dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
                 android:text="Events"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="16dp"
@@ -402,91 +404,30 @@
                 android:layout_marginTop="2dp"
 
                 />
-            <HorizontalScrollView
-                android:scrollbars="none"
+
+            <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+                android:id="@+id/profile_events_horizontal_cycle_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/img_view1"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-                    <ImageView
-                        android:id="@+id/img_view2"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-                    <ImageView
-                        android:id="@+id/img_view3"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-                    />
-                </LinearLayout>
-            </HorizontalScrollView>
-
-
-            <TextView
-                android:layout_width="70dp"
-                android:layout_height="33dp"
-                android:text="Events"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="16dp"
-                android:background="@drawable/border"
-                android:layout_marginStart="7dp"
-                android:textAlignment="center"
-                android:paddingTop="5dp"
-                android:layout_marginTop="25dp"
-
+                android:layout_height="200dp"
+                android:background="#ffffff"
+                app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+                app:icvp_scroll_duration="250"
+                app:icvp_center_page_scale_offset="30dp"
+                app:icvp_min_page_scale_offset="5dp"
+                app:icvp_max_page_scale="0.8"
+                app:icvp_min_page_scale="0.55"
+                app:icvp_medium_scaled="false"
                 />
-            <HorizontalScrollView
-                android:scrollbars="none"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/img_view4"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-                    <ImageView
-                        android:id="@+id/img_view5"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
 
 
-                    <ImageView
-                        android:id="@+id/img_view6"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-
-
-                </LinearLayout>
-            </HorizontalScrollView>
             <TextView
-                android:layout_width="70dp"
+                android:layout_width="wrap_content"
                 android:layout_height="33dp"
-                android:text="Events"
+                android:text="Live Pictures"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="16dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
                 android:background="@drawable/border"
                 android:layout_marginStart="7dp"
                 android:textAlignment="center"
@@ -495,99 +436,24 @@
 
                 />
 
-            <HorizontalScrollView
-                android:scrollbars="none"
+            <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+                android:id="@+id/profile_live_pictures_horizontal_cycle_view"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                >
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/img_view7"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-                    <ImageView
-                        android:id="@+id/img_view8"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-
-                    <ImageView
-                        android:id="@+id/img_view9"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-
-
-                </LinearLayout>
-            </HorizontalScrollView>
-            <TextView
-                android:layout_width="70dp"
-                android:layout_height="33dp"
-                android:text="Events"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="16dp"
-                android:background="@drawable/border"
-                android:layout_marginStart="7dp"
-                android:textAlignment="center"
-                android:paddingTop="5dp"
-                android:layout_marginTop="25dp"
-
+                android:layout_height="300dp"
+                android:background="#ffffff"
+                app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"
+                app:icvp_scroll_duration="250"
+                app:icvp_center_page_scale_offset="30dp"
+                app:icvp_min_page_scale_offset="5dp"
+                app:icvp_max_page_scale="0.8"
+                app:icvp_min_page_scale="0.55"
+                app:icvp_medium_scaled="false"
                 />
-
-
-            <HorizontalScrollView
-                android:scrollbars="none"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/img_view10"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-                    <ImageView
-                        android:id="@+id/img_view11"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-
-                    <ImageView
-                        android:id="@+id/img_view12"
-                        android:layout_width="360dp"
-                        android:layout_height="230dp"
-                        />
-
-
-
-                </LinearLayout>
-            </HorizontalScrollView>
-
-        </LinearLayout>
-
-
-
-
 
 
     </LinearLayout>
 
-
+    </LinearLayout>
 
 
 </ScrollView>

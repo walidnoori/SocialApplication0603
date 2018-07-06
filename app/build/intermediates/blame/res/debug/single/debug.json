@@ -780,6 +780,10 @@
         "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\drawable\\foll5.png"
     },
     {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cof1.png.flat",
         "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\drawable\\cof1.png"
     },
@@ -1536,10 +1540,6 @@
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07ff428c240998bc92318a1e9c696639\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_personal_live_story.xml.flat",
-        "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\layout\\content_personal_live_story.xml"
-    },
-    {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms1.png.flat",
         "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\drawable\\ms1.png"
     },
@@ -1598,6 +1598,10 @@
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\49f7d67ae23e6b99ba006bf6e56896e7\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_down_black_24dp.xml.flat",
+        "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_down_black_24dp.xml"
     },
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
@@ -1678,6 +1682,10 @@
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07ff428c240998bc92318a1e9c696639\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\layout_framgent_main_page_personal_options.xml.flat",
+        "source": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\src\\main\\res\\layout\\framgent_main_page_personal_options.xml"
     },
     {
         "merged": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",

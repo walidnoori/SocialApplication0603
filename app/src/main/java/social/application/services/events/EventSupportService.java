@@ -7,13 +7,9 @@ import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
-import android.text.Layout;
 import android.util.Log;
-import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -37,8 +33,10 @@ import java.util.Map;
 import social.application.R;
 import social.application.events.EventViewerActivity;
 import social.application.events.EventsActivity;
-import social.application.events.adapters.CycleViewPagerAdapter;
+import social.application.events.adapters.EventCycleViewPagerAdapter;
 import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
+import social.application.entity.Event;
+import social.application.services.CommonDisplayUtil;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
@@ -51,8 +49,6 @@ public  class EventSupportService {
     private static List<Event> events;
 
     private static Context context;
-
-    private static ViewGroup parentView;
 
     private static FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -92,7 +88,7 @@ public  class EventSupportService {
         });
     }
 
-    public static void addAllEventsToCycleViewPagerAdapter(final CycleViewPagerAdapter adapter, Context ctx){
+    public static void addAllEventsToCycleViewPagerAdapter(final EventCycleViewPagerAdapter adapter, Context ctx){
         context = ctx;
 
         events = new ArrayList<Event>();
@@ -129,7 +125,7 @@ public  class EventSupportService {
         RelativeLayout.LayoutParams titleLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         titleLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
-        titleTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context), 0, CommonEventsUtil.getDipValue(2, context));
+        titleTextView.setPadding(CommonDisplayUtil.getDipValue(8, context), CommonDisplayUtil.getDipValue(2, context), 0, CommonDisplayUtil.getDipValue(2, context));
         titleTextView.setLayoutParams(titleLayoutParams);
         titleTextView.setText(event.getTitle());
 
@@ -138,8 +134,8 @@ public  class EventSupportService {
         locationTextView.setId(id + 1);
         locationTextView.setTextColor(Color.parseColor("#ffffff"));
         locationTextView.setBackgroundColor(Color.parseColor("#33000000"));
-        locationTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(1, context),
-                CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context));
+        locationTextView.setPadding(CommonDisplayUtil.getDipValue(8, context), CommonDisplayUtil.getDipValue(1, context),
+                CommonDisplayUtil.getDipValue(8, context), CommonDisplayUtil.getDipValue(2, context));
         RelativeLayout.LayoutParams locationLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         locationLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
@@ -152,8 +148,8 @@ public  class EventSupportService {
         dateTextView.setText(sdfDate.format(new Date(event.getDateTime())).toString());
         dateTextView.setTextColor(Color.parseColor("#ffffff"));
         dateTextView.setBackgroundColor(Color.parseColor("#33000000"));
-        dateTextView.setPadding(CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(2, context),
-                CommonEventsUtil.getDipValue(8, context), CommonEventsUtil.getDipValue(1, context));
+        dateTextView.setPadding(CommonDisplayUtil.getDipValue(8, context), CommonDisplayUtil.getDipValue(2, context),
+                CommonDisplayUtil.getDipValue(8, context), CommonDisplayUtil.getDipValue(1, context));
         RelativeLayout.LayoutParams dateLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         dateLayoutParams.addRule(RelativeLayout.ABOVE);
@@ -168,8 +164,7 @@ public  class EventSupportService {
         parent.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                Intent intent = new Intent(context, EventViewerActivity.class);
-                intent.putExtra("event", event);
+                Intent intent = new Intent(context, EventsActivity.class);
                 intent.setFlags(FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
 
@@ -180,7 +175,8 @@ public  class EventSupportService {
         parent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, EventsActivity.class);
+                Intent intent = new Intent(context, EventViewerActivity.class);
+                intent.putExtra("event", event);
                 intent.setFlags(FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
             }
