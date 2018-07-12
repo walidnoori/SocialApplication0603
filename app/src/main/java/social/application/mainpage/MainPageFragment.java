@@ -12,6 +12,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AbsListView;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -61,6 +63,8 @@ public class MainPageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_main_page, container, false);
         super.onCreate(savedInstanceState);
+
+
         init();
         return rootView;
     }
@@ -154,8 +158,6 @@ public class MainPageFragment extends Fragment {
         PersonalActivitiesFragment personalActivitiesFragment = new PersonalActivitiesFragment();
         personalActivitiesFragment.show(fm, "test");
     }
-
-
 
 
 }

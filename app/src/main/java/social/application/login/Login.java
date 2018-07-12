@@ -28,6 +28,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import social.application.R;
 import social.application.main.MainActivity;
 import social.application.signup.SignUp;
+import social.application.welcomepage.WelcomePage;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
@@ -58,8 +59,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 .build();
 
         //email and password fields
-        emailTxt= (EditText) findViewById(R.id.emailTxt);
-        pwdTxt = (EditText) findViewById(R.id.pwdTxt);
+        emailTxt= (EditText) findViewById(R.id.emailText);
+        pwdTxt = (EditText) findViewById(R.id.pwdText);
 
         //login button
         findViewById(R.id.loginbtn).setOnClickListener(this);
@@ -83,7 +84,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     // go to the main page
-                    startActivity(new Intent(Login.this, MainActivity.class));
+                    startActivity(new Intent(Login.this, WelcomePage.class));
                     finish();
                 }else{
                     Toast.makeText(Login.this, "Failed to log in", Toast.LENGTH_SHORT).show();
@@ -129,7 +130,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                             // Sign in success, update UI with the signed-in user's information
                             //Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            startActivity(new Intent (Login.this, MainActivity.class));
+                            startActivity(new Intent(Login.this, WelcomePage.class));
                             finish();
 
                         } else {
