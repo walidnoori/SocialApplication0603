@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 import social.application.R;
 import social.application.entity.LivePicture;
-import social.application.services.LiveStory.LivePictureSupportService;
+import social.application.services.liveStory.LivePictureSupportService;
 import social.application.services.CommonDisplayUtil;
 
 public class MainMenuStoryFragment extends Fragment {
@@ -47,14 +47,12 @@ public class MainMenuStoryFragment extends Fragment {
 
         /*Container*/
         final RelativeLayout livePictureContainer = new RelativeLayout(getContext());
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams( CommonDisplayUtil.getDipValue(170, getContext()),
-                                                                                CommonDisplayUtil.getDipValue(240, getContext()));
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT,
+                                                                                LinearLayout.LayoutParams.MATCH_PARENT );
         layoutParams.setMargins(0, 0, 0, 0);
         livePictureContainer.setLayoutParams(layoutParams);
 
         LivePictureSupportService.addLivePictureLayoutToParent(livePicture, livePictureContainer);
-        LivePictureSupportService.setLivePictureViewBackgroundImage(livePicture, livePictureContainer);
-
         rootView.addView(livePictureContainer);
         return rootView;
 

@@ -10,11 +10,14 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -58,7 +61,10 @@ public  class EventSupportService {
 
 
     public static void saveEvent(Event event){
-        DatabaseReference eventsRef = database.getReference("events");
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        String userId = user.getUid();
+
+        DatabaseReference eventsRef = database.getReference("users/" + userId + "/events");
         eventsRef.child(String.valueOf(event.getId())).setValue(event);
     }
 
@@ -66,18 +72,27 @@ public  class EventSupportService {
         context = ctx;
 
         events = new ArrayList<Event>();
-        DatabaseReference eventsRef = database.getReference("events");
-        eventsRef.addValueEventListener(new ValueEventListener() {
+        DatabaseReference allUserRef = database.getReference("users");
+        allUserRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 adapter.removeAllItems();
 
-                for (DataSnapshot eventSnapShot: dataSnapshot.getChildren()) {
-                    Map<String, Object> eventMap = (Map<String, Object>)eventSnapShot.getValue();
-                    Event event = toEvent(eventMap);
-                    events.add(event);
-                    adapter.addEventFragment(event);
-                    Log.d("INFO:", event.toString());
+                for (DataSnapshot userSnapShot: dataSnapshot.getChildren()) {
+                    Map<String, Object> userChildren = (Map<String, Object>) userSnapShot.getValue();
+                    Map<String, Object> eventsMap = (Map<String, Object>) userChildren.get("events");
+
+                    if (eventsMap != null){
+                        for (Map.Entry<String, Object> eventEntry : eventsMap.entrySet()) {
+                            if(eventEntry.getValue() != null) {
+                                Map<String, Object> eventMap = (Map<String, Object>) eventEntry.getValue();
+                                Event event = toEvent(eventMap);
+                                events.add(event);
+                                adapter.addEventFragment(event);
+                                Log.d("INFO:", event.toString());
+                            }
+                        }
+                    }
                 }
             }
 
@@ -92,7 +107,86 @@ public  class EventSupportService {
         context = ctx;
 
         events = new ArrayList<Event>();
-        DatabaseReference eventsRef = database.getReference("events");
+        DatabaseReference allUserRef = database.getReference("users");
+        allUserRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                adapter.removeAllItems();
+
+                for (DataSnapshot userSnapShot: dataSnapshot.getChildren()) {
+                    Map<String, Object> userChildren = (Map<String, Object>)userSnapShot.getValue();
+                    Map<String, Object> eventsMap = (Map<String, Object>)userChildren.get("events");
+                    if (eventsMap != null) {
+                        for (Map.Entry<String, Object> eventEntry : eventsMap.entrySet()) {
+                            if(eventEntry.getValue() != null) {
+                                Map<String, Object> eventMap = (Map<String, Object>) eventEntry.getValue();
+                                Event event = toEvent(eventMap);
+                                events.add(event);
+                                adapter.addItem(event);
+                                Log.d("INFO:", event.toString());
+                            }
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public static void addTrendingEventsToCycleViewPagerAdapter(final EventCycleViewPagerAdapter adapter, Context ctx){
+        context = ctx;
+
+        events = new ArrayList<Event>();
+        DatabaseReference allUserRef = database.getReference("users");
+        allUserRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                adapter.removeAllItems();
+
+                for (DataSnapshot userSnapShot: dataSnapshot.getChildren()) {
+                    if(events.size() < 5) {
+
+                        Map<String, Object> userChildren = (Map<String, Object>) userSnapShot.getValue();
+                        Map<String, Object> eventsMap = (Map<String, Object>) userChildren.get("events");
+                        if (eventsMap != null) {
+                            for (Map.Entry<String, Object> eventEntry : eventsMap.entrySet()) {
+                                if (eventEntry.getValue() != null) {
+                                    Map<String, Object> eventMap = (Map<String, Object>) eventEntry.getValue();
+                                    Event event = toEvent(eventMap);
+                                    events.add(event);
+
+                                    Log.d("INFO:", event.toString());
+                                }
+                            }
+                        }
+                    }
+                }
+
+                for(Event event : events){
+                    adapter.addItem(event);
+                }
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public static void addAllUserEventsToCycleViewPagerAdapter(final EventCycleViewPagerAdapter adapter, Context ctx){
+        context = ctx;
+        events = new ArrayList<Event>();
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        String userId = user.getUid();
+
+        DatabaseReference eventsRef = database.getReference("users/" + userId + "/events");
         eventsRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -156,7 +250,16 @@ public  class EventSupportService {
         dateLayoutParams.addRule(RelativeLayout.ABOVE, id + 1);
         dateTextView.setLayoutParams(dateLayoutParams);
 
+        /* ImageView */
+        ImageView backgroundImageView = new ImageView(context);
+        RelativeLayout.LayoutParams backgroundImageLayoutParams =
+                new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
+        backgroundImageLayoutParams.setMargins(0, 0, 0, 0);
+        backgroundImageView.setLayoutParams(backgroundImageLayoutParams);
+        setEventViewBackgroundImage(event, backgroundImageView);
+
         /*Assigning things to Parent view*/
+        parent.addView(backgroundImageView);
         parent.addView(titleTextView);
         parent.addView(locationTextView);
         parent.addView(dateTextView);
@@ -183,7 +286,7 @@ public  class EventSupportService {
         });
     }
 
-    public static void setEventViewBackgroundImage(Event event, final View view){
+    public static void setEventViewBackgroundImage(Event event, final ImageView imageView){
         StorageReference eventImageRef = storage.getReference(event.getImageURI());
 
         final long ONE_MEGABYTE = 4024 * 4024;
@@ -191,7 +294,8 @@ public  class EventSupportService {
             @Override
             public void onSuccess(byte[] bytes) {
                 Drawable image = new BitmapDrawable(context.getResources(), BitmapFactory.decodeByteArray(bytes, 0, bytes.length));
-                view.setBackground(image);
+                imageView.setBackground(image);
+                imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override

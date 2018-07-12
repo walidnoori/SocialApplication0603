@@ -2,6 +2,8 @@ package social.application.personalactivities;
 
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -27,9 +29,13 @@ import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
+import java.io.ByteArrayOutputStream;
 import java.net.URL;
 
 import social.application.R;
+import social.application.entity.LocalPicture;
+import social.application.services.liveStory.LivePictureSupportService;
+import social.application.services.localPhoto.LocalPictureSupportService;
 
 
 public class PersonalPhotoVideoActivity extends AppCompatActivity {
@@ -42,12 +48,15 @@ public class PersonalPhotoVideoActivity extends AppCompatActivity {
     private ImageView mImageView;
     private ProgressBar mProgressBar;
 
-    private StorageReference mStorageRef;
-    private DatabaseReference mDatabaseRef;
+    private StorageReference localPicturesStorageRef;
+    private DatabaseReference localPictureDatabaseRef;
 
     private StorageTask mUploadTask;
 
     private Uri mImageUri;
+
+    private LocalPicture localPicture;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,11 +69,8 @@ public class PersonalPhotoVideoActivity extends AppCompatActivity {
         mImageView = findViewById(R.id.image_view);
         mProgressBar = findViewById(R.id.progress_bar);
 
-        mStorageRef = FirebaseStorage.getInstance().getReference("uploads");
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference("uploads");
-
-
-
+        localPicturesStorageRef = FirebaseStorage.getInstance().getReference("uploads/localPictures");
+        localPictureDatabaseRef = FirebaseDatabase.getInstance().getReference("localPictures");
 
         mButtonChooseImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,9 +91,6 @@ public class PersonalPhotoVideoActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-
     }
 
     private void openFileChooser(){
@@ -104,8 +107,9 @@ public class PersonalPhotoVideoActivity extends AppCompatActivity {
 
         if(requestCode == PICT_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.getData() != null){
             mImageUri = data.getData();
-            Picasso.with(this).load(mImageUri).into(mImageView);
-            // mImageView.setImageURI(mImageUri);
+            mImageView.setImageURI(mImageUri);
+//            Picasso.with(this).load(mImageUri).into(mImageView);
+
         }
     }
 
@@ -117,46 +121,25 @@ public class PersonalPhotoVideoActivity extends AppCompatActivity {
     }
 
     private void uploadFile(){
-        if(mImageUri != null){
-            StorageReference fileReference = mStorageRef.child(System.currentTimeMillis() + "." + getFileExtension(mImageUri));
-            mUploadTask = fileReference.putFile(mImageUri)
-                    .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                        @Override
-                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                            Handler handler = new Handler();
-                            handler.postDelayed(new Runnable() {
-                                @Override
-                                public void run() {
-                                    mProgressBar.setProgress(0);
-                                }
-                            }, 500);
 
-                            Toast.makeText(PersonalPhotoVideoActivity.this, "Upload successul", Toast.LENGTH_LONG).show();
-                            Upload upload = new Upload(mEditTextFileName.getText().toString(),
-                                    taskSnapshot.getUploadSessionUri().toString());
-                            String uploadId= mDatabaseRef.push().getKey();
-                            mDatabaseRef.child(uploadId).setValue(upload);
+        localPicture = new LocalPicture();
+        localPicture.setImageURI(mImageUri.toString());
+        localPicture.setId("localPicture" + System.currentTimeMillis());
+        localPicture.setName(mEditTextFileName.getText().toString());
 
-                        }
-                    })
-                    .addOnFailureListener(new OnFailureListener() {
-                        @Override
-                        public void onFailure(@NonNull Exception e) {
-                            Toast.makeText(PersonalPhotoVideoActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    })
-
-                    .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
-                        @Override
-                        public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
-                            double progress = (100.0 * taskSnapshot.getBytesTransferred()/ taskSnapshot.getTotalByteCount());
-                            mProgressBar.setProgress((int) progress);
-                        }
-                    });
-        }else {
+        if(mImageUri != null) {
+            Bitmap bitmap = ((BitmapDrawable) mImageView.getDrawable()).getBitmap();
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            byte[] data = baos.toByteArray();
+            localPicture.setImageURI(LocalPictureSupportService.saveLocalPictureImage(data));
+            Toast.makeText(PersonalPhotoVideoActivity.this, "Upload successful!", Toast.LENGTH_LONG).show();
+        } else{
             Toast.makeText(this, "No file selected", Toast.LENGTH_SHORT).show();
-
         }
+
+        LocalPictureSupportService.saveLocalPicture(localPicture);
+
     }
 
 

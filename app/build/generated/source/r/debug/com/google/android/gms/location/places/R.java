@@ -44,10 +44,10 @@ public final class R {
         public static final int place_autocomplete_separator = 0x7f0a00f2;
     }
     public static final class layout {
-        public static final int place_autocomplete_fragment = 0x7f0c0075;
-        public static final int place_autocomplete_item_powered_by_google = 0x7f0c0076;
-        public static final int place_autocomplete_item_prediction = 0x7f0c0077;
-        public static final int place_autocomplete_progress = 0x7f0c0078;
+        public static final int place_autocomplete_fragment = 0x7f0c0076;
+        public static final int place_autocomplete_item_powered_by_google = 0x7f0c0077;
+        public static final int place_autocomplete_item_prediction = 0x7f0c0078;
+        public static final int place_autocomplete_progress = 0x7f0c0079;
     }
     public static final class string {
         public static final int place_autocomplete_clear_button = 0x7f100094;

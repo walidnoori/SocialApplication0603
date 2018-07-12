@@ -41,7 +41,7 @@ public class EventsActivity extends AppCompatActivity {
     public void initYourEvents(){
         yourEventsViewPager = (HorizontalInfiniteCycleViewPager) findViewById(R.id.your_events_horizontal_cycle_view);
         EventCycleViewPagerAdapter yourEventsAdapter = new EventCycleViewPagerAdapter(getApplicationContext());
-        EventSupportService.addAllEventsToCycleViewPagerAdapter(yourEventsAdapter, getApplicationContext());
+        EventSupportService.addAllUserEventsToCycleViewPagerAdapter(yourEventsAdapter, getApplicationContext());
         yourEventsViewPager.setAdapter(yourEventsAdapter);
     }
 
@@ -49,7 +49,7 @@ public class EventsActivity extends AppCompatActivity {
         HorizontalInfiniteCycleViewPager trendingEventsViewPager;
         yourEventsViewPager = (HorizontalInfiniteCycleViewPager) findViewById(R.id.trending_events_horizontal_cycle_view);
         EventCycleViewPagerAdapter trendingEventsAdapter = new EventCycleViewPagerAdapter(getApplicationContext());
-        EventSupportService.addAllEventsToCycleViewPagerAdapter(trendingEventsAdapter, getApplicationContext());
+        EventSupportService.addTrendingEventsToCycleViewPagerAdapter(trendingEventsAdapter, getApplicationContext());
         yourEventsViewPager.setAdapter(trendingEventsAdapter);
     }
 

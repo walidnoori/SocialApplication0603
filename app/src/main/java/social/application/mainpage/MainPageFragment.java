@@ -7,19 +7,14 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.ImageButton;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import social.application.R;
 import social.application.Story.story;
-import social.application.entity.LivePicture;
 import social.application.explore.ExploreActivity;
 import social.application.main.MainActivity;
 import social.application.mainpage.adapters.MainMenuEventsPagerAdapter;
@@ -27,7 +22,7 @@ import social.application.mainpage.adapters.MainMenuExplorePagerAdapter;
 import social.application.mainpage.adapters.MainMenuFollowingPagerAdapter;
 import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.personalactivities.PersonalActivitiesFragment;
-import social.application.services.LiveStory.LivePictureSupportService;
+import social.application.services.liveStory.LivePictureSupportService;
 import social.application.services.events.EventSupportService;
 
 

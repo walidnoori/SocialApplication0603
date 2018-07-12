@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jun 03 16:48:58 CEST 2018
+#Thu Jul 12 23:59:22 CEST 2018
 4.path=lib/x86/libpl_droidsonroids_gif.so
 8.set=ASSET
 6.path=lib/x86_64/libpl_droidsonroids_gif.so

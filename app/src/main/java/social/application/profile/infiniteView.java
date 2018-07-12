@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import social.application.R;
+import social.application.profile.adapter.MyAdapter;
 
 public class infiniteView extends AppCompatActivity {
     List<Integer> lstImages = new ArrayList<>();

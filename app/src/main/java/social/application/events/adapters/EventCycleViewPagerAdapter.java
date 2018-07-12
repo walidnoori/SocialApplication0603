@@ -62,7 +62,6 @@ public class EventCycleViewPagerAdapter extends PagerAdapter {
         relativeLayout.setLayoutParams(layoutParams);
 
         EventSupportService.addEventLayoutToParent(event, relativeLayout);
-        EventSupportService.setEventViewBackgroundImage(event, relativeLayout);
         container.addView(relativeLayout);
         return relativeLayout;
     }

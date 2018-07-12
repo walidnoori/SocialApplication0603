@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:background="#E7847C"
+        android:background="@color/colorPrimaryDark"
         android:orientation="horizontal">
 
         <ImageButton
@@ -47,51 +47,61 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="1dp">
 
         <android.support.v4.view.ViewPager
             android:id="@+id/main_live_story_view_pager"
-            android:layout_width="170dp"
-            android:layout_height="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:scrollbars="none"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="2dp"/>
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginLeft="1dp"/>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/main_page_events_container"
-            android:layout_width="170dp"
-            android:layout_height="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:scrollbars="none"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="2dp"/>
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0.5dp"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_gravity="center">
 
         <android.support.v4.view.ViewPager
             android:id="@+id/main_live_explore_view_pager"
-            android:layout_width="170dp"
-            android:layout_height="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:scrollbars="none"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="2dp"/>
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginLeft="1dp"/>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/main_live_followings_view_pager"
-            android:layout_width="170dp"
-            android:layout_height="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:scrollbars="none"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="2dp"/>
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="0.5dp"/>
 
     </LinearLayout>
 

@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -15,13 +16,14 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import social.application.R;
-import social.application.entity.LivePicture;
 import social.application.events.adapters.EventCycleViewPagerAdapter;
-import social.application.events.adapters.LivePictureCycleViewPagerAdapter;
+import social.application.services.liveStory.LivePictureCycleViewPagerAdapter;
 import social.application.login.Login;
 import social.application.main.MainActivity;
-import social.application.services.LiveStory.LivePictureSupportService;
+import social.application.services.liveStory.LivePictureSupportService;
 import social.application.services.events.EventSupportService;
+import social.application.services.localPhoto.LocalPictureCycleViewPagerAdapter;
+import social.application.services.localPhoto.LocalPictureSupportService;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -42,11 +44,13 @@ public class ProfileFragment extends Fragment {
 
     View rootView;
 
+    EditText usernameEditText;
+
     FirebaseAuth mAuth;
 
     HorizontalInfiniteCycleViewPager yourEventsViewPager;
 
-    HorizontalInfiniteCycleViewPager profileLivePicturesViewPager;
+    HorizontalInfiniteCycleViewPager profileLocalPicturesViewPager;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -105,22 +109,28 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+        initUsername();
         initYourEvents();
-        initYourLivePhotos();
+        initYourLocalPhotos();
+    }
+
+    public void initUsername(){
+        usernameEditText = rootView.findViewById(R.id.usernameEditText);
+        usernameEditText.setHint(mAuth.getCurrentUser().getDisplayName());
     }
 
     public void initYourEvents(){
         yourEventsViewPager = (HorizontalInfiniteCycleViewPager) rootView.findViewById(R.id.profile_events_horizontal_cycle_view);
         EventCycleViewPagerAdapter yourEventsAdapter = new EventCycleViewPagerAdapter(rootView.getContext());
-        EventSupportService.addAllEventsToCycleViewPagerAdapter(yourEventsAdapter, rootView.getContext());
+        EventSupportService.addAllUserEventsToCycleViewPagerAdapter(yourEventsAdapter, rootView.getContext());
         yourEventsViewPager.setAdapter(yourEventsAdapter);
     }
 
-    public void initYourLivePhotos(){
-        profileLivePicturesViewPager = (HorizontalInfiniteCycleViewPager) rootView.findViewById(R.id.profile_live_pictures_horizontal_cycle_view);
-        LivePictureCycleViewPagerAdapter yourLivePicturesAdapter = new LivePictureCycleViewPagerAdapter(rootView.getContext());
-        LivePictureSupportService.addAllLivePicturesToCycleViewPagerAdapter(yourLivePicturesAdapter, rootView.getContext());
-        profileLivePicturesViewPager.setAdapter(yourLivePicturesAdapter);
+    public void initYourLocalPhotos(){
+        profileLocalPicturesViewPager = (HorizontalInfiniteCycleViewPager) rootView.findViewById(R.id.profile_local_pictures_horizontal_cycle_view);
+        LocalPictureCycleViewPagerAdapter yourLocalPicturesAdapter = new LocalPictureCycleViewPagerAdapter(rootView.getContext());
+        LocalPictureSupportService.addAllLocalPicturesToCycleViewPagerAdapter(yourLocalPicturesAdapter, rootView.getContext());
+        profileLocalPicturesViewPager.setAdapter(yourLocalPicturesAdapter);
     }
 
     private void openFileChooser() {

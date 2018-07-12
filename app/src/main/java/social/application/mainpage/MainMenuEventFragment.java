@@ -51,14 +51,12 @@ public class MainMenuEventFragment extends Fragment {
 
         /*Container*/
         final RelativeLayout eventContainer = new RelativeLayout(getContext());
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams( CommonDisplayUtil.getDipValue(170, getContext()),
-                                                                                CommonDisplayUtil.getDipValue(240, getContext()));
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT,
+                                                                                    LinearLayout.LayoutParams.MATCH_PARENT );
             layoutParams.setMargins(0, 0, 0, 0);
         eventContainer.setLayoutParams(layoutParams);
 
         EventSupportService.addEventLayoutToParent(event, eventContainer);
-        setEventViewBackgroundImage(event, eventContainer);
-
         rootView.addView(eventContainer);
         return rootView;
     }
