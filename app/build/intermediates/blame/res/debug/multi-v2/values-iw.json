@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+            "outputFile": "C:\\Users\\blarn\\Documents\\andriodStudioProjects\\SocialApplication0603\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\49dcc4489321ddbeef8451106cfa1f25\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\blarn\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\cd5d1b8763a51c256faf9d925b2dd9f4\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.1.aar\\2f9aaf801d44fb12540c83c2201c8eb0\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\blarn\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5ea91dbd4fcc743ac1d9195676915170\\res\\values-iw\\values-iw.xml",
                     "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,293",
-                        "endColumns": "99,90",
-                        "endOffsets": "292,383"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "102",
+                        "endOffsets": "153"
                     },
                     "to": {
-                        "startLines": "103,104",
-                        "startColumns": "4,4",
-                        "startOffsets": "9724,9828",
-                        "endColumns": "103,94",
-                        "endOffsets": "9823,9918"
+                        "startLines": "106",
+                        "startColumns": "4",
+                        "startOffsets": "10004",
+                        "endColumns": "102",
+                        "endOffsets": "10102"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\07ff428c240998bc92318a1e9c696639\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\blarn\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\2252f5cddfdb5c82a607a0b0dd5cf184\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,24 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\ffd845aff9f718eb298733c9e05ab881\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\blarn\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-15.0.1.aar\\a9b424616438c07da6d3b4571f870cd9\\res\\values-iw\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,346,532,655,757,955,1078,1216,1344,1539,1640,1816,1937,2130,2301,2387,2473",
-                        "endColumns": "100,185,122,101,197,122,137,127,194,100,175,120,192,170,85,85,105",
-                        "endOffsets": "345,531,654,756,954,1077,1215,1343,1538,1639,1815,1936,2129,2300,2386,2472,2578"
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,293",
+                        "endColumns": "99,90",
+                        "endOffsets": "292,383"
                     },
                     "to": {
-                        "startLines": "20,21,22,23,24,25,26,27,29,30,31,32,33,34,35,36,37",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2313,2418,2604,2731,2837,3035,3162,3304,3613,3808,3913,4089,4214,4407,4582,4672,4762",
-                        "endColumns": "104,185,126,105,197,126,141,131,194,104,175,124,192,174,89,89,109",
-                        "endOffsets": "2413,2599,2726,2832,3030,3157,3299,3431,3803,3908,4084,4209,4402,4577,4667,4757,4867"
+                        "startLines": "103,104",
+                        "startColumns": "4,4",
+                        "startOffsets": "9724,9828",
+                        "endColumns": "103,94",
+                        "endOffsets": "9823,9918"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.1.aar\\cdd8c5fae2a906dc86ff52323193c4de\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\blarn\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.1.aar\\89b976d2934723b2196c6d08a9a27c2e\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -89,20 +89,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Chappy\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\01f46ca73eee6c2fa91923c1ebc5cf3e\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\blarn\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e61f86f30b792c64f32d172762777910\\res\\values-iw\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "102",
-                        "endOffsets": "153"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,346,532,655,757,955,1078,1216,1344,1539,1640,1816,1937,2130,2301,2387,2473",
+                        "endColumns": "100,185,122,101,197,122,137,127,194,100,175,120,192,170,85,85,105",
+                        "endOffsets": "345,531,654,756,954,1077,1215,1343,1538,1639,1815,1936,2129,2300,2386,2472,2578"
                     },
                     "to": {
-                        "startLines": "106",
-                        "startColumns": "4",
-                        "startOffsets": "10004",
-                        "endColumns": "102",
-                        "endOffsets": "10102"
+                        "startLines": "20,21,22,23,24,25,26,27,29,30,31,32,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2313,2418,2604,2731,2837,3035,3162,3304,3613,3808,3913,4089,4214,4407,4582,4672,4762",
+                        "endColumns": "104,185,126,105,197,126,141,131,194,104,175,124,192,174,89,89,109",
+                        "endOffsets": "2413,2599,2726,2832,3030,3157,3299,3431,3803,3908,4084,4209,4402,4577,4667,4757,4867"
                     }
                 }
             ]
