@@ -27,7 +27,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener{
 
     private FirebaseAuth mAuth;
     private EditText emailTxt, pwdTxt;
-    private Button signupBtn;
+    private Button signUpBtn;
     private TextView loginText;
 
     @Override

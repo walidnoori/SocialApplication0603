@@ -138,8 +138,8 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
             liveContent.setContentType(actualContentType);
 
         } else if (actualContentType.equals(LiveContent.ContentType.VIDEO) && actualVideoUri != null){
-            liveContent.setContentURI(actualVideoUri.toString());
-            LiveContentSupportService.saveLiveVideo(actualVideoUri);
+            File video = new File(actualVideoUri.toString());
+            liveContent.setContentURI(LiveContentSupportService.saveLiveVideo(actualVideoUri));
             liveContent.setContentType(actualContentType);
         }
 
@@ -167,7 +167,7 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
         if (takeVideoIntent.resolveActivity(getPackageManager()) != null) {
             Uri uri = Uri.fromFile(getVideoFile());
             takeVideoIntent.putExtra(MediaStore.EXTRA_OUTPUT,uri);
-            takeVideoIntent.putExtra("android.intent.extra.durationLimit", 5);
+            takeVideoIntent.putExtra("android.intent.extra.durationLimit", 3);
             takeVideoIntent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 1);
             startActivityForResult(takeVideoIntent, REQUEST_VIDEO_CAPTURE);
         }

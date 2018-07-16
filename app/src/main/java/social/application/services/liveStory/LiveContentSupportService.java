@@ -27,16 +27,21 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import social.application.R;
+import social.application.Story.ResizableVideoView;
 import social.application.entity.LiveContent;
 import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.services.CommonDisplayUtil;
@@ -211,7 +216,8 @@ public class LiveContentSupportService {
         RelativeLayout.LayoutParams locationLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         locationLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-        locationTextView.setText(liveContent.getTags().toString());
+
+        locationTextView.setText(getTagsText(liveContent.getTags()));
         locationTextView.setLayoutParams(locationLayoutParams);
 
         if(liveContent.getContentType() != null && liveContent.getContentType().equals(LiveContent.ContentType.IMAGE)) {
@@ -229,12 +235,13 @@ public class LiveContentSupportService {
         } else if(liveContent.getContentType() != null && liveContent.getContentType().equals(LiveContent.ContentType.VIDEO)){
 
             /* VideoView */
-            VideoView videoView = new VideoView(context);
+            VideoView videoView = new ResizableVideoView(context);
             RelativeLayout.LayoutParams videoViewLayoutParams =
                     new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
             videoViewLayoutParams.setMargins(0, 0, 0, 0);
             videoView.setLayoutParams(videoViewLayoutParams);
-            videoView.setVideoURI(Uri.parse(liveContent.getContentURI()));
+            setLiveVideo(liveContent, videoView);
+
             videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                 @Override
                 public void onPrepared(MediaPlayer mp) {
@@ -243,7 +250,7 @@ public class LiveContentSupportService {
             });
 
             parent.addView(videoView);
-            videoView.start();
+//            videoView.start();
         }
         /*Assigning things to Parent view*/
 
@@ -290,6 +297,45 @@ public class LiveContentSupportService {
         });
     }
 
+    public static void setLiveVideo(LiveContent liveContent, final VideoView videoView){
+        StorageReference liveVideoRef = storage.getReference(liveContent.getContentURI());
 
+        try{
+            final File localFile = File.createTempFile("video" + new Date().getTime(), "mp4");
+
+            liveVideoRef.getFile(localFile).addOnSuccessListener(
+                    new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                            videoView.setVideoURI(Uri.fromFile(localFile));
+                            videoView.start();
+
+                        }
+
+                    }).addOnFailureListener(new OnFailureListener(){
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                }
+            });
+
+        }catch (Exception e){
+        }
+    }
+
+
+    private static String getTagsText(List<String> tags){
+        StringBuilder sb = new StringBuilder("");
+
+        if(tags != null && !tags.isEmpty()){
+            for(int i = 0; i < tags.size(); i++){
+                if(i != 0){
+                    sb.append(", ");
+                }
+                sb.append(tags.get(i));
+            }
+        }
+
+        return sb.toString();
+    }
 
 }

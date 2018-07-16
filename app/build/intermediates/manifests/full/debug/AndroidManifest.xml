@@ -127,7 +127,6 @@
             android:name="social.application.events.EventViewerActivity"
             android:label="@string/title_activity_event_viewer"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="social.application.welcomepage.WelcomePage" />
 
         <meta-data
             android:name="com.google.android.gms.version"

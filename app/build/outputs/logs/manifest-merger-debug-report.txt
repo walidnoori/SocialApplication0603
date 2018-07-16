@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
 MERGED from [com.github.devlight:infinitecycleviewpager:1.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\infinitecycleviewpager-1.0.2.aar\ddef53350332375c98380ecbc2c53f74\AndroidManifest.xml:2:1-11:12
 MERGED from [io.gloxey.cfv:custom-font-views:1.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\custom-font-views-1.0.2.aar\f1b2af981f2b087024c41be02a6c1551\AndroidManifest.xml:2:1-16:12
 MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\navigationtabstrip-1.0.4.aar\c0a17d1f900ce9729178b2787c856353\AndroidManifest.xml:14:1-29:12
@@ -71,20 +71,20 @@ MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Chappy\.gradle\caches\
 MERGED from [com.github.stankoutils:app:1.3.10] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\app-1.3.10.aar\a6d003c7e7ec0d207dae19d0b3acb2fe\AndroidManifest.xml:2:1-16:12
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.12] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.12.aar\16cdeee3dc78c57f52159d605c55b93b\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\46063febcfabbdc2d1a058be2b3703cd\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
-INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
+INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
 	package
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-108:12
+		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:1-107:12
 		INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:2:11-69
@@ -133,7 +133,7 @@ ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\An
 	android:name
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:11:9-47
 application
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:14:5-106:19
+ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:14:5-105:19
 MERGED from [io.gloxey.cfv:custom-font-views:1.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\custom-font-views-1.0.2.aar\f1b2af981f2b087024c41be02a6c1551\AndroidManifest.xml:11:5-14:19
 MERGED from [io.gloxey.cfv:custom-font-views:1.0.2] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\custom-font-views-1.0.2.aar\f1b2af981f2b087024c41be02a6c1551\AndroidManifest.xml:11:5-14:19
 MERGED from [com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4] C:\Users\Chappy\.gradle\caches\transforms-1\files-1.1\navigationtabstrip-1.0.4.aar\c0a17d1f900ce9729178b2787c856353\AndroidManifest.xml:23:5-27:19
@@ -356,10 +356,6 @@ ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\An
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:104:13-69
 	android:name
 		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:102:13-55
-activity#social.application.welcomepage.WelcomePage
-ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:105:9-70
-	android:name
-		ADDED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml:105:19-58
 uses-sdk
 INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Dokumentumok\Egyetem\Android\SocialApplication0603\app\src\main\AndroidManifest.xml

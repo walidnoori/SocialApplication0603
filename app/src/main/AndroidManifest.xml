@@ -102,7 +102,6 @@
             android:name=".events.EventViewerActivity"
             android:label="@string/title_activity_event_viewer"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".welcomepage.WelcomePage"></activity>
     </application>
 
 </manifest>

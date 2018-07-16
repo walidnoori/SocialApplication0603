@@ -375,4 +375,19 @@ public  class EventSupportService {
 
     }
 
+    private static String getTagsText(List<String> tags){
+        StringBuilder sb = new StringBuilder("");
+
+        if(tags != null && !tags.isEmpty()){
+            for(int i = 0; i < tags.size(); i++){
+                if(i != 0){
+                    sb.append(", ");
+                }
+                sb.append(tags.get(i));
+            }
+        }
+
+        return sb.toString();
+    }
+
 }
