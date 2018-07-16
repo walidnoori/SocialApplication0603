@@ -34,7 +34,6 @@ public class MainMenuEventFragment extends Fragment {
         Bundle bundle = new Bundle();
         bundle.putSerializable(EVENT_KEY, event);
         fragment.setArguments(bundle);
-
         return fragment;
     }
 
@@ -60,5 +59,4 @@ public class MainMenuEventFragment extends Fragment {
         rootView.addView(eventContainer);
         return rootView;
     }
-
 }

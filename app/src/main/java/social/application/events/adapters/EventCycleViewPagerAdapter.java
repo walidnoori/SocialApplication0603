@@ -9,9 +9,11 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
+import social.application.comparator.EventDescComparator;
 import social.application.entity.Event;
 import social.application.services.events.EventSupportService;
 
@@ -72,6 +74,7 @@ public class EventCycleViewPagerAdapter extends PagerAdapter {
 
     public void addItem(Event event){
         events.add(event);
+        Collections.sort(events, new EventDescComparator());
         this.notifyDataSetChanged();
     }
 

@@ -246,6 +246,7 @@ public class LiveContentSupportService {
                 @Override
                 public void onPrepared(MediaPlayer mp) {
                     mp.setLooping(true);
+                    mp.setVolume(0f, 0f);
                 }
             });
 
