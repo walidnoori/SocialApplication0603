@@ -14,8 +14,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp">
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -28,7 +28,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:orientation="horizontal"
             android:layout_margin="10dp">
 
@@ -49,7 +49,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:orientation="horizontal"
             android:layout_margin="10dp">
 
@@ -70,15 +70,16 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="300dp"
+
             android:orientation="vertical"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp">
 
             <ImageView
                 android:id="@+id/cameraImageView"
-                android:layout_width="wrap_content"
-                android:layout_height="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
@@ -88,21 +89,23 @@
             <VideoView
                 android:id="@+id/cameraVideoView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp" />
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/live_story_capture_options_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_marginTop="16dp"
             android:layout_marginLeft="6dp"
             android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
             android:gravity="center">
 
             <TextView
@@ -128,18 +131,6 @@
                 android:text="Video"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/live_story_edit_options_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="28dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginLeft="6dp"
-            android:layout_marginRight="6dp"
-            android:gravity="center"
-            android:layout_gravity="center">
 
             <TextView
                 android:id="@+id/cancel_live_story_btn"

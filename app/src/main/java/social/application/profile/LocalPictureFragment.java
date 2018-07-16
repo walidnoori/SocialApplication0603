@@ -6,14 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import social.application.R;
-import social.application.entity.LivePicture;
 import social.application.entity.LocalPicture;
-import social.application.services.liveStory.LivePictureSupportService;
 import social.application.services.CommonDisplayUtil;
 import social.application.services.localPhoto.LocalPictureSupportService;
 

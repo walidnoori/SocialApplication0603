@@ -28,7 +28,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import social.application.R;
 import social.application.main.MainActivity;
 import social.application.signup.SignUp;
-import social.application.welcomepage.WelcomePage;
+
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
@@ -84,7 +84,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     // go to the main page
-                    startActivity(new Intent(Login.this, WelcomePage.class));
+                    startActivity(new Intent(Login.this, MainActivity.class));
                     finish();
                 }else{
                     Toast.makeText(Login.this, "Failed to log in", Toast.LENGTH_SHORT).show();
@@ -130,7 +130,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                             // Sign in success, update UI with the signed-in user's information
                             //Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            startActivity(new Intent(Login.this, WelcomePage.class));
+                            startActivity(new Intent(Login.this, MainActivity.class));
                             finish();
 
                         } else {

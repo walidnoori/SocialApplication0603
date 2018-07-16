@@ -44,6 +44,7 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -100,13 +101,14 @@
             android:name="social.application.personalactivities.PersonalPhotoVideoActivity"
             android:label="@string/title_activity_personal_photo_video"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name="social.application.login.Login" />
-        <activity android:name="social.application.signup.SignUp" >
+        <activity android:name="social.application.login.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="social.application.signup.SignUp" >
         </activity>
         <activity
             android:name="social.application.profile.infiniteView"

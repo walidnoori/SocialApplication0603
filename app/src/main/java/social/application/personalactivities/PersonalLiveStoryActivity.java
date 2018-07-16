@@ -18,7 +18,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.VideoView;
 
@@ -26,19 +25,23 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.net.URI;
 import java.util.Arrays;
 import java.util.Date;
 
 import social.application.R;
 import social.application.entity.LivePicture;
-import social.application.services.liveStory.LivePictureSupportService;
+import social.application.services.liveStory.LiveContentSupportService;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 
 public class PersonalLiveStoryActivity extends AppCompatActivity{
+
+    private enum LiveContentType{
+        VIDEO,
+        IMAGE
+    }
 
     private static final int REQUEST_VIDEO_CAPTURE = 1;
 
@@ -60,11 +63,9 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
 
     private EditText tagsEditText;
 
-    private LinearLayout storyEditOptionsContainer;
+    private Uri actualVideoUri;
 
-    private LinearLayout storyCaptureOptionsContainer;
-
-    private URI mMediaUri;
+    private LiveContentType liveContentType;
 
     public static final int REQUEST_EXTERNAL_PERMISSION_CODE = 123;
     public static final String[] PERMISSIONS_EXTERNAL_STORAGE = {
@@ -105,7 +106,7 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                   saveLivePicture();
+                   saveLiveContent();
             }
         });
 
@@ -120,35 +121,43 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
         titleEditText = (EditText) findViewById(R.id.live_story_title);
         tagsEditText = (EditText) findViewById(R.id.live_story_tags);
 
-        storyEditOptionsContainer = (LinearLayout) findViewById(R.id.live_story_edit_options_container);
-        storyCaptureOptionsContainer = (LinearLayout) findViewById(R.id.live_story_edit_options_container);
-
         cancelLiveContent();
     }
 
-    public void saveLivePicture(){
+    public void saveLiveContent(){
         LivePicture livePicture = new LivePicture();
         livePicture.setId(generateLivePictureId());
         livePicture.setTitle(titleEditText.getText().toString());
         livePicture.setTags(Arrays.asList(tagsEditText.getText().toString().split(" ")));
 
-        if(mImageView.getDrawable() != null) {
+        if(liveContentType == null){
+            return;
+        }
+
+        if(liveContentType.equals(LiveContentType.IMAGE) && mImageView.getDrawable() != null) {
             Bitmap bitmap = ((BitmapDrawable) mImageView.getDrawable()).getBitmap();
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
             byte[] data = baos.toByteArray();
-            livePicture.setImageURI(LivePictureSupportService.saveLivePictureImage(data));
+            livePicture.setImageURI(LiveContentSupportService.saveLivePictureImage(data));
+
+        } else if (liveContentType.equals(LiveContentType.VIDEO) && actualVideoUri != null){
+            livePicture.setImageURI(actualVideoUri.toString());
+            LiveContentSupportService.saveLiveVideo(actualVideoUri);
         }
 
-        LivePictureSupportService.saveLivePicture(livePicture);
+        LiveContentSupportService.saveLivePicture(livePicture);
     }
 
     public void cancelLiveContent(){
         mImageView.setVisibility(View.GONE);
         mVideoView.setVisibility(View.GONE);
 
-        storyCaptureOptionsContainer.setVisibility(View.VISIBLE);
-        storyEditOptionsContainer.setVisibility(View.GONE);
+        mPictureButton.setVisibility(View.VISIBLE);
+        mVideoButton.setVisibility(View.VISIBLE);
+
+        saveButton.setVisibility(View.GONE);
+        cancelButton.setVisibility(View.GONE);
     }
 
     private String generateLivePictureId(){
@@ -156,16 +165,19 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
     }
 
     private void dispatchTakeVideoIntent() {
+        liveContentType = LiveContentType.VIDEO;
         Intent takeVideoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
         if (takeVideoIntent.resolveActivity(getPackageManager()) != null) {
-            Uri uri = Uri.fromFile(getFile());
+            Uri uri = Uri.fromFile(getVideoFile());
             takeVideoIntent.putExtra(MediaStore.EXTRA_OUTPUT,uri);
+            takeVideoIntent.putExtra("android.intent.extra.durationLimit", 5);
             takeVideoIntent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 1);
             startActivityForResult(takeVideoIntent, REQUEST_VIDEO_CAPTURE);
         }
     }
 
     private void dispatchTakePictureIntent() {
+        liveContentType = LiveContentType.IMAGE;
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
@@ -180,8 +192,7 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
             verifyStoragePermissions(this);
             mImageView.setVisibility(View.GONE);
             mVideoView.setVisibility(View.VISIBLE);
-            Uri videoUri = Uri.fromFile(getFile());
-            mVideoView.setVideoURI(videoUri);
+            mVideoView.setVideoURI(actualVideoUri);
             mVideoView.start();
 
         }else if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){
@@ -199,18 +210,21 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
     }
 
     public void onMediaSelected(){
-        storyCaptureOptionsContainer.setVisibility(View.GONE);
-        storyEditOptionsContainer.setVisibility(View.VISIBLE);
+        mPictureButton.setVisibility(View.GONE);
+        mVideoButton.setVisibility(View.GONE);
+
+        saveButton.setVisibility(View.VISIBLE);
+        cancelButton.setVisibility(View.VISIBLE);
     }
 
-    public File getFile(){
+    public File getVideoFile(){
         File folder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM),"Camera");
         if(!folder.exists()){
             folder.mkdir();
         }
 
-        File video_file = new File(folder,"myVideo.mp4");
-
+        File video_file = new File(folder,"video" + new Date().getTime() + ".mp4");
+        actualVideoUri = Uri.fromFile(video_file);
         return video_file;
     }
 

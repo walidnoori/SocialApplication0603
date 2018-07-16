@@ -10,9 +10,6 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.AbsListView;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -25,7 +22,7 @@ import social.application.mainpage.adapters.MainMenuExplorePagerAdapter;
 import social.application.mainpage.adapters.MainMenuFollowingPagerAdapter;
 import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.personalactivities.PersonalActivitiesFragment;
-import social.application.services.liveStory.LivePictureSupportService;
+import social.application.services.liveStory.LiveContentSupportService;
 import social.application.services.events.EventSupportService;
 
 
@@ -85,7 +82,7 @@ public class MainPageFragment extends Fragment {
         storyViewPagerAdapter = new MainMenuStoryPagerAdapter(getActivity().getSupportFragmentManager());
         storyViewPager = (ViewPager)rootView.findViewById(R.id.main_live_story_view_pager);
         storyViewPager.setAdapter(storyViewPagerAdapter);
-        LivePictureSupportService.addAllLivePicturesToPagerAdapter((MainMenuStoryPagerAdapter) storyViewPagerAdapter, getContext());
+        LiveContentSupportService.addAllLivePicturesToPagerAdapter((MainMenuStoryPagerAdapter) storyViewPagerAdapter, getContext());
     }
 
     public void initExplore(){

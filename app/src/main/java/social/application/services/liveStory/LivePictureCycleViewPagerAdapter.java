@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import social.application.entity.LivePicture;
-import social.application.services.liveStory.LivePictureSupportService;
 
 /**
  * Created by Chappy on 2018.06.19..
@@ -60,7 +59,7 @@ public class LivePictureCycleViewPagerAdapter extends PagerAdapter {
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
         relativeLayout.setLayoutParams(layoutParams);
 
-        LivePictureSupportService.addLivePictureLayoutToParent(livePicture, relativeLayout);
+        LiveContentSupportService.addLivePictureLayoutToParent(livePicture, relativeLayout);
         container.addView(relativeLayout);
         return relativeLayout;
     }

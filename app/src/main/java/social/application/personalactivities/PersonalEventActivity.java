@@ -197,7 +197,9 @@ public class PersonalEventActivity extends AppCompatActivity {
         event.setId(generateEventId());
         event.setTitle(titleEditText.getText().toString());
         event.setDescription(descriptionEditText.getText().toString());
-        if(placeText.getText().toString().equals("Add location")){
+        if(placeText.getText().toString().equals("Add location") || placeText.getText() == null){
+            event.setLocation("");
+        } else {
             event.setLocation(placeText.getText().toString());
         }
         event.setDateTime(eventDate.getTime());

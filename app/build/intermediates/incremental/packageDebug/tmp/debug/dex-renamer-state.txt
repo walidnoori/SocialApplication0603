@@ -1,11 +1,13 @@
-<<<<<<< HEAD
-#Thu Jul 12 23:59:21 CEST 2018
+#Mon Jul 16 22:10:36 CEST 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
-=======
-#Thu Jul 12 16:14:52 CEST 2018
-base.0=C\:\\Users\\blarn\\Documents\\andriodStudioProjects\\SocialApplication0603\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
->>>>>>> 14012874a1a84e60c0f1f68dfa847db4ee81816f
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.3=D\:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.2=D\:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+base.1=D\:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.0=D\:\\Dokumentumok\\Egyetem\\Android\\SocialApplication0603\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12

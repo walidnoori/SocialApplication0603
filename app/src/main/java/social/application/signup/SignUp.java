@@ -22,7 +22,6 @@ import social.application.R;
 import social.application.login.Login;
 import social.application.login.Login;
 import social.application.main.MainActivity;
-import social.application.welcomepage.WelcomePage;
 
 public class SignUp extends AppCompatActivity implements View.OnClickListener{
 
@@ -73,7 +72,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener{
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             //go to another page
-                            startActivity(new Intent(SignUp.this, WelcomePage.class));
+                            startActivity(new Intent(SignUp.this, MainActivity.class));
                             finish();
                         }else{
                             Toast.makeText(SignUp.this, "User sign up failed", Toast.LENGTH_SHORT).show();
