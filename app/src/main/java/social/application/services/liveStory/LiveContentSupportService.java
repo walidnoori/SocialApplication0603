@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.util.Log;
@@ -15,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -35,7 +37,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import social.application.entity.LivePicture;
+import social.application.entity.LiveContent;
 import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.services.CommonDisplayUtil;
 import social.application.Story.story;
@@ -50,34 +52,35 @@ public class LiveContentSupportService {
 
     private static FirebaseStorage storage = FirebaseStorage.getInstance("gs://socialapplication02.appspot.com");
 
-    private static List<LivePicture> livePictures;
+    private static List<LiveContent> liveContents;
 
     private static Context context;
 
-    public static void saveLivePicture(LivePicture livePicture) {
+    public static void saveLiveContent(LiveContent liveContent) {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String userId = user.getUid();
 
-        DatabaseReference livePicturesRef = database.getReference("users/" + userId + "/livePictures");
-        livePicturesRef.child(String.valueOf(livePicture.getId())).setValue(livePicture);
+        DatabaseReference liveContentsRef = database.getReference("users/" + userId + "/liveContents");
+        liveContentsRef.child(String.valueOf(liveContent.getId())).setValue(liveContent);
     }
 
-    public static LivePicture toLivePicture(Map<String, Object> livePictureMap){
-        LivePicture livePicture = new LivePicture();
-        livePicture.setId(String.valueOf(livePictureMap.get("id")));
-        livePicture.setTitle(String.valueOf(livePictureMap.get("title")));
-        livePicture.setImageURI(String.valueOf(livePictureMap.get("imageURI")));
+    public static LiveContent toLiveContent(Map<String, Object> liveContentMap){
+        LiveContent liveContent = new LiveContent();
+        liveContent.setId(String.valueOf(liveContentMap.get("id")));
+        liveContent.setTitle(String.valueOf(liveContentMap.get("title")));
+        liveContent.setContentURI(String.valueOf(liveContentMap.get("contentURI")));
+        liveContent.setContentType(LiveContent.ContentType.valueOf(String.valueOf(liveContentMap.get("contentType"))));
 
-        if(livePictureMap.get("tags") != null) {
-            livePicture.setTags((List) livePictureMap.get("tags"));
+        if(liveContentMap.get("tags") != null) {
+            liveContent.setTags((List) liveContentMap.get("tags"));
         }
 
-        return livePicture;
+        return liveContent;
     }
 
     public static String saveLivePictureImage(byte[] data){
 
-        StorageReference storageRef = storage.getReference("uploads/livePictures/images");
+        StorageReference storageRef = storage.getReference("uploads/liveContents");
         String imageName = "img_" + new Date().getTime() + ".jpg";
         StorageReference livePictureImageRef = storageRef.child(imageName);
 
@@ -115,10 +118,10 @@ public class LiveContentSupportService {
         File videoFile = new File(videoUri.toString());
         String fileName = videoFile.getName();
 
-        StorageReference storageRef = storage.getReference("uploads/livePictures/images");
-        StorageReference livePictureImageRef = storageRef.child(fileName);
+        StorageReference storageRef = storage.getReference("uploads/liveContents");
+        StorageReference liveVideoImageRef = storageRef.child(fileName);
 
-        UploadTask uploadTask = livePictureImageRef.putFile(videoUri);
+        UploadTask uploadTask = liveVideoImageRef.putFile(videoUri);
         uploadTask.addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception exception) {
@@ -144,14 +147,14 @@ public class LiveContentSupportService {
                 Toast.makeText(context, "Video successfully uploaded!", Toast.LENGTH_SHORT);
             }
         });
-        return livePictureImageRef.getPath();
+        return liveVideoImageRef.getPath();
 
     }
 
-    public static void addAllLivePicturesToPagerAdapter(final MainMenuStoryPagerAdapter adapter, Context ctx){
+    public static void addAllLiveContentsToPagerAdapter(final MainMenuStoryPagerAdapter adapter, Context ctx){
         context = ctx;
 
-        livePictures = new ArrayList<LivePicture>();
+        liveContents = new ArrayList<LiveContent>();
 
         DatabaseReference allUserRef = database.getReference("users");
         allUserRef.addValueEventListener(new ValueEventListener() {
@@ -161,15 +164,15 @@ public class LiveContentSupportService {
 
                 for (DataSnapshot userSnapShot: dataSnapshot.getChildren()) {
                     Map<String, Object> userChildren = (Map<String, Object>)userSnapShot.getValue();
-                    Map<String, Object> livePicturesMap = (Map<String, Object>)userChildren.get("livePictures");
-                    if (livePicturesMap != null) {
-                        for (Map.Entry<String, Object> livePictureEntry : livePicturesMap.entrySet()) {
-                            if(livePictureEntry.getValue() != null) {
-                                Map<String, Object> livePictureMap = (Map<String, Object>) livePictureEntry.getValue();
-                                LivePicture livePicture = toLivePicture(livePictureMap);
-                                livePictures.add(livePicture);
-                                adapter.addStoryFragment(livePicture);
-                                Log.d("INFO:", livePicture.toString());
+                    Map<String, Object> liveContentsMap = (Map<String, Object>)userChildren.get("liveContents");
+                    if (liveContentsMap != null) {
+                        for (Map.Entry<String, Object> liveContentEntry : liveContentsMap.entrySet()) {
+                            if(liveContentEntry.getValue() != null) {
+                                Map<String, Object> liveContentMap = (Map<String, Object>) liveContentEntry.getValue();
+                                LiveContent liveContent = toLiveContent(liveContentMap);
+                                liveContents.add(liveContent);
+                                adapter.addStoryFragment(liveContent);
+                                Log.d("INFO:", liveContent.toString());
                             }
                         }
                     }
@@ -183,9 +186,9 @@ public class LiveContentSupportService {
         });
     }
 
-    public static void addLivePictureLayoutToParent(final LivePicture livePicture, ViewGroup parent){
+    public static void addLiveContentLayoutToParent(final LiveContent liveContent, ViewGroup parent){
 
-        Integer id = livePicture.getId().hashCode();
+        Integer id = liveContent.getId().hashCode();
 
         /*Title TextView*/
         TextView titleTextView = new TextView(context);
@@ -196,7 +199,7 @@ public class LiveContentSupportService {
         titleLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
         titleTextView.setPadding(CommonDisplayUtil.getDipValue(8, context), CommonDisplayUtil.getDipValue(2, context), 0, CommonDisplayUtil.getDipValue(2, context));
         titleTextView.setLayoutParams(titleLayoutParams);
-        titleTextView.setText(livePicture.getTitle());
+        titleTextView.setText(liveContent.getTitle());
 
         /*Tags TextView*/
         TextView locationTextView = new TextView(context);
@@ -208,19 +211,42 @@ public class LiveContentSupportService {
         RelativeLayout.LayoutParams locationLayoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         locationLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-        locationTextView.setText(livePicture.getTags().toString());
+        locationTextView.setText(liveContent.getTags().toString());
         locationTextView.setLayoutParams(locationLayoutParams);
 
-        /* ImageView */
-        ImageView backgroundImageView = new ImageView(context);
-        RelativeLayout.LayoutParams backgroundImageLayoutParams =
-                new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
-        backgroundImageLayoutParams.setMargins(0, 0, 0, 0);
-        backgroundImageView.setLayoutParams(backgroundImageLayoutParams);
-        setLivePictureBackgroundImage(livePicture, backgroundImageView);
+        if(liveContent.getContentType() != null && liveContent.getContentType().equals(LiveContent.ContentType.IMAGE)) {
 
+            /* ImageView */
+            ImageView backgroundImageView = new ImageView(context);
+            RelativeLayout.LayoutParams backgroundImageLayoutParams =
+                    new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
+            backgroundImageLayoutParams.setMargins(0, 0, 0, 0);
+            backgroundImageView.setLayoutParams(backgroundImageLayoutParams);
+            setLivePictureBackgroundImage(liveContent, backgroundImageView);
+
+            parent.addView(backgroundImageView);
+
+        } else if(liveContent.getContentType() != null && liveContent.getContentType().equals(LiveContent.ContentType.VIDEO)){
+
+            /* VideoView */
+            VideoView videoView = new VideoView(context);
+            RelativeLayout.LayoutParams videoViewLayoutParams =
+                    new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
+            videoViewLayoutParams.setMargins(0, 0, 0, 0);
+            videoView.setLayoutParams(videoViewLayoutParams);
+            videoView.setVideoURI(Uri.parse(liveContent.getContentURI()));
+            videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(MediaPlayer mp) {
+                    mp.setLooping(true);
+                }
+            });
+
+            parent.addView(videoView);
+            videoView.start();
+        }
         /*Assigning things to Parent view*/
-        parent.addView(backgroundImageView);
+
         parent.addView(titleTextView);
         parent.addView(locationTextView);
 
@@ -237,7 +263,7 @@ public class LiveContentSupportService {
 //            @Override
 //            public void onClick(View view) {
 //                Intent intent = new Intent(context, EventViewerActivity.class);
-//                intent.putExtra("livePicture", livePicture);
+//                intent.putExtra("liveContent", liveContent);
 //                intent.setFlags(FLAG_ACTIVITY_NEW_TASK);
 //                context.startActivity(intent);
 //            }
@@ -245,8 +271,8 @@ public class LiveContentSupportService {
     }
 
 
-    public static void setLivePictureBackgroundImage(LivePicture livePicture, final ImageView imageView){
-        StorageReference livePictureImageRef = storage.getReference(livePicture.getImageURI());
+    public static void setLivePictureBackgroundImage(LiveContent liveContent, final ImageView imageView){
+        StorageReference livePictureImageRef = storage.getReference(liveContent.getContentURI());
 
         final long ONE_MEGABYTE = 4024 * 4024;
         livePictureImageRef.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {

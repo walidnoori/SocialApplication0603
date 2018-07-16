@@ -82,7 +82,7 @@ public class MainPageFragment extends Fragment {
         storyViewPagerAdapter = new MainMenuStoryPagerAdapter(getActivity().getSupportFragmentManager());
         storyViewPager = (ViewPager)rootView.findViewById(R.id.main_live_story_view_pager);
         storyViewPager.setAdapter(storyViewPagerAdapter);
-        LiveContentSupportService.addAllLivePicturesToPagerAdapter((MainMenuStoryPagerAdapter) storyViewPagerAdapter, getContext());
+        LiveContentSupportService.addAllLiveContentsToPagerAdapter((MainMenuStoryPagerAdapter) storyViewPagerAdapter, getContext());
     }
 
     public void initExplore(){

@@ -7,11 +7,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import social.application.entity.Event;
-import social.application.entity.LivePicture;
 import social.application.entity.LocalPicture;
-import social.application.mainpage.MainMenuEventFragment;
-import social.application.mainpage.MainMenuStoryFragment;
 import social.application.profile.LocalPictureFragment;
 
 /**

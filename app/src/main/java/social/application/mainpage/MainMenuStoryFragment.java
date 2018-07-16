@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import social.application.R;
-import social.application.entity.LivePicture;
+import social.application.entity.LiveContent;
 import social.application.services.liveStory.LiveContentSupportService;
 
 public class MainMenuStoryFragment extends Fragment {
@@ -19,15 +19,15 @@ public class MainMenuStoryFragment extends Fragment {
 
     private FrameLayout rootView;
 
-    private LivePicture livePicture;
+    private LiveContent liveContent;
 
     public MainMenuStoryFragment() {
         // Required empty public constructor
     }
-    public static MainMenuStoryFragment newInstance(LivePicture livePicture) {
+    public static MainMenuStoryFragment newInstance(LiveContent liveContent) {
         MainMenuStoryFragment fragment = new MainMenuStoryFragment();
         Bundle bundle = new Bundle();
-        bundle.putSerializable(STORY_KEY, livePicture);
+        bundle.putSerializable(STORY_KEY, liveContent);
         fragment.setArguments(bundle);
 
         return fragment;
@@ -42,17 +42,17 @@ public class MainMenuStoryFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = (FrameLayout)inflater.inflate(R.layout.fragment_main_menu_story, container, false);
 
-        livePicture = (LivePicture) getArguments().getSerializable(STORY_KEY);
+        liveContent = (LiveContent) getArguments().getSerializable(STORY_KEY);
 
         /*Container*/
-        final RelativeLayout livePictureContainer = new RelativeLayout(getContext());
+        final RelativeLayout liveContentContainer = new RelativeLayout(getContext());
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams( LinearLayout.LayoutParams.MATCH_PARENT,
                                                                                 LinearLayout.LayoutParams.MATCH_PARENT );
         layoutParams.setMargins(0, 0, 0, 0);
-        livePictureContainer.setLayoutParams(layoutParams);
+        liveContentContainer.setLayoutParams(layoutParams);
 
-        LiveContentSupportService.addLivePictureLayoutToParent(livePicture, livePictureContainer);
-        rootView.addView(livePictureContainer);
+        LiveContentSupportService.addLiveContentLayoutToParent(liveContent, liveContentContainer);
+        rootView.addView(liveContentContainer);
         return rootView;
 
     }

@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-import social.application.entity.LivePicture;
+import social.application.entity.LiveContent;
 
 /**
  * Created by Chappy on 2018.06.19..
@@ -19,7 +19,7 @@ import social.application.entity.LivePicture;
 
 public class LivePictureCycleViewPagerAdapter extends PagerAdapter {
 
-    List<LivePicture> livePictures = new ArrayList<LivePicture>();
+    List<LiveContent> liveContents = new ArrayList<LiveContent>();
     Context context;
     LayoutInflater layoutInflater;
 
@@ -29,15 +29,15 @@ public class LivePictureCycleViewPagerAdapter extends PagerAdapter {
 //        initElements();
     }
 
-    public LivePictureCycleViewPagerAdapter(List<LivePicture> livePictures, Context context){
-        this.livePictures = livePictures;
+    public LivePictureCycleViewPagerAdapter(List<LiveContent> liveContents, Context context){
+        this.liveContents = liveContents;
         this.context =  context;
         layoutInflater = LayoutInflater.from(context);
     }
 
     @Override
     public int getCount() {
-        return livePictures.size();
+        return liveContents.size();
     }
 
     @Override
@@ -53,23 +53,23 @@ public class LivePictureCycleViewPagerAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-        LivePicture livePicture = livePictures.get(position);
+        LiveContent liveContent = liveContents.get(position);
 
         RelativeLayout relativeLayout = new RelativeLayout(context);
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
         relativeLayout.setLayoutParams(layoutParams);
 
-        LiveContentSupportService.addLivePictureLayoutToParent(livePicture, relativeLayout);
+        LiveContentSupportService.addLiveContentLayoutToParent(liveContent, relativeLayout);
         container.addView(relativeLayout);
         return relativeLayout;
     }
 
     public void removeAllItems(){
-        livePictures.clear();
+        liveContents.clear();
     }
 
-    public void addItem(LivePicture livePicture){
-        livePictures.add(livePicture);
+    public void addItem(LiveContent liveContent){
+        liveContents.add(liveContent);
         this.notifyDataSetChanged();
     }
 

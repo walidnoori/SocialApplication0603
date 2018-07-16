@@ -13,7 +13,7 @@ public class User  implements Serializable{
 
     private String userName;
 
-    private List<LivePicture> livePictures;
+    private List<LiveContent> liveContents;
 
     private List<LocalPicture> localPictures;
 
@@ -35,12 +35,12 @@ public class User  implements Serializable{
         this.userName = userName;
     }
 
-    public List<LivePicture> getLivePictures() {
-        return livePictures;
+    public List<LiveContent> getLiveContents() {
+        return liveContents;
     }
 
-    public void setLivePictures(List<LivePicture> livePictures) {
-        this.livePictures = livePictures;
+    public void setLiveContents(List<LiveContent> liveContents) {
+        this.liveContents = liveContents;
     }
 
     public List<LocalPicture> getLocalPictures() {

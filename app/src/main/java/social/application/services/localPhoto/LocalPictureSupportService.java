@@ -33,9 +33,7 @@ import java.util.List;
 import java.util.Map;
 
 import social.application.Story.story;
-import social.application.entity.LivePicture;
 import social.application.entity.LocalPicture;
-import social.application.mainpage.adapters.MainMenuStoryPagerAdapter;
 import social.application.services.CommonDisplayUtil;
 
 /**

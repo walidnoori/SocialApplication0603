@@ -29,7 +29,7 @@ import java.util.Arrays;
 import java.util.Date;
 
 import social.application.R;
-import social.application.entity.LivePicture;
+import social.application.entity.LiveContent;
 import social.application.services.liveStory.LiveContentSupportService;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
@@ -37,11 +37,6 @@ import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 
 public class PersonalLiveStoryActivity extends AppCompatActivity{
-
-    private enum LiveContentType{
-        VIDEO,
-        IMAGE
-    }
 
     private static final int REQUEST_VIDEO_CAPTURE = 1;
 
@@ -65,7 +60,7 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
 
     private Uri actualVideoUri;
 
-    private LiveContentType liveContentType;
+    private LiveContent.ContentType actualContentType;
 
     public static final int REQUEST_EXTERNAL_PERMISSION_CODE = 123;
     public static final String[] PERMISSIONS_EXTERNAL_STORAGE = {
@@ -125,28 +120,30 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
     }
 
     public void saveLiveContent(){
-        LivePicture livePicture = new LivePicture();
-        livePicture.setId(generateLivePictureId());
-        livePicture.setTitle(titleEditText.getText().toString());
-        livePicture.setTags(Arrays.asList(tagsEditText.getText().toString().split(" ")));
+        LiveContent liveContent = new LiveContent();
+        liveContent.setId(generateLiveContentId());
+        liveContent.setTitle(titleEditText.getText().toString());
+        liveContent.setTags(Arrays.asList(tagsEditText.getText().toString().split(" ")));
 
-        if(liveContentType == null){
+        if(actualContentType == null){
             return;
         }
 
-        if(liveContentType.equals(LiveContentType.IMAGE) && mImageView.getDrawable() != null) {
+        if(actualContentType.equals(LiveContent.ContentType.IMAGE) && mImageView.getDrawable() != null) {
             Bitmap bitmap = ((BitmapDrawable) mImageView.getDrawable()).getBitmap();
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
             bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
             byte[] data = baos.toByteArray();
-            livePicture.setImageURI(LiveContentSupportService.saveLivePictureImage(data));
+            liveContent.setContentURI(LiveContentSupportService.saveLivePictureImage(data));
+            liveContent.setContentType(actualContentType);
 
-        } else if (liveContentType.equals(LiveContentType.VIDEO) && actualVideoUri != null){
-            livePicture.setImageURI(actualVideoUri.toString());
+        } else if (actualContentType.equals(LiveContent.ContentType.VIDEO) && actualVideoUri != null){
+            liveContent.setContentURI(actualVideoUri.toString());
             LiveContentSupportService.saveLiveVideo(actualVideoUri);
+            liveContent.setContentType(actualContentType);
         }
 
-        LiveContentSupportService.saveLivePicture(livePicture);
+        LiveContentSupportService.saveLiveContent(liveContent);
     }
 
     public void cancelLiveContent(){
@@ -160,12 +157,12 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
         cancelButton.setVisibility(View.GONE);
     }
 
-    private String generateLivePictureId(){
-        return "livePicture" + FirebaseAuth.getInstance().getCurrentUser().getUid() + new Date().getTime();
+    private String generateLiveContentId(){
+        return "liveContent" + FirebaseAuth.getInstance().getCurrentUser().getUid() + new Date().getTime();
     }
 
     private void dispatchTakeVideoIntent() {
-        liveContentType = LiveContentType.VIDEO;
+        actualContentType = LiveContent.ContentType.VIDEO;
         Intent takeVideoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
         if (takeVideoIntent.resolveActivity(getPackageManager()) != null) {
             Uri uri = Uri.fromFile(getVideoFile());
@@ -177,7 +174,7 @@ public class PersonalLiveStoryActivity extends AppCompatActivity{
     }
 
     private void dispatchTakePictureIntent() {
-        liveContentType = LiveContentType.IMAGE;
+        actualContentType = LiveContent.ContentType.IMAGE;
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);

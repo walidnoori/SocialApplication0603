@@ -7,9 +7,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-import social.application.entity.Event;
-import social.application.entity.LivePicture;
-import social.application.mainpage.MainMenuEventFragment;
+import social.application.entity.LiveContent;
 import social.application.mainpage.MainMenuStoryFragment;
 
 /**
@@ -38,8 +36,8 @@ public class MainMenuStoryPagerAdapter extends FragmentStatePagerAdapter {
         storyFragments.clear();
     }
 
-    public void addStoryFragment(LivePicture livePicture){
-        storyFragments.add(MainMenuStoryFragment.newInstance(livePicture));
+    public void addStoryFragment(LiveContent liveContent){
+        storyFragments.add(MainMenuStoryFragment.newInstance(liveContent));
         this.notifyDataSetChanged();
     }
 
